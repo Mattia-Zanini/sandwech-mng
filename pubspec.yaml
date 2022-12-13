@@ -60,7 +60,7 @@ flutter_icons:
     image_path: "icon/icon.png"
   windows:
     generate: true
-    image_path: "icon/icon.png"
+    image_path: "icon/icon_windows.png"
   macos:
     generate: true
     image_path: "icon/icon.png"

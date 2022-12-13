@@ -1,8 +1,0 @@
-version: "Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)"
-options: "05037d5e5d9c0967f266dc82822d2104b1173f03cfea25a7fadf0f773430d12a"
-build_start_time: [1670874289, 739615917]
-build_end_time: [1670874290, 556271076]
-inputs:
-  "/Users/mattia/Documents/GitHub/food-mobile-flutter/macos/Flutter/GeneratedPluginRegistrant.swift": [1670874284, 967703819]
-  "/Users/mattia/Documents/GitHub/food-mobile-flutter/macos/Runner/AppDelegate.swift": [1669220893, 0]
-  "/Users/mattia/Documents/GitHub/food-mobile-flutter/macos/Runner/MainFlutterWindow.swift": [1669220893, 0]

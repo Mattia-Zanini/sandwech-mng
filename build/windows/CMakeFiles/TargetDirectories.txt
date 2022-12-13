@@ -1,0 +1,10 @@
+C:/Users/mattz/Documents/GitHub/food-mobile-flutter/build/windows/CMakeFiles/INSTALL.dir
+C:/Users/mattz/Documents/GitHub/food-mobile-flutter/build/windows/CMakeFiles/ALL_BUILD.dir
+C:/Users/mattz/Documents/GitHub/food-mobile-flutter/build/windows/CMakeFiles/ZERO_CHECK.dir
+C:/Users/mattz/Documents/GitHub/food-mobile-flutter/build/windows/flutter/CMakeFiles/flutter_wrapper_plugin.dir
+C:/Users/mattz/Documents/GitHub/food-mobile-flutter/build/windows/flutter/CMakeFiles/flutter_wrapper_app.dir
+C:/Users/mattz/Documents/GitHub/food-mobile-flutter/build/windows/flutter/CMakeFiles/flutter_assemble.dir
+C:/Users/mattz/Documents/GitHub/food-mobile-flutter/build/windows/flutter/CMakeFiles/INSTALL.dir
+C:/Users/mattz/Documents/GitHub/food-mobile-flutter/build/windows/runner/CMakeFiles/my_app.dir
+C:/Users/mattz/Documents/GitHub/food-mobile-flutter/build/windows/runner/CMakeFiles/INSTALL.dir
+C:/Users/mattz/Documents/GitHub/food-mobile-flutter/build/windows/runner/CMakeFiles/ALL_BUILD.dir
