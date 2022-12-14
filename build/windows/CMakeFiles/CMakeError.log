@@ -1,0 +1,25 @@
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/mattz/Documents/GitHub/food-mobile-flutter/build/windows/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0907a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler versione 19.34.31935 per x64
+  Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+  CMakeCXXCompilerABI.cpp
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_0907a.dir\Debug\\" /Fd"cmTC_0907a.dir\Debug\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp"
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp : fatal  error C1090: Chiamata API PDB non riuscita. Codice errore '3': C:\Users\mattz\Documents\GitHub\food-mobile-flutter\build\windows\CMakeFiles\CMakeTmp\cmTC_0907a.dir\Debug\vc143.pdb [C:\Users\mattz\Documents\GitHub\food-mobile-flutter\build\windows\CMakeFiles\CMakeTmp\cmTC_0907a.vcxproj]
+
+
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: C:/Users/mattz/Documents/GitHub/food-mobile-flutter/build/windows/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5f7b8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler versione 19.34.31935 per x64
+  Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+  testCXXCompiler.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5f7b8.dir\Debug\\" /Fd"cmTC_5f7b8.dir\Debug\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\Users\mattz\Documents\GitHub\food-mobile-flutter\build\windows\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+C:\Users\mattz\Documents\GitHub\food-mobile-flutter\build\windows\CMakeFiles\CMakeTmp\testCXXCompiler.cxx : fatal  error C1090: Chiamata API PDB non riuscita. Codice errore '3': C:\Users\mattz\Documents\GitHub\food-mobile-flutter\build\windows\CMakeFiles\CMakeTmp\cmTC_5f7b8.dir\Debug\vc143.pdb [C:\Users\mattz\Documents\GitHub\food-mobile-flutter\build\windows\CMakeFiles\CMakeTmp\cmTC_5f7b8.vcxproj]
+
+
+
