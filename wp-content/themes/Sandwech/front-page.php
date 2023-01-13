@@ -76,5 +76,6 @@ $(document).ready(function() {
 });
 </script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/table.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/setupBtn.js"></script>
 
 <?php get_footer(); ?>
