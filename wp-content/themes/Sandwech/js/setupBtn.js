@@ -1,3 +1,29 @@
+function SetupButtons() {
+    var btnRow = $(".dt-buttons");
+    btnRow.addClass("btn-group");
+    btnRow.addClass("flex-wrap");
+    //var classList = $(".dt-buttons").attr("class");
+    //console.log(classList);
+
+    var btnCreate = $(".buttons-create");
+    btnCreate.addClass("btn");
+    btnCreate.addClass("btn-secondary");
+    btnCreate.removeClass("dt-button");
+
+    var btnCreate = $(".buttons-edit");
+    btnCreate.addClass("btn");
+    btnCreate.addClass("btn-secondary");
+    btnCreate.removeClass("dt-button");
+
+    var btnRemove = $(".buttons-remove");
+    btnRemove.addClass("btn");
+    btnRemove.addClass("btn-secondary");
+    btnRemove.removeClass("dt-button");
+
+    console.log("Buttons setupped");
+}
+
+/*
 $(window).on('load', function () {
     var btnRow = $(".dt-buttons");
     btnRow.addClass("btn-group");
@@ -20,6 +46,7 @@ $(window).on('load', function () {
     btnCreate.addClass("btn-secondary");
     btnCreate.removeClass("dt-button");
 });
+*/
 
 /*
 <div>

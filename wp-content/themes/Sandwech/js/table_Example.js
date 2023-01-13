@@ -51,19 +51,6 @@ $(window).on('load', function () {
         }
         ],
         select: true,
-        buttons: [{
-            extend: "create",
-            editor: editor
-        },
-        {
-            extend: "edit",
-            editor: editor
-        },
-        {
-            extend: "remove",
-            editor: editor
-        }
-        ],
         //scrollY: 500,
     });
 
