@@ -34,7 +34,8 @@ $(window).on('load', function () {
 
     // fields della tabella
     var table = $('#table').DataTable({
-        dom: "Bfrtip",
+        //dom: "Bfrtip",
+        lengthChange: false,
         ajax: "EditorPHP/controllers/product.php",
         columns: [{
             data: "name"
@@ -65,4 +66,14 @@ $(window).on('load', function () {
         ],
         //scrollY: 500,
     });
+
+    // Display the buttons
+    new $.fn.dataTable.Buttons(table, [
+        { extend: "create", editor: editor },
+        { extend: "edit", editor: editor },
+        { extend: "remove", editor: editor }
+    ]);
+
+    table.buttons().container()
+        .appendTo($('.col-md-6:eq(0)', table.table().container()));
 });
