@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>WordPress &#8250; ReadMe</title>
+	<link rel="stylesheet" href="wp-admin/css/install.css?ver=20100228" type="text/css" />
+</head>
+<body>
+<h1 id="logo">
+	<a href="https://wordpress.org/"><img alt="WordPress" src="wp-admin/images/wordpress-logo.png" /></a>
+</h1>
+<p style="text-align: center">Piattaforma di editoria personale semantica</p>
+
+<h2>Prima una piccola cosa</h2>
+<p>Ciao. WordPress è un progetto molto speciale per me. Tutti coloro che sviluppano e contribuiscono aggiungono qualcosa di unico al «mix», e insieme stiamo creando qualcosa di meraviglioso, di cui sono orgoglioso di far parte. Sono state spese migliaia di ore per il progetto WordPress e ogni giorno ci impegnamo per migliorarlo. Grazie di averlo accolto nel tuo mondo.</p>
+<p style="text-align: right">&#8212; Matt Mullenweg</p>
+
+<h2>Installazione: la famosa installazione in 5 minuti</h2>
+<ol>
+	<li>Decomprimi il pacchetto in una directory vuota e carica tutto sul server remoto.</li>
+	<li>Vai alla pagina <span class="file"><a href="wp-admin/install.php">/wp-admin/install.php</a></span>. Sarà aperta la pagina che ti aiuterà a impostare il file <code>wp-config.php</code> con i dettagli di connessione del tuo database.
+		<ol>
+			<li>Se per qualche motivo non dovesse funzionare, non preoccuparti. Non funziona con tutti gli hosting web. Apri <code>wp-config-sample.php</code> con un editor di testi come WordPad o similari e inserisci i dettagli di connessione del tuo   database.</li>
+			<li>Salva il file come <code>wp-config.php</code> e caricalo sul server.</li>
+			<li>Apri <span class="file"><a href="wp-admin/install.php">wp-admin/install.php</a></span> nel tuo browser.</li>
+		</ol>
+	</li>
+	<li>Non appena il file di configurazione è configurato, il processo di installazione creerà le tabelle necessarie per il tuo blog. Se c’è qualche errore, controlla due volte il file <code>wp-config.php</code>, e provaci ancora. Se fallisce ancora, chiedi nei <a href="https://it.wordpress.org/support/">forum di supporto di WordPress</a> fornendo tutte le informazioni che hai a tua disposizione.</li>
+	<li><strong>Se non inserisci una password, prendi nota della password che ti viene assegnata.</strong> Se non scegli un nome utente, sarà <code>admin</code>.</li>
+	<li>Il processo d’installazione dovrebbe rimandarti alla <a href="wp-login.php">pagina di accesso</a>. Collegati con il nome utente e la password che hai scelto durante l’installazione. Se la password è stata generata per te, puoi fare doppio clic su  &#8220;Profilo&#8221; per modificarla.</li>
+</ol>
+
+<h2>Aggiornamento</h2>
+<h3>Aggiornamento automatico</h3>
+<ol>
+	<li>Apri <span class="file"><a href="wp-admin/update-core.php">wp-admin/update-core.php</a></span> nel tuo browser e segui le istruzioni.</li>
+	<li>Pensavi ci fosse di più? Questo è tutto!</li>
+</ol>
+
+<h3>Aggiornamento manuale</h3>
+<ol>
+	<li>Prima di aggiornare l’installazione, assicurati di aver fatto una copia di backup di tutti i file che hai modificato, come ad esempio il file <code>index.php</code>.</li>
+	<li>Cancella i vecchi file di WordPress, salvando quelli che hai modificato.</li>
+	<li>Carica i nuovi file sul server.</li>
+	<li>Visita la pagina <span class="file"><a href="wp-admin/upgrade.php">/wp-admin/upgrade.php</a></span>.</li>
+</ol>
+
+<h2>Migrazione da altre piattaforme</h2>
+<p>WordPress può <a href="https://wordpress.org/support/article/importing-content/">importare contenuti da altre piattaforme</a>. È necessario che tu abbia installato e configurato WordPress secondo le istruzioni precedenti, prima di utilizzare <a href="wp-admin/import.php">i nostri strumenti di importazione</a>.</p>
+
+<h2>Requisiti di sistema</h2>
+<ul>
+	<li><a href="https://secure.php.net/">PHP</a> versione <strong>5.6.20</strong> o superiore.</li>
+	<li><a href="https://www.mysql.com/">MySQL</a> versione <strong>5.0</strong> o superiore.</li>
+</ul>
+
+<h3>Raccomandati</h3>
+<ul>
+	<li><a href="https://secure.php.net/">PHP</a> versione <strong>7.4</strong> o superiore.</li>
+	<li><a href="https://www.mysql.com/">MySQL</a> versione <strong>5.7</strong> o superiore OPPURE <a href="https://mariadb.org/">MariaDB</a> versione <strong>10.3</strong> o superiore.</li>
+	<li>Il modulo Apache <a href="https://httpd.apache.org/docs/2.2/mod/mod_rewrite.html">mod_rewrite</a>.</li>
+	<li>Supporto <a href="https://wordpress.org/news/2016/12/moving-toward-ssl/">HTTPS</a>.</li>
+	<li>Un link a <a href="https://wordpress.org/">wordpress.org</a> nel tuo sito.</li>
+</ul>
+
+<h2>Risorse online</h2>
+<p>Se hai delle domande alle quali questo documento non ha dato risposta, puoi approfittare delle numerose risorse online di WordPress:</p>
+<dl>
+	<dt><a href="https://wordpress.org/support/">HelpHub (in inglese)</a></dt>
+	<dd>HelpHub è l’enciclopedia su tutto quello che riguarda WordPress. È la risorsa di informazioni più completa disponibile su WordPress.</dd>
+	<dt><a href="https://wordpress.org/news/">Il blog di WordPress</a></dt>
+	<dd>Qui puoi trovare gli ultimi aggiornamenti e le ultime notizie su WordPress. Aggiungi il sito ai segnalibri e visitalo spesso.</dd>
+	<dt><a href="https://planet.wordpress.org/">WordPress Planet</a></dt>
+	<dd>«WordPress Planet» è un aggregatore di notizie che riporta gli articoli riguardanti i blog su WordPress in rete.</dd>
+	<dt><a href="https://it.wordpress.org/forums/">I forum di supporto di WordPress</a></dt>
+	<dd>Se hai cercato in rete e non hai trovato risposta, i forum di supporto sono molto attivi e costituiscono una comunità molto ampia di persone pronte ad aiutarti. Per fare in modo che possano aiutarti, assicurati di scrivere dei titoli molto descrittivi e riporta le tue domande nella maniera più dettagliata possibile.</dd>
+	<dt><a href="https://make.wordpress.org/support/handbook/appendix/other-support-locations/introduction-to-irc/">Il canale IRC di WordPress</a></dt>
+	<dd>Infine, c’è un canale chat dove le persone si incontrano per chiacchierare di WordPress e per occasionali richieste di aiuto. La pagina wiki sopracitata dovrebbe mostrarti la giusta direzione. (<a href="https://web.libera.chat/#wordpress">irc.libera.chat #wordpress</a>)</dd>
+</dl>
+
+<h2>Note finali</h2>
+<ul>
+	<li>Se hai suggerimenti, idee, commenti o se (gasp!) scopri un bug, vieni a trovarci nei <a href="https://it.wordpress.org/forums/">forum di supporto</a></li>
+	<li>WordPress ora dispone di robuste <abbr title="application programming interface">API</abbr> dedicate ai plugin che semplificano l’estensione del codice. Se sei uno sviluppatore e sei interessato ad utilizzare questa funzionalità, consulta la <a href="https://developer.wordpress.org/plugins/">Guida allo sviluppo dei plugin</a>. Non devi mai modificare niente del codice del core.</li></ul>
+
+<h2>Condividi la passione</h2>
+<p>WordPress non dispone di campagne di marketing milionarie o di testimonial celebri, ma abbiamo di sicuro qualcosa di meglio – te. Se ti piace WordPress, segnalalo ad un amico, aiutando nell’installazione chi ne sa meno di te, o consigliandolo ai media come argomento da trattare.</p>
+
+<p>WordPress è il proseguimento ufficiale del progetto <a href="http://cafelog.com/">b2/cafélog</a>, inizialmente implementato da Michel V. Il lavoro è stato continuato dagli <a href="http://wordpress.org/about/">sviluppatori di WordPress</a>. Se vuoi aiutare il progetto WordPress, valuta di fare una <a href="https://wordpress.org/donate/">donazione</a>.</p>
+
+<h2>Licenza</h2>
+<p>WordPress è software libero ed è rilasciato sotto licenza <abbr title="GNU Public License">GPL</abbr> (GNU General Public License) versione 2 o (se preferisci) qualsiasi versione successiva. Per approfondire leggi il documento <a href="license.txt">license.txt</a>.</p>
+
+</body>
+</html>
