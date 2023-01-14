@@ -40,34 +40,33 @@
             -->
             <ul id="tables_list">
                 <li><a href="http://localhost/sandwech-mng">Coffee</a></li>
-                <li>allergen</li>
-                <li>break</li>
-                <li>cart</li>
-                <li>Milk</li>
-                <li>Milk</li>
-                <li>Milk</li>
-                <li>Milk</li>
-                <li>Milk</li>
-                <li>Milk</li>
-                <li>Milk</li>
-                <li>Milk</li>
-                <li>Milk</li>
-                <li>Milk</li>
-                <li>Milk</li>
-                <li>Milk</li>
-                <li>Milk</li>
-                <li>Milk</li>
-                <li>Milk</li>
-                <li>Milk</li>
-                <li>Milk</li>
-                <li>Milk</li>
-                <li>Milk</li>
+                <li class="list-table">allergen</li>
+                <li class="list-table">break</li>
+                <li class="list-table">cart</li>
+                <li class="list-table">class</li>
+                <li class="list-table">favourite</li>
+                <li class="list-table">ingredient</li>
+                <li class="list-table">nutritional_value</li>
+                <li class="list-table">offer</li>
+                <li class="list-table">order</li>
+                <li class="list-table">pickup</li>
+                <li class="list-table">pickup_break</li>
+                <li class="list-table">product</li>
+                <li class="list-table">product_allergen</li>
+                <li class="list-table">product_ingredient</li>
+                <li class="list-table">product_offer</li>
+                <li class="list-table">product_order</li>
+                <li class="list-table">product_tag</li>
+                <li class="list-table">reset</li>
+                <li class="list-table">status</li>
+                <li class="list-table">tag</li>
+                <li class="list-table">user</li>
+                <li class="list-table">user_class</li>
             </ul>
         </div>
         <div class="col-10">
             <div class="row">
                 <h1 class="title text-center" id="title_table"></h1>
-                </h1>
             </div>
             <div class="row">
                 <div class="col-12">
@@ -89,6 +88,35 @@
 
 <script type="text/javascript">
 $(document).ready(function() {
+    $('li.list-table').click(function() {
+        var newTableText = $(this).text();
+        var oldTableText = $('#table_name').text();
+        //console.log(newTableText);
+        $('#title_table').text(newTableText);
+        $('#table_name').text(newTableText);
+
+        $('html').find('script').filter(function() {
+            return $(this).attr('src') === "<?php echo get_template_directory_uri() ?>/js/" +
+                oldTableText + ".js"
+        }).remove();
+
+        //$('#table').dataTable().fnClearTable();
+
+        $('#table').DataTable().destroy();
+        $("tbody").remove();
+
+        $.getScript("<?php echo get_template_directory_uri() ?>/js/user.js").then(
+            function() {
+                SetupButtons();
+                console.log("js caricato");
+
+                $('html').find('script').filter(function() {
+                    console.log($(this).attr('src') ===
+                        "<?php echo get_template_directory_uri() ?>/js/product.js");
+                });
+            });
+    });
+
     var tableName = $('#table_name').text();
     //console.log(tableName);
     $('#title_table').text(tableName);
