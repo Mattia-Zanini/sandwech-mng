@@ -96,6 +96,12 @@ $(document).ready(function() {
     $.getScript("<?php echo get_template_directory_uri() ?>/js/" + tableName + ".js").then(function() {
         SetupButtons();
     });
+
+    /* per togliere uno script
+    $('html').find('script').filter(function() {
+        return $(this).attr('src') === 'http://firstScript.com'
+    }).remove();
+    */
 });
 </script>
 <!-- <script type="text/javascript" src="<?php //echo get_template_directory_uri() ?>/js/table_Example.js"></script> -->
