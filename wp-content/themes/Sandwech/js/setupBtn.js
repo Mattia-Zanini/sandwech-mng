@@ -1,3 +1,27 @@
+$(window).on('load', function () {
+    var btnRow = $(".dt-buttons");
+    btnRow.addClass("btn-group");
+    btnRow.addClass("flex-wrap");
+    //var classList = $(".dt-buttons").attr("class");
+    //console.log(classList);
+
+    var btnCreate = $(".buttons-create");
+    btnCreate.addClass("btn");
+    btnCreate.addClass("btn-secondary");
+    btnCreate.removeClass("dt-button");
+
+    var btnCreate = $(".buttons-edit");
+    btnCreate.addClass("btn");
+    btnCreate.addClass("btn-secondary");
+    btnCreate.removeClass("dt-button");
+
+    var btnCreate = $(".buttons-remove");
+    btnCreate.addClass("btn");
+    btnCreate.addClass("btn-secondary");
+    btnCreate.removeClass("dt-button");
+});
+
+/*
 function SetupButtons() {
     var btnRow = $(".dt-buttons");
     btnRow.addClass("btn-group");
@@ -22,30 +46,6 @@ function SetupButtons() {
 
     console.log("Buttons setupped");
 }
-
-/*
-$(window).on('load', function () {
-    var btnRow = $(".dt-buttons");
-    btnRow.addClass("btn-group");
-    btnRow.addClass("flex-wrap");
-    //var classList = $(".dt-buttons").attr("class");
-    //console.log(classList);
-
-    var btnCreate = $(".buttons-create");
-    btnCreate.addClass("btn");
-    btnCreate.addClass("btn-secondary");
-    btnCreate.removeClass("dt-button");
-
-    var btnCreate = $(".buttons-edit");
-    btnCreate.addClass("btn");
-    btnCreate.addClass("btn-secondary");
-    btnCreate.removeClass("dt-button");
-
-    var btnCreate = $(".buttons-remove");
-    btnCreate.addClass("btn");
-    btnCreate.addClass("btn-secondary");
-    btnCreate.removeClass("dt-button");
-});
 */
 
 /*

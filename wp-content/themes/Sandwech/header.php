@@ -33,4 +33,3 @@
             </div>
         </nav>
     </header>
-    <h1 hidden id="table_name">product</h1> <!-- tabella "product" come predefinita -->

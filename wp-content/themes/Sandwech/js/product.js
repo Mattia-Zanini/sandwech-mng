@@ -3,7 +3,7 @@ var $ = jQuery;
 $(window).on('load', function () {
     // fields dell'editor
     var editor = new $.fn.dataTable.Editor({
-        ajax: "EditorPHP/controllers/product.php",
+        ajax: "../EditorPHP/controllers/product.php",
         table: "#table",
         fields: [{
             label: "Name:",
@@ -35,7 +35,7 @@ $(window).on('load', function () {
     // fields della tabella
     var table = $('#table').DataTable({
         lengthChange: false,
-        ajax: "EditorPHP/controllers/product.php",
+        ajax: "../EditorPHP/controllers/product.php",
         columns: [{
             data: "name"
         },
