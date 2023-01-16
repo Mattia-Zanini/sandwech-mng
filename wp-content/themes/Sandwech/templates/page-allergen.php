@@ -2,9 +2,7 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-2">
-            <?php require("code_table_list.php"); ?>
-        </div>
+        <?php require("code_table_list.php"); ?>
         <div class="col-10">
             <div class="row">
                 <h1 class="title text-center" id="title_table">
@@ -12,7 +10,7 @@
                 </h1>
             </div>
             <div class="row">
-                <div class="col-12">
+                <div <?php echo TABLE_SIZE_CLASS; ?>>
                     <table id="table" class="table table-striped" style="width:100%">
                         <thead>
                             <tr>

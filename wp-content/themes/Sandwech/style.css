@@ -16,3 +16,23 @@ Text Domain: sandwech
 .navbar-color {
     background-color: rgb(171, 171, 171) !important;
 }
+
+.test-table-size {
+    margin-left: 4vw;
+}
+
+#tables_list {
+    margin-top: 5vh !important;
+}
+
+.tables_list_name {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2vw;
+}
+
+.tables_list_name:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: black;
+}

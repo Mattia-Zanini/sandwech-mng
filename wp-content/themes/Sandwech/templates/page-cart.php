@@ -12,7 +12,7 @@
                 </h1>
             </div>
             <div class="row">
-                <div class="col-12">
+                <div <?php echo TABLE_SIZE_CLASS; ?>>
                     <table id="table" class="table table-striped" style="width:100%">
                         <thead>
                             <tr>

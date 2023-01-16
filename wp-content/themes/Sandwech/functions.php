@@ -21,6 +21,7 @@ funzionalità e personalizzazioni al tema senza modificare il codice del tema st
 tipi di codice e permette di personalizzare il comportamento predefinito di wordpress.
 */
 
+define("TABLE_SIZE_CLASS", "class=\"col-11 test-table-size\"");
 
 //carica correttamente i file .css
 function load_stylesheets()
