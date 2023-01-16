@@ -14,9 +14,11 @@
                     <table id="table" class="table table-striped" style="width:100%">
                         <thead>
                             <tr>
+                                <th>Prodotto</th>
                                 <th>Kcal</th>
                                 <th>Grassi</th>
                             </tr>
+                            
                         </thead>
                     </table>
                 </div>

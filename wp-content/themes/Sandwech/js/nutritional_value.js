@@ -7,12 +7,16 @@ $(window).on('load', function () {
         table: "#table",
         fields: [
             {
+                label: "Prodotto:",
+                name: "product.name"
+            },
+            {
                 label: "Kcal:",
-                name: "kcal"
+                name: "nutritional_value.kcal"
             },
             {
                 label: "Fats:",
-                name: "fats"
+                name: "nutritional_value.fats"
             }
         ]
     });
@@ -20,13 +24,20 @@ $(window).on('load', function () {
     // fields della tabella
     var table = $('#table').DataTable({
         lengthChange: false,
-        ajax: "../EditorPHP/controllers/nutritional_value.php",
-        columns: [{
-            data: "kcal"
+        ajax: {
+            url: "../EditorPHP/controllers/nutritional_value.php",
+            type: 'POST'
         },
-        {
-            data: "fats"
-        }
+        columns: [
+            {
+                data: "product.name"
+            },
+            {
+                data: "nutritional_value.kcal"
+            },
+            {
+                data: "nutritional_value.fats"
+            }
         ],
         select: true,
     });
