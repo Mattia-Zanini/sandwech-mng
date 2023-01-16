@@ -3,27 +3,23 @@ var $ = jQuery;
 $(window).on('load', function () {
     // fields dell'editor
     var editor = new $.fn.dataTable.Editor({
-        ajax: "../EditorPHP/controllers/ingredient.php",
+        ajax: "../EditorPHP/controllers/offer.php",
         table: "#table",
         fields: [{
-            label: "Name:",
-            name: "name"
-        },
-        {
-            label: "Description:",
-            name: "description"
-        },
-        {
             label: "Price:",
             name: "price"
         },
         {
-            label: "Extra:",
-            name: "extra"
+            label: "Start:",
+            name: "start"
         },
         {
-            label: "Quantity:",
-            name: "quantity"
+            label: "Expiry:",
+            name: "expiry"
+        },
+        {
+            label: "Description:",
+            name: "description"
         }
         ]
     });
@@ -31,21 +27,18 @@ $(window).on('load', function () {
     // fields della tabella
     var table = $('#table').DataTable({
         lengthChange: false,
-        ajax: "../EditorPHP/controllers/ingredient.php",
+        ajax: "../EditorPHP/controllers/offer.php",
         columns: [{
-            data: "name"
-        },
-        {
-            data: "description"
-        },
-        {
             data: "price"
         },
         {
-            data: "extra"
+            data: "start"
         },
         {
-            data: "quantity"
+            data: "expiry"
+        },
+        {
+            data: "description"
         }
         ],
         select: true,
