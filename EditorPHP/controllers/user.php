@@ -15,7 +15,7 @@ use DeliciousBrains\WPMDB\Container\Dotenv\Validator;
 use Illuminate\Support\Str;
 
 // user table
-Editor::inst($db, 'user', 'ID')
+/*Editor::inst($db, 'user', 'ID')
 	->fields(
 		Field::inst('name'),
 		Field::inst('surname'),
@@ -25,4 +25,18 @@ Editor::inst($db, 'user', 'ID')
 	)
 	->debug(true)
 	->process($_POST)
-	->json();
+	->json();*/
+
+	Editor::inst( $db, 'user' )
+    ->field(
+        Field::inst( 'user.name' ),
+        Field::inst( 'user.surname' ),
+		Field::inst( 'user.email' ),
+		Field::inst( 'user.active' ),
+        Field::inst( 'class.year' ),
+		Field::inst( 'class.section' )
+    )
+    ->leftJoin( 'user_class as uc',     'uc.user',          '=', 'user.id' )
+    ->leftJoin( 'class', 'class.id',          '=', 'uc.class' )
+    ->process($_POST)
+    ->json();

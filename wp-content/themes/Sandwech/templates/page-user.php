@@ -20,6 +20,8 @@
                                 <th>Cognome</th>
                                 <th>Email</th>
                                 <th>Attivo</th>
+                                <th>Anno</th>
+                                <th>Sezione</th>
                             </tr>
                         </thead>
                     </table>
