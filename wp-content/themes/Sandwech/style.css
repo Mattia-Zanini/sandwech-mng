@@ -15,7 +15,7 @@ Text Domain: sandwech
 
 .navbar-color {
     /*background-color: rgb(171, 171, 171) !important;*/
-    background-color: #FAF0E6 !important;
+    background-color: #fff48f !important;
 }
 
 .test-table-size {
@@ -24,6 +24,10 @@ Text Domain: sandwech
 
 #tables_list {
     margin-top: 5vh !important;
+}
+
+.logo-img {
+    margin-left: 2vw !important;
 }
 
 .tables_list_name {
