@@ -29,14 +29,14 @@ use Illuminate\Support\Str;
 
 	Editor::inst( $db, 'user' )
     ->field(
-        Field::inst( 'user.name' ),
-        Field::inst( 'user.surname' ),
-		Field::inst( 'user.email' ),
-		Field::inst( 'user.active' ),
-        Field::inst( 'class.year' ),
-		Field::inst( 'class.section' )
+        Field::inst( 'user.name' ,'name'),
+        Field::inst( 'user.surname' ,'surname' ),
+		Field::inst( 'user.email'  ,'email'),
+		Field::inst( 'user.active'  ,'active'),
+        Field::inst( 'class.year' ,'year' ),
+		Field::inst( 'class.section' ,'section' )
     )
-    ->leftJoin( 'user_class as uc',     'uc.user',          '=', 'user.id' )
-    ->leftJoin( 'class', 'class.id',          '=', 'uc.class' )
+    ->leftJoin( 'user_class as uc', 'uc.user', '=', 'user.id' )
+    ->leftJoin( 'class', 'class.id', '=', 'uc.class' )
     ->process($_POST)
     ->json();

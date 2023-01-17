@@ -8,15 +8,15 @@ $(window).on('load', function () {
         fields: [
             {
                 label: "Prodotto:",
-                name: "product.name"
+                name: "name"
             },
             {
                 label: "Kcal:",
-                name: "nutritional_value.kcal"
+                name: "kcal"
             },
             {
                 label: "Fats:",
-                name: "nutritional_value.fats"
+                name: "fats"
             }
         ]
     });
@@ -30,13 +30,13 @@ $(window).on('load', function () {
         },
         columns: [
             {
-                data: "product.name"
+                data: "name"
             },
             {
-                data: "nutritional_value.kcal"
+                data: "kcal"
             },
             {
-                data: "nutritional_value.fats"
+                data: "fats"
             }
         ],
         select: true,

@@ -7,27 +7,27 @@ $(window).on('load', function () {
         table: "#table",
         fields: [{
             label: "Name:",
-            name: "user.name"
+            name: "name"
         },
         {
             label: "Surname:",
-            name: "user.surname"
+            name: "surname"
         },
         {
             label: "Email:",
-            name: "user.email"
+            name: "email"
         },
         {
             label: "Active:",
-            name: "user.active"
+            name: "active"
         },
         {
             label: "Year:",
-            name: "class.year"
+            name: "year"
         },
         {
             label: "Section:",
-            name: "class.section"
+            name: "section"
         }
         ]
     });
@@ -37,22 +37,22 @@ $(window).on('load', function () {
         lengthChange: false,
         ajax: "../EditorPHP/controllers/user.php",
         columns: [{
-            data: "user.name"
+            data: "name"
         },
         {
-            data: "user.surname"
+            data: "surname"
         },
         {
-            data: "user.email"
+            data: "email"
         },
         {
-            data: "user.active"
+            data: "active"
         },
         {
-            data: "class.year"
+            data: "year"
         },
         {
-            data: "class.section"
+            data: "section"
         }
         ],
         select: true,

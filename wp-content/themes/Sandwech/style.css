@@ -14,7 +14,8 @@ Text Domain: sandwech
 }
 
 .navbar-color {
-    background-color: rgb(171, 171, 171) !important;
+    /*background-color: rgb(171, 171, 171) !important;*/
+    background-color: #FAF0E6 !important;
 }
 
 .test-table-size {

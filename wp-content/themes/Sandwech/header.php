@@ -30,11 +30,9 @@ incluso in ogni pagina del sito, quindi è possibile utilizzarlo per creare un'i
         <nav class="navbar navbar-expand-lg navbar-color">
             <div class="container-fluid">
                 <a class="navbar-brand mb-0 h1" href="http://localhost/sandwech-mng">Sandwech Management</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/logo.png" width="50" height="50" alt="">
+                </a>
                 <!--
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">

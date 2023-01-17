@@ -38,9 +38,9 @@ DataTables\Editor\ValidateOptions;
 
 Editor::inst( $db, 'nutritional_value' )
     ->field(
-        Field::inst( 'nutritional_value.kcal' ),
-        Field::inst( 'nutritional_value.fats' ),
-        Field::inst( 'product.name' )
+        Field::inst( 'nutritional_value.kcal', 'kcal' ),
+        Field::inst( 'nutritional_value.fats','fats' ),
+        Field::inst( 'product.name', 'name' )
     )
     ->leftJoin( 'product', 'product.nutritional_value', '=', 'nutritional_value.id' )
 	->debug(true)
