@@ -20,15 +20,15 @@
                     <table id="table" class="table table-striped" style="width:100%">
                         <thead>
                             <tr>
-                                <th>id</th>
-                                <th>created</th>
-                                <th>pickup</th>
-                                <th>break</th>
-                                <th>status</th>
-                                <th>Name</th>
-                                <th>Surname</th>
-                                <th>class</th>
-                                <th>section</th>
+                                <th>ID</th>
+                                <th>Creato il</th>
+                                <th>Punto di Raccolta</th>
+                                <th>Ricreazione</th>
+                                <th>Stato Ordine</th>
+                                <th>Nome</th>
+                                <th>Cognome</th>
+                                <th>Classe</th>
+                                <th>Sezione</th>
                             </tr>
                         </thead>
                     </table>
