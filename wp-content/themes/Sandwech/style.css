@@ -34,6 +34,11 @@ body {
     margin-left: 2vw !important;
 }
 
+.logo-img-login {
+    margin-left: 2vw !important;
+    margin-top: 1vW !important;
+}
+
 .tables_list_name {
     text-decoration: none;
     color: black;
@@ -56,4 +61,8 @@ body {
 
 .box-nav:hover {
     background-color: #40cf43;
+}
+
+.login-btn{
+    margin-top: 1vw !important;
 }
