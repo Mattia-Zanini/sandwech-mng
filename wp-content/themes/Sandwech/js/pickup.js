@@ -8,7 +8,7 @@ $(window).on('load', function () {
         fields: [
             {
                 label: "Name:",
-                name: "Name"
+                name: "name"
             },
         ]
     });
