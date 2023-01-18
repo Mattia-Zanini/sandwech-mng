@@ -65,6 +65,8 @@ if (is_page('allergen')) {
     get_template_part('templates/page', 'user');
 } elseif (is_page('user_class')) {
     get_template_part('templates/page', 'user_class');
+} elseif (is_page('login')) {
+    get_template_part('templates/page', 'login');
 } else {
     echo "error: unknown page type";
 }
