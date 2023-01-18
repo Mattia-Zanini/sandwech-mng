@@ -41,7 +41,7 @@ get_header();
                 <div class="col-12">
                     <div class="row d-flex justify-content-around">
                         <div class="box-nav col-1">
-                            <h1>Prova 1</h1>
+                            <a href="<?php echo get_template_directory_uri()?>/templates/code_table_list_full.php"><h1>Prova 1 </h1></a>
                         </div>
                         <div class="box-nav col-1">
                             <h1>Prova 2</h1>
