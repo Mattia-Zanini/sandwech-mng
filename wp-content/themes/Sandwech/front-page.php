@@ -31,15 +31,31 @@ get_header();
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-2">
-            <?php require("templates/code_table_list.php"); ?>
-        </div>
-        <div class="col-10">
+        <?php //require("templates/code_table_list.php"); ?>
+
+        <div class="col-12">
             <div class="row">
                 <h1 class="title text-center" id="title_table"></h1>
             </div>
             <div class="row">
                 <div class="col-12">
+                    <div class="row d-flex justify-content-around">
+                        <div class="box-nav col-1">
+                            <h1>Prova 1</h1>
+                        </div>
+                        <div class="box-nav col-1">
+                            <h1>Prova 2</h1>
+                        </div>
+                        <div class="box-nav col-1">
+                            <h1>Prova 3</h1>
+                        </div>
+                        <div class="box-nav col-1">
+                            <h1>Prova 4</h1>
+                        </div>
+                        <div class="box-nav col-1">
+                            <h1>Prova 5</h1>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

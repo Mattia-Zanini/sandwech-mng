@@ -2,11 +2,17 @@
 
 <div class="container-fluid">
     <div class="row">
-        <?php require("code_table_list.php"); ?>
+        <?php
+        $current_user_role = wp_get_current_user()->roles[0];
+        if ($current_user_role != "administrator")
+            require("code_table_list.php");
+        else
+            require("code_table_list_full.php");
+        ?>
         <div class="col-10">
             <div class="row">
                 <h1 class="title text-center" id="title_table">
-                    <?php echo get_the_title() ?>
+                    <?php echo get_the_title(); ?>
                 </h1>
             </div>
             <div class="row">

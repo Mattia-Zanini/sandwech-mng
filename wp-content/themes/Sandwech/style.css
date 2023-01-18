@@ -9,8 +9,8 @@ Version: 1.0
 Text Domain: sandwech
 */
 
-body{
-    background-color:  whitesmoke !important;
+body {
+    background-color: whitesmoke !important;
 }
 
 .navbar {
@@ -44,4 +44,16 @@ body{
     text-decoration: underline;
     font-weight: bold;
     color: black;
+}
+
+/* colori di prova */
+.box-nav {
+    background-color: #c8ee3d;
+    border-radius: 20%;
+    height: 15vw !important;
+    width: 15vw !important;
+}
+
+.box-nav:hover {
+    background-color: #40cf43;
 }

@@ -2,7 +2,13 @@
 
 <div class="container-fluid">
     <div class="row">
-        <?php require("code_table_list.php"); ?>
+        <?php
+        $current_user_role = wp_get_current_user()->roles[0];
+        if ($current_user_role != "administrator")
+            require("code_table_list.php");
+        else
+            require("code_table_list_full.php");
+        ?>
         <div class="col-10">
             <div class="row">
                 <h1 class="title text-center" id="title_table">
@@ -18,7 +24,7 @@
                                 <th>Kcal</th>
                                 <th>Grassi</th>
                             </tr>
-                            
+
                         </thead>
                     </table>
                 </div>

@@ -49,14 +49,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'ad/7o/9Fz9a1v9wtC*#tw9|$k~Y>FHT1o$&HY<jF|2/XAiPmoT^SVedU9ZIjW|is');
-define('SECURE_AUTH_KEY',  'jBn,GI>wp}rfkHAA]C*H0Xb.Wv%;L}lBi<T o JgEEe!!fN~ N(9shBeT,Mrtn#8');
-define('LOGGED_IN_KEY',    'C2`eVjK,%c`eUF-hnSu%PHtL(q *QKneiw~d{U85c>8Y_C!_W%S4OmK%u~deNXCR');
-define('NONCE_KEY',        'xnr>pJt^t|@G`Hng+#Nk7@&,x7a+:/xSdVn7E4%gtek7l3i5|&o i!u..)/|?QgY');
-define('AUTH_SALT',        'j`:.Jp&XGxCb?_!`U` vw0K`Qd}x|W[Z{SNut<RwC;uifBPifpB_vRH^gaic=sL4');
+define('AUTH_KEY', 'ad/7o/9Fz9a1v9wtC*#tw9|$k~Y>FHT1o$&HY<jF|2/XAiPmoT^SVedU9ZIjW|is');
+define('SECURE_AUTH_KEY', 'jBn,GI>wp}rfkHAA]C*H0Xb.Wv%;L}lBi<T o JgEEe!!fN~ N(9shBeT,Mrtn#8');
+define('LOGGED_IN_KEY', 'C2`eVjK,%c`eUF-hnSu%PHtL(q *QKneiw~d{U85c>8Y_C!_W%S4OmK%u~deNXCR');
+define('NONCE_KEY', 'xnr>pJt^t|@G`Hng+#Nk7@&,x7a+:/xSdVn7E4%gtek7l3i5|&o i!u..)/|?QgY');
+define('AUTH_SALT', 'j`:.Jp&XGxCb?_!`U` vw0K`Qd}x|W[Z{SNut<RwC;uifBPifpB_vRH^gaic=sL4');
 define('SECURE_AUTH_SALT', '@a{4ot:KU!7s!56*|:5EyqxAzrtWVaQaWx5}5*j)u+eis+f,K]lzHfQs0JhKz~C{');
-define('LOGGED_IN_SALT',   '[6JD{,G^DZ=$@K2hLkXr{@JOJOh11pVr(yhKpe4*t9bQBNo0-Q~Ue:/rAf6]yV_G');
-define('NONCE_SALT',       'Wc`2.]#r x9AyQ6-b%gpO7G oIq],H1exyJtEM*6V)h(w~<RJ+XHj!8^^JQ[+@Kf');
+define('LOGGED_IN_SALT', '[6JD{,G^DZ=$@K2hLkXr{@JOJOh11pVr(yhKpe4*t9bQBNo0-Q~Ue:/rAf6]yV_G');
+define('NONCE_SALT', 'Wc`2.]#r x9AyQ6-b%gpO7G oIq],H1exyJtEM*6V)h(w~<RJ+XHj!8^^JQ[+@Kf');
 
 /**#@-*/
 
@@ -81,6 +81,7 @@ $table_prefix = 'wp_';
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
 define('WP_DEBUG', false);
+define('FS_METHOD', 'direct'); //impedisce a wordpress di chiedere le credenziali FTP per scaricare / aggiornare i plugin
 
 /* Aggiungere qualsiasi valore personalizzato tra questa riga e la riga "Finito, interrompere le modifiche". */
 

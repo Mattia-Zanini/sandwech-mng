@@ -21,80 +21,83 @@ template personalizzato per mostrare la pagina.
 -->
 
 <?php
-if (is_page('allergen')) {
-    get_template_part('templates/page', 'allergen');
-} elseif (is_page('break')) {
-    get_template_part('templates/page', 'break');
-} elseif (is_page('cart')) {
-    get_template_part('templates/page', 'cart');
-} elseif (is_page('class')) {
-    get_template_part('templates/page', 'class');
-} elseif (is_page('favourite')) {
-    get_template_part('templates/page', 'favourite');
-} elseif (is_page('ingredient')) {
-    get_template_part('templates/page', 'ingredient');
-} elseif (is_page('nutritional_value')) {
-    get_template_part('templates/page', 'nutritional_value');
-} elseif (is_page('offer')) {
-    get_template_part('templates/page', 'offer');
-} elseif (is_page('order')) {
-    get_template_part('templates/page', 'order');
-} elseif (is_page('pickup')) {
-    get_template_part('templates/page', 'pickup');
-} elseif (is_page('pickup_break')) {
-    get_template_part('templates/page', 'pickup_break');
-} elseif (is_page('product')) {
-    get_template_part('templates/page', 'product');
-} elseif (is_page('product_allergen')) {
-    get_template_part('templates/page', 'product_allergen');
-} elseif (is_page('product_ingredient')) {
-    get_template_part('templates/page', 'product_ingredient');
-} elseif (is_page('product_offer')) {
-    get_template_part('templates/page', 'product_offer');
-} elseif (is_page('product_order')) {
-    get_template_part('templates/page', 'product_order');
-} elseif (is_page('product_tag')) {
-    get_template_part('templates/page', 'product_tag');
-} elseif (is_page('reset')) {
-    get_template_part('templates/page', 'reset');
-} elseif (is_page('status')) {
-    get_template_part('templates/page', 'status');
-} elseif (is_page('tag')) {
-    get_template_part('templates/page', 'tag');
-} elseif (is_page('user')) {
-    get_template_part('templates/page', 'user');
-} elseif (is_page('user_class')) {
-    get_template_part('templates/page', 'user_class');
-} elseif (is_page('login')) {
-    get_template_part('templates/page', 'login');
-} else {
-    echo "error: unknown page type";
-}
+$current_user_role = wp_get_current_user()->roles[0];
 
-/*
-[
-"allergen",
-"break",
-"cart",
-"class",
-"favourite",
-"ingredient",
-"nutritional_value",
-"offer",
-"order",
-"pickup",
-"pickup_break",
-"product",
-"product_allergen",
-"product_ingredient",
-"product_offer",
-"product_order",
-"product_tag",
-"reset",
-"status",
-"tag",
-"user",
-"user_class"
-]
-*/
+if ($current_user_role != "administrator") {
+    if (is_page('allergen')) {
+        get_template_part('templates/page', 'allergen');
+    } elseif (is_page('break')) {
+        get_template_part('templates/page', 'break');
+    } elseif (is_page('favourite')) {
+        get_template_part('templates/page', 'favourite');
+    } elseif (is_page('ingredient')) {
+        get_template_part('templates/page', 'ingredient');
+    } elseif (is_page('nutritional_value')) {
+        get_template_part('templates/page', 'nutritional_value');
+    } elseif (is_page('offer')) {
+        get_template_part('templates/page', 'offer');
+    } elseif (is_page('order')) {
+        get_template_part('templates/page', 'order');
+    } elseif (is_page('pickup')) {
+        get_template_part('templates/page', 'pickup');
+    } elseif (is_page('product')) {
+        get_template_part('templates/page', 'product');
+    } elseif (is_page('tag')) {
+        get_template_part('templates/page', 'tag');
+    } elseif (is_page('user')) {
+        get_template_part('templates/page', 'user');
+    } else {
+        echo "error: unknown page type";
+    }
+} elseif (($current_user_role == "administrator")) {
+    if (is_page('allergen')) {
+        get_template_part('templates/page', 'allergen');
+    } elseif (is_page('break')) {
+        get_template_part('templates/page', 'break');
+    } elseif (is_page('favourite')) {
+        get_template_part('templates/page', 'favourite');
+    } elseif (is_page('ingredient')) {
+        get_template_part('templates/page', 'ingredient');
+    } elseif (is_page('nutritional_value')) {
+        get_template_part('templates/page', 'nutritional_value');
+    } elseif (is_page('offer')) {
+        get_template_part('templates/page', 'offer');
+    } elseif (is_page('order')) {
+        get_template_part('templates/page', 'order');
+    } elseif (is_page('pickup')) {
+        get_template_part('templates/page', 'pickup');
+    } elseif (is_page('product')) {
+        get_template_part('templates/page', 'product');
+    } elseif (is_page('tag')) {
+        get_template_part('templates/page', 'tag');
+    } elseif (is_page('user')) {
+        get_template_part('templates/page', 'user');
+    } elseif (is_page('cart')) {
+        get_template_part('templates/page', 'cart');
+    } elseif (is_page('class')) {
+        get_template_part('templates/page', 'class');
+    } elseif (is_page('pickup_break')) {
+        get_template_part('templates/page', 'pickup_break');
+    } elseif (is_page('product_allergen')) {
+        get_template_part('templates/page', 'product_allergen');
+    } elseif (is_page('product_ingredient')) {
+        get_template_part('templates/page', 'product_ingredient');
+    } elseif (is_page('product_offer')) {
+        get_template_part('templates/page', 'product_offer');
+    } elseif (is_page('product_order')) {
+        get_template_part('templates/page', 'product_order');
+    } elseif (is_page('product_tag')) {
+        get_template_part('templates/page', 'product_tag');
+    } elseif (is_page('reset')) {
+        get_template_part('templates/page', 'reset');
+    } elseif (is_page('status')) {
+        get_template_part('templates/page', 'status');
+    } elseif (is_page('user_class')) {
+        get_template_part('templates/page', 'user_class');
+    } elseif (is_page('login')) {
+        get_template_part('templates/page', 'login');
+    } else {
+        echo "error: unknown page type";
+    }
+}
 ?>

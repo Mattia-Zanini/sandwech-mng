@@ -2,9 +2,13 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-2">
-            <?php require("code_table_list.php"); ?>
-        </div>
+        <?php
+        $current_user_role = wp_get_current_user()->roles[0];
+        if ($current_user_role != "administrator")
+            require("code_table_list.php");
+        else
+            require("code_table_list_full.php");
+        ?>
         <div class="col-10">
             <div class="row">
                 <h1 class="title text-center" id="title_table">
@@ -16,7 +20,7 @@
                     <table id="table" class="table table-striped" style="width:100%">
                         <thead>
                             <tr>
-                                <th>id</th>                              
+                                <th>id</th>
                                 <th>created</th>
                                 <th>pickup</th>
                                 <th>break</th>

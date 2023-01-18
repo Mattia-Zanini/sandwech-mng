@@ -53,3 +53,17 @@ function load_js()
 	wp_enqueue_script('editor_bootstrap', "/EditorPHP/js/editor.bootstrap5.min.js", array(), '2.0.10', true);
 }
 add_action('wp_enqueue_scripts', 'load_js');
+
+function custom_login_redirect()
+{
+	return 'http://localhost/sandwech-mng/';
+}
+add_filter('login_redirect', 'custom_login_redirect');
+
+function remove_admin_bar()
+{
+	if (!current_user_can('administrator') && !is_admin()) {
+		show_admin_bar(false);
+	}
+}
+add_action('after_setup_theme', 'remove_admin_bar');
