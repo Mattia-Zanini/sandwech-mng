@@ -13,6 +13,17 @@ propri script e stili alla pagina, senza dover modificare manualmente il file fo
 */
 wp_footer();
 ?>
+
+<style type="text/css">
+table.dataTable.table-striped>tbody>tr.even.selected>* {
+    box-shadow: inset 0 0 0 9999px #b4b8c5;
+}
+
+table.dataTable.table-striped>tbody>tr.odd.selected>* {
+    box-shadow: inset 0 0 0 9999px #b4b8c5;
+}
+</style>
+
 </body>
 
 </html>
