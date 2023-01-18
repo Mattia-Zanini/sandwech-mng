@@ -17,11 +17,14 @@ use
 // ingredient table
 Editor::inst($db, 'offer', 'ID')
     ->fields(
-        Field::inst('price'),
-        Field::inst('start'),
-        Field::inst('expiry'),
-        Field::inst('description')
+		Field::inst('product.name','name'),
+        Field::inst('offer.price','price'),
+        Field::inst('offer.start','start'),
+        Field::inst('offer.expiry','expiry'),
+        Field::inst('offer.description','description'),
     )
+	->leftjoin('product_offer po','offer.id','=','po.offer')
+	->leftjoin('product','product.id','=','po.product')
     ->debug(true)
     ->process($_POST)
     ->json();
