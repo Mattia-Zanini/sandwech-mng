@@ -27,12 +27,22 @@ In questo modo, è possibile creare un'intestazione coerente per tutte le pagine
 il codice per ogni singola pagina.
 */
 get_header();
+
+function MenuBox($text, $tableName)
+{
+    return
+        '<div class="col-2">
+        <a href="http://localhost/sandwech-mng/' . $tableName . '">
+            <div class="box-nav">
+                <h1>' . $text . '</h1>
+            </div>
+        </a>
+</div>';
+}
 ?>
 
 <div class="container-fluid">
     <div class="row">
-        <?php //require("templates/code_table_list.php"); ?>
-
         <div class="col-12">
             <div class="row">
                 <h1 class="title text-center" id="title_table"></h1>
@@ -40,41 +50,18 @@ get_header();
             <div class="row">
                 <div class="col-12">
                     <div class="row d-flex justify-content-around">
-                        <div class="col-2">
-                            <a href="http://localhost/sandwech-mng/allergen">
-                                <div class="box-nav">
-                                    <h1>Allergeni</h1>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-2">
-                            <a href="http://localhost/sandwech-mng/break">
-                                <div class="box-nav">
-                                    <h1>Intervalli</h1>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-2">
-                            <a href="http://localhost/sandwech-mng/favourite">
-                                <div class="box-nav">
-                                    <h1>Preferiti</h1>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-2">
-                            <a href="http://localhost/sandwech-mng/ingredient">
-                                <div class="box-nav">
-                                    <h1>Ingredienti</h1>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-2">
-                            <a href="http://localhost/sandwech-mng/nutritional_value">
-                                <div class="box-nav">
-                                    <h1>Valori Nutrizionali</h1>
-                                </div>
-                            </a>
-                        </div>
+                        <?php echo MenuBox("Allergeni", "allergen"); ?>
+                        <?php echo MenuBox("Intervalli", "break"); ?>
+                        <?php echo MenuBox("Preferiti", "favourite"); ?>
+                        <?php echo MenuBox("Ingredienti", "ingredient"); ?>
+                        <?php echo MenuBox("Valori Nutrizionali", "nutritional_value"); ?>
+                    </div>
+                    <div class="row d-flex justify-content-around mt-5">
+                        <?php echo MenuBox("Offerte", "offer"); ?>
+                        <?php echo MenuBox("Ordini", "order"); ?>
+                        <?php echo MenuBox("Punti di Ritiro", "pickup"); ?>
+                        <?php echo MenuBox("Prodotti", "product"); ?>
+                        <?php echo MenuBox("Categorie", "tag"); ?>
                     </div>
                 </div>
             </div>
