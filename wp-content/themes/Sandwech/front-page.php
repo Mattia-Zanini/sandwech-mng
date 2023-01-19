@@ -40,20 +40,40 @@ get_header();
             <div class="row">
                 <div class="col-12">
                     <div class="row d-flex justify-content-around">
-                        <div class="box-nav col-1">
-                            <a href="<?php echo get_template_directory_uri()?>/templates/code_table_list_full.php"><h1>Prova 1 </h1></a>
+                        <div class="col-2">
+                            <a href="http://localhost/sandwech-mng/allergen">
+                                <div class="box-nav">
+                                    <h1>Allergeni</h1>
+                                </div>
+                            </a>
                         </div>
-                        <div class="box-nav col-1">
-                            <h1>Prova 2</h1>
+                        <div class="col-2">
+                            <a href="http://localhost/sandwech-mng/break">
+                                <div class="box-nav">
+                                    <h1>Intervalli</h1>
+                                </div>
+                            </a>
                         </div>
-                        <div class="box-nav col-1">
-                            <h1>Prova 3</h1>
+                        <div class="col-2">
+                            <a href="http://localhost/sandwech-mng/favourite">
+                                <div class="box-nav">
+                                    <h1>Preferiti</h1>
+                                </div>
+                            </a>
                         </div>
-                        <div class="box-nav col-1">
-                            <h1>Prova 4</h1>
+                        <div class="col-2">
+                            <a href="http://localhost/sandwech-mng/ingredient">
+                                <div class="box-nav">
+                                    <h1>Ingredienti</h1>
+                                </div>
+                            </a>
                         </div>
-                        <div class="box-nav col-1">
-                            <h1>Prova 5</h1>
+                        <div class="col-2">
+                            <a href="http://localhost/sandwech-mng/nutritional_value">
+                                <div class="box-nav">
+                                    <h1>Valori Nutrizionali</h1>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
