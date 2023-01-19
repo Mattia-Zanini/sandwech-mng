@@ -46,6 +46,8 @@ if ($current_user_role != "administrator") {
         get_template_part('templates/page', 'tag');
     } elseif (is_page('user')) {
         get_template_part('templates/page', 'user');
+    } elseif (is_page('login')) {
+        get_template_part('templates/page', 'login');
     } else {
         echo "error: unknown page type";
     }
