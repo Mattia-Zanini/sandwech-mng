@@ -1,5 +1,5 @@
 <div class="col-2">
-        <ul id="tables_list_full">
+        <ul class="tables_list">
                 <li class=""><a class="tables_list_name" href="http://localhost/sandwech-mng/allergen">allergen</a></li>
                 <li class=""><a class="tables_list_name" href="http://localhost/sandwech-mng/break">break</a></li>
                 <li class=""><a class="tables_list_name" href="http://localhost/sandwech-mng/cart">cart</a></li>

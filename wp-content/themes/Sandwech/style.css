@@ -51,6 +51,10 @@ body {
     color: black;
 }
 
+.tables_list{
+    background:#fff48f;
+}
+
 /* colori di prova */
 .box-nav {
     background-color: #fff48f;
@@ -76,4 +80,9 @@ body {
 .menu-box-text:hover {
     text-decoration: none;
     color: black;
+}
+
+ul li{
+    background: blanchedalmond;
+    margin: 5px;
 }
