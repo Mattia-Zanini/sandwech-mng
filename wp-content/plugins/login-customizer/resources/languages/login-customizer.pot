@@ -1,0 +1,715 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Custom Login Page Customizer\n"
+"POT-Creation-Date: 2021-01-25 16:12+0500\n"
+"PO-Revision-Date: 2021-01-25 10:37+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: plugin.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: backup/trunk/inc/customizer/controls/cool-stuff/cool-stuff-control.php:36
+msgid ""
+"Our free, 4-lesson course on how to make your WordPress site run incredibly "
+"fast is barely waiting for its students. Ready to learn how to reduce your "
+"loading times by half? Come and join the 1st lesson here!"
+msgstr ""
+
+#: backup/trunk/inc/customizer/controls/cool-stuff/cool-stuff-control.php:41
+msgid ""
+"Thank you for subscribing! You have been added to the mailing list and will "
+"receive the next email information in the coming weeks. If you ever wish to "
+"unsubscribe, simply use the Unsubscribe link included in each newsletter."
+msgstr ""
+
+#: backup/trunk/inc/customizer/controls/padding/padding-control.php:26
+#: src/Customizer/Panel/Controls/Padding.php:36
+msgid "Top"
+msgstr ""
+
+#: backup/trunk/inc/customizer/controls/padding/padding-control.php:28
+#: src/Customizer/Panel/Controls/Padding.php:38
+msgid "Right"
+msgstr ""
+
+#: backup/trunk/inc/customizer/controls/padding/padding-control.php:32
+#: src/Customizer/Panel/Controls/Padding.php:42
+msgid "Down"
+msgstr ""
+
+#: backup/trunk/inc/customizer/controls/padding/padding-control.php:34
+#: src/Customizer/Panel/Controls/Padding.php:44
+msgid "Left"
+msgstr ""
+
+#: backup/trunk/inc/customizer/controls/range-slider/range-slider-control.php:67
+#: src/Customizer/Panel/Controls/Range_Slider.php:67
+msgid "px"
+msgstr ""
+
+#: backup/trunk/inc/customizer/controls/range-slider/range-slider-control.php:69
+#: src/Customizer/Panel/Controls/Range_Slider.php:69
+msgid "%"
+msgstr ""
+
+#: backup/trunk/inc/customizer/controls/range-slider/range-slider-control.php:84
+#: src/Customizer/Panel/Controls/Range_Slider.php:83
+msgid "Reset"
+msgstr ""
+
+#: backup/trunk/inc/customizer/customizer.php:34
+#: backup/trunk/inc/initial-setup.php:92 src/Customizer/Initial_Setup.php:95
+#: src/Customizer/Panel/customizer.php:74 src/Settings/Setup.php:68
+msgid "Login Customizer"
+msgstr ""
+
+#: backup/trunk/inc/customizer/customizer.php:35
+msgid ""
+"This section allows you to customize the login page of your website. Made "
+"with ❤ by <a target=\"_blank\" rel=\"nofollow\" href=\"http://www."
+"hardeepasrani.com\">HardeepAsrani</a> team."
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-background.php:10
+#: backup/trunk/inc/customizer/sections/section-button.php:31
+#: backup/trunk/inc/customizer/sections/section-fields.php:279
+#: src/Customizer/Panel/Sections/Background.php:33
+#: src/Customizer/Panel/Sections/Button.php:57
+#: src/Customizer/Panel/Sections/Fields.php:302
+msgid "Background"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-background.php:31
+#: backup/trunk/inc/customizer/sections/section-form.php:54
+#: src/Customizer/Panel/Sections/Background.php:50
+#: src/Customizer/Panel/Sections/Form.php:77
+msgid "Background Color"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-background.php:54
+#: backup/trunk/inc/customizer/sections/section-form.php:30
+#: src/Customizer/Panel/Sections/Background.php:73
+#: src/Customizer/Panel/Sections/Form.php:53
+msgid "Background Image"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-background.php:75
+#: src/Customizer/Panel/Sections/Background.php:94
+msgid "Background Size"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-background.php:79
+#: src/Customizer/Panel/Sections/Background.php:98
+msgid "Original"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-background.php:80
+#: src/Customizer/Panel/Sections/Background.php:99
+msgid "Fit to Screen"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-background.php:81
+#: src/Customizer/Panel/Sections/Background.php:100
+msgid "Fill Screen"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-background.php:82
+#: backup/trunk/inc/customizer/sections/section-button.php:81
+#: src/Customizer/Panel/Sections/Background.php:101
+#: src/Customizer/Panel/Sections/Button.php:122
+msgid "Custom"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-background.php:102
+#: src/Customizer/Panel/Sections/Background.php:121
+msgid "Custom Size"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-background.php:122
+#: src/Customizer/Panel/Sections/Background.php:141
+msgid "Background Repeat"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-background.php:126
+#: src/Customizer/Panel/Sections/Background.php:145
+msgid "No Repeat"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-background.php:127
+#: src/Customizer/Panel/Sections/Background.php:146
+msgid "Repeat"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-background.php:128
+#: src/Customizer/Panel/Sections/Background.php:147
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-background.php:129
+#: src/Customizer/Panel/Sections/Background.php:148
+msgid "Repeat Vertically"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-background.php:164
+#: src/Customizer/Panel/Sections/Background.php:183
+msgid "Background Position"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-button.php:10
+#: src/Customizer/Panel/Sections/Button.php:36
+msgid "Button"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-button.php:55
+#: src/Customizer/Panel/Sections/Button.php:81
+msgid "Background (Hover)"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-button.php:76
+#: src/Customizer/Panel/Sections/Button.php:117
+msgid "Button Size"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-button.php:80
+#: src/Customizer/Panel/Sections/Button.php:121
+msgid "Auto"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-button.php:104
+#: backup/trunk/inc/customizer/sections/section-fields.php:55
+#: backup/trunk/inc/customizer/sections/section-form.php:78
+#: src/Customizer/Panel/Sections/Button.php:145
+#: src/Customizer/Panel/Sections/Fields.php:78
+#: src/Customizer/Panel/Sections/Form.php:101
+msgid "Width"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-button.php:136
+#: backup/trunk/inc/customizer/sections/section-form.php:110
+#: src/Customizer/Panel/Sections/Button.php:177
+#: src/Customizer/Panel/Sections/Form.php:133
+msgid "Height"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-button.php:168
+#: backup/trunk/inc/customizer/sections/section-fields.php:87
+#: backup/trunk/inc/customizer/sections/section-other.php:107
+#: src/Customizer/Panel/Sections/Button.php:209
+#: src/Customizer/Panel/Sections/Fields.php:110
+#: src/Customizer/Panel/Sections/Other.php:129
+msgid "Font Size"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-button.php:200
+#: backup/trunk/inc/customizer/sections/section-fields.php:303
+#: backup/trunk/inc/customizer/sections/section-other.php:139
+#: src/Customizer/Panel/Sections/Button.php:241
+#: src/Customizer/Panel/Sections/Fields.php:326
+#: src/Customizer/Panel/Sections/Other.php:161
+msgid "Text Color"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-button.php:224
+#: backup/trunk/inc/customizer/sections/section-fields.php:255
+#: backup/trunk/inc/customizer/sections/section-form.php:142
+#: src/Customizer/Panel/Sections/Button.php:265
+#: src/Customizer/Panel/Sections/Fields.php:278
+#: src/Customizer/Panel/Sections/Form.php:165
+msgid "Padding"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-button.php:248
+#: backup/trunk/inc/customizer/sections/section-fields.php:119
+#: src/Customizer/Panel/Sections/Button.php:289
+#: src/Customizer/Panel/Sections/Fields.php:142
+msgid "Border Width"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-button.php:280
+#: src/Customizer/Panel/Sections/Button.php:321
+msgid "Border"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-button.php:304
+#: src/Customizer/Panel/Sections/Button.php:345
+msgid "Border (Hover)"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-button.php:328
+#: backup/trunk/inc/customizer/sections/section-form.php:198
+#: src/Customizer/Panel/Sections/Button.php:369
+#: src/Customizer/Panel/Sections/Form.php:221
+msgid "Shadow Spread"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-button.php:360
+#: backup/trunk/inc/customizer/sections/section-form.php:230
+#: src/Customizer/Panel/Sections/Button.php:401
+#: src/Customizer/Panel/Sections/Form.php:253
+msgid "Box Shadow"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-button.php:384
+#: src/Customizer/Panel/Sections/Button.php:425
+msgid "Text Shadow"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-code.php:10
+#: src/Customizer/Panel/Sections/Code.php:30
+msgid "Custom CSS & JavaScript"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-code.php:28
+#: src/Customizer/Panel/Sections/Code.php:48
+msgid "Custom CSS"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-code.php:50
+#: src/Customizer/Panel/Sections/Code.php:70
+msgid "Custom JavaScript"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-fields.php:10
+#: src/Customizer/Panel/Sections/Fields.php:33
+msgid "Fields"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-fields.php:31
+#: src/Customizer/Panel/Sections/Fields.php:54
+msgid "Disable Remember Me?"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-fields.php:151
+#: src/Customizer/Panel/Sections/Fields.php:174
+msgid "Border Color"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-fields.php:175
+#: backup/trunk/inc/customizer/sections/section-form.php:166
+#: src/Customizer/Panel/Sections/Fields.php:198
+#: src/Customizer/Panel/Sections/Form.php:189
+msgid "Radius"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-fields.php:207
+#: src/Customizer/Panel/Sections/Fields.php:230
+msgid "Disable Box Shadow?"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-fields.php:231
+#: src/Customizer/Panel/Sections/Fields.php:254
+msgid "Margin"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-fields.php:327
+#: src/Customizer/Panel/Sections/Fields.php:350
+msgid "Label Color"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-fields.php:351
+#: src/Customizer/Panel/Sections/Fields.php:374
+msgid "Label Font Size"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-form.php:10
+#: src/Customizer/Panel/Sections/Form.php:33
+msgid "Form"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-logo.php:10
+#: backup/trunk/inc/customizer/sections/section-logo.php:54
+#: src/Customizer/Panel/Sections/Logo.php:32
+#: src/Customizer/Panel/Sections/Logo.php:76
+msgid "Logo"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-logo.php:31
+#: src/Customizer/Panel/Sections/Logo.php:53
+msgid "Disable Logo?"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-logo.php:78
+#: src/Customizer/Panel/Sections/Logo.php:100
+msgid "Logo Width"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-logo.php:110
+#: src/Customizer/Panel/Sections/Logo.php:132
+msgid "Logo Height"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-logo.php:142
+#: src/Customizer/Panel/Sections/Logo.php:164
+msgid "Padding Bottom"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-logo.php:171
+#: src/Customizer/Panel/Sections/Logo.php:193
+msgid "Logo URL"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-logo.php:172
+#: src/Customizer/Panel/Sections/Logo.php:194
+msgid "The page where your logo will take you."
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-more.php:9
+msgid "More Cool Stuff"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-other.php:10
+#: src/Customizer/Panel/Sections/Other.php:32 src/Includes/Disband.php:221
+msgid "Other"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-other.php:33
+#: src/Customizer/Panel/Sections/Other.php:55
+msgid "Disable Register Link?"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-other.php:59
+#: src/Customizer/Panel/Sections/Other.php:81
+msgid "Disable Lost Password?"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-other.php:83
+#: src/Customizer/Panel/Sections/Other.php:105
+msgid "Disable \"Back to Website\"?"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-other.php:163
+#: src/Customizer/Panel/Sections/Other.php:185
+msgid "Text Color (Hover)"
+msgstr ""
+
+#: backup/trunk/inc/customizer/sections/section-templates.php:10
+#: backup/trunk/inc/customizer/sections/section-templates.php:30
+#: src/Customizer/Panel/Sections/Templates.php:34
+#: src/Customizer/Panel/Sections/Templates.php:72
+msgid "Templates"
+msgstr ""
+
+#: backup/trunk/inc/include-page-template.php:72
+#: src/Customizer/Include_Page_Template.php:67
+msgid "Login Customizer Template"
+msgstr ""
+
+#: backup/trunk/inc/initial-setup.php:93 src/Customizer/Initial_Setup.php:96
+msgid ""
+"This page is used for Login Customizer plugin. It will not be visible to "
+"your readers. Do not delete it."
+msgstr ""
+
+#: backup/trunk/inc/template-login-customizer.php:27
+#: src/Customizer/template-login-customizer.php:29
+#, php-format
+msgid "%1$s &lsaquo; %2$s &#8212; WordPress"
+msgstr ""
+
+#: backup/trunk/inc/template-login-customizer.php:28
+#: backup/trunk/inc/template-login-customizer.php:87
+#: src/Customizer/template-login-customizer.php:30
+#: src/Customizer/template-login-customizer.php:98
+msgid "Log In"
+msgstr ""
+
+#: backup/trunk/inc/template-login-customizer.php:50
+#: src/Customizer/template-login-customizer.php:54
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: backup/trunk/inc/template-login-customizer.php:51
+#: src/Customizer/template-login-customizer.php:55
+msgid "Powered by WordPress"
+msgstr ""
+
+#: backup/trunk/inc/template-login-customizer.php:77
+#: src/Customizer/Panel/functions.php:136
+#: src/Customizer/template-login-customizer.php:88
+msgid "Username or Email Address"
+msgstr ""
+
+#: backup/trunk/inc/template-login-customizer.php:81
+#: src/Customizer/template-login-customizer.php:92
+#: src/Settings/Features/Custom_Register_Password.php:53
+msgid "Password"
+msgstr ""
+
+#: backup/trunk/inc/template-login-customizer.php:85
+#: src/Customizer/template-login-customizer.php:96
+msgid "Remember Me"
+msgstr ""
+
+#: backup/trunk/inc/template-login-customizer.php:93
+#: src/Customizer/template-login-customizer.php:104
+msgid "Register"
+msgstr ""
+
+#: backup/trunk/inc/template-login-customizer.php:99
+#: src/Customizer/template-login-customizer.php:110
+msgid "Lost your password?"
+msgstr ""
+
+#. translators: %s: site title
+#: backup/trunk/inc/template-login-customizer.php:105
+#: src/Customizer/template-login-customizer.php:116
+#, php-format
+msgctxt "site"
+msgid "&larr; Back to %s"
+msgstr ""
+
+#: src/Customizer/Panel/customizer.php:75
+msgid ""
+"This section allows you to customize the login page of your website. Made "
+"with ❤ by <a target=\"_blank\" rel=\"nofollow\" href=\"https://loginpress."
+"pro/\">Hardeep Asrani</a> team."
+msgstr ""
+
+#: src/Customizer/Panel/functions.php:132
+msgid "Username"
+msgstr ""
+
+#: src/Customizer/Panel/functions.php:134
+msgid "Email Address"
+msgstr ""
+
+#: src/Includes/Disband.php:146
+msgid "Quick feedback about Login Customizer"
+msgstr ""
+
+#: src/Includes/Disband.php:149
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr ""
+
+#: src/Includes/Disband.php:157
+msgid "I upgraded to Login Customizer Pro"
+msgstr ""
+
+#: src/Includes/Disband.php:159
+msgid ""
+"No need to deactivate this Login Customizer Core version. Pro version works "
+"as an add-on with Core version."
+msgstr ""
+
+#: src/Includes/Disband.php:166
+msgid "I only needed the plugin for a short period"
+msgstr ""
+
+#: src/Includes/Disband.php:175
+msgid "I found a better plugin"
+msgstr ""
+
+#: src/Includes/Disband.php:178
+msgid "Kindly tell us the Plugin name."
+msgstr ""
+
+#: src/Includes/Disband.php:185
+msgid "The plugin broke my site"
+msgstr ""
+
+#: src/Includes/Disband.php:194
+msgid "The plugin suddenly stopped working"
+msgstr ""
+
+#: src/Includes/Disband.php:203
+msgid "I no longer need the plugin"
+msgstr ""
+
+#: src/Includes/Disband.php:212
+msgid "It's a temporary deactivation. I'm just debugging an issue."
+msgstr ""
+
+#: src/Includes/Disband.php:224
+msgid "Kindly tell us the reason so we can improve."
+msgstr ""
+
+#: src/Includes/Disband.php:229
+msgid "Anonymous feedback"
+msgstr ""
+
+#: src/Includes/Disband.php:230
+msgid "Skip & Deactivate"
+msgstr ""
+
+#: src/Includes/Disband.php:233
+msgid "Submit & Deactivate"
+msgstr ""
+
+#: src/Includes/Disband.php:234
+msgid "Cancel"
+msgstr ""
+
+#: src/Includes/Plugin_Meta.php:74
+msgid "Support"
+msgstr ""
+
+#: src/Includes/Plugin_Meta.php:76
+msgid "Vote!"
+msgstr ""
+
+#: src/Includes/Plugin_Meta.php:79
+msgid "Rate"
+msgstr ""
+
+#: src/Includes/Plugin_Meta.php:102
+#, php-format
+msgid "%1$s Customize %2$s"
+msgstr ""
+
+#: src/Includes/Plugin_Meta.php:109
+#, php-format
+msgid " | %1$s Settings %2$s "
+msgstr ""
+
+#: src/Settings/API.php:398
+msgid "Choose File"
+msgstr ""
+
+#: src/Settings/API.php:558
+msgid "Plugin Support"
+msgstr ""
+
+#: src/Settings/API.php:561
+msgid "Got a Question, Idea, Problem or Praise?"
+msgstr ""
+
+#: src/Settings/API.php:563
+msgid "Support Request"
+msgstr ""
+
+#: src/Settings/Features/Custom_Register_Password.php:57
+msgid "Confirm Password"
+msgstr ""
+
+#: src/Settings/Features/Custom_Register_Password.php:78
+msgid "<strong>ERROR</strong>: Please enter your password twice."
+msgstr ""
+
+#: src/Settings/Features/Custom_Register_Password.php:82
+msgid ""
+"<strong>ERROR</strong>: Please enter the same password in the end password "
+"fields."
+msgstr ""
+
+#: src/Settings/Features/Custom_Register_Password.php:135
+msgid ""
+"If you have already set your own password, you may disregard this email and "
+"use the password you have already set."
+msgstr ""
+
+#: src/Settings/Features/Login_Order.php:84
+#, php-format
+msgid "%1$sError:%2$s The username field is empty."
+msgstr ""
+
+#: src/Settings/Features/Login_Order.php:86
+#, php-format
+msgid "%1$sError:%2$s The password field is empty."
+msgstr ""
+
+#: src/Settings/Features/Login_Order.php:107
+#, php-format
+msgid "%1$sError:%2$s Invalid Email Address"
+msgstr ""
+
+#: src/Settings/Features/Login_Order.php:130
+#, php-format
+msgid "%1$sError:%2$s Invalid Username."
+msgstr ""
+
+#: src/Settings/Setup.php:70 src/Settings/Setup.php:148
+msgid "Settings"
+msgstr ""
+
+#: src/Settings/Setup.php:72
+msgid "Customizer"
+msgstr ""
+
+#: src/Settings/Setup.php:74
+msgid "Help"
+msgstr ""
+
+#: src/Settings/Setup.php:149
+#, php-format
+msgid "Everything else is customizable through %1$sLogin Customizer%2$s."
+msgstr ""
+
+#: src/Settings/Setup.php:172
+msgid "Auto Remember Me"
+msgstr ""
+
+#: src/Settings/Setup.php:173
+msgid "Keep remember me option always checked on login page"
+msgstr ""
+
+#: src/Settings/Setup.php:179
+msgid "Login Order"
+msgstr ""
+
+#: src/Settings/Setup.php:180
+msgid "Enable users to login using their username or email address."
+msgstr ""
+
+#: src/Settings/Setup.php:184
+msgid "Both Username Or Email Address"
+msgstr ""
+
+#: src/Settings/Setup.php:185
+msgid "Only Username"
+msgstr ""
+
+#: src/Settings/Setup.php:186
+msgid "Only Email Address"
+msgstr ""
+
+#: src/Settings/Setup.php:192
+msgid "Custom Password Fields"
+msgstr ""
+
+#: src/Settings/Setup.php:193
+msgid "Enable custom password fields on registration form."
+msgstr ""
+
+#: src/Settings/Setup.php:217
+msgid "Login Customizer - Design your boring WordPress Login page"
+msgstr ""
+
+#: src/Settings/Setup.php:235
+#, php-format
+msgid "Free plugin support is available on the %1$s plugin support forums%2$s."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Custom Login Page Customizer"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/login-customizer/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Custom Login Customizer plugin allows you to easily customize your login "
+"page straight from your WordPress Customizer! Awesome, right?"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Hardeep Asrani"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://loginpress.pro/"
+msgstr ""

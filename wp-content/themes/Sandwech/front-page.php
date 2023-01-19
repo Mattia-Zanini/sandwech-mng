@@ -32,7 +32,7 @@ function MenuBox($text, $tableName)
 {
     return
         '<div class="col-2">
-        <a href="http://localhost/sandwech-mng/' . $tableName . '">
+        <a class="menu-box-text" href="http://localhost/sandwech-mng/' . $tableName . '">
             <div class="box-nav">
                 <h1>' . $text . '</h1>
             </div>

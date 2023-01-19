@@ -63,6 +63,17 @@ body {
     background-color: #fbff00;
 }
 
-.login-btn{
+.login-btn {
     margin-top: 1vw !important;
+}
+
+.menu-box-text {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2vw;
+}
+
+.menu-box-text:hover {
+    text-decoration: none;
+    color: black;
 }

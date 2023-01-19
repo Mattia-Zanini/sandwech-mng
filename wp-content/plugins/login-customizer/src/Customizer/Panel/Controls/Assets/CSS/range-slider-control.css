@@ -1,0 +1,118 @@
+.o2-range-slider {
+	width: 100%;
+}
+
+.o2-range-slider-range::-moz-range-track,
+.o2-range-slider-range::-moz-focus-inner,
+.o2-range-slider-range::-moz-focus-outer {
+	border: 0;
+	background: #d7dcdf;
+}
+
+.o2-range-slider-range {
+	width: -webkit-calc(100% - (100px));
+	width: calc(100% - (100px));
+	height: 10px;
+	margin: 0;
+	padding: 0;
+	border-radius: 5px;
+	outline: none;
+	background: #d7dcdf;
+
+	-webkit-appearance: none;
+}
+
+.o2-range-slider-range::-webkit-slider-thumb {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: #0085ba;
+	cursor: pointer;
+	-webkit-transition: background 0.15s ease-in-out;
+	transition: background 0.15s ease-in-out;
+
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+.o2-range-slider-range::-webkit-slider-thumb:hover {
+	background: #0071a8;
+}
+
+.o2-range-slider-range:active::-webkit-slider-thumb {
+	background: #0071a8;
+}
+
+.o2-range-slider-range::-moz-range-thumb {
+	width: 20px;
+	height: 20px;
+	border: 0;
+	border-radius: 50%;
+	background: #0085ba;
+	cursor: pointer;
+	-webkit-transition: background 0.15s ease-in-out;
+	transition: background 0.15s ease-in-out;
+}
+
+.o2-range-reset-slider .dashicons {
+	width: 16px;
+	height: 16px;
+	font-size: 16px;
+	line-height: 1;
+}
+
+.o2-range-reset-slider {
+	display: inline-block;
+	position: relative;
+	width: 6%;
+	color: rgba(0,0,0,0.2);
+	line-height: 1;
+	text-align: center;
+	cursor: pointer;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.o2-range-reset-slider:hover {
+	color: #fe5252;
+}
+
+.o2-range-slider-range::-moz-range-thumb:hover {
+	background: #0071a8;
+}
+
+.o2-range-slider-range:active::-moz-range-thumb {
+	background: #0071a8;
+}
+
+input[type="number"].o2-range-slider-value {
+	display: inline-block;
+	position: relative;
+	width: 60px;
+	margin-left: 8px;
+	padding: 5px 10px;
+	border-radius: 3px;
+	line-height: 20px;
+	text-align: center;
+}
+
+input[type=radio].o2-range-slider-buttonset {
+	display: none;
+}
+
+input[type=radio]:checked.o2-range-slider-buttonset + label {
+	border-color: #999;
+	background: #eee;
+	box-shadow: inset 0 2px 5px -3px rgba(0,0,0,0.5);
+	-webkit-transform: translateY(1px);
+	-ms-transform: translateY(1px);
+	transform: translateY(1px);
+}
+
+.customize-control-o2-range-slider .button-group {
+	white-space: normal;
+}
+
+.customize-control-o2-range-slider .button-group .button {
+	font-size: 10px;
+}

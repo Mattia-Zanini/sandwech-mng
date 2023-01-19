@@ -1,0 +1,16 @@
+.customize-control-logincust-padding .field-area {
+	width: 100%;
+}
+
+.customize-control-logincust-padding .field-icon {
+	display: inline-table;
+	width: 20%;
+}
+
+.customize-control-logincust-padding input[type=number] {
+	width: 25%;
+}
+
+.customize-control-logincust-padding input[type=text] {
+	display: none;
+}

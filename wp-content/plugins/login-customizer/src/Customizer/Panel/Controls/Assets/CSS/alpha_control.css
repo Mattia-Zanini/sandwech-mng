@@ -1,0 +1,51 @@
+.logincust-alpha-container .transparency {
+	width: 100%;
+	height: 24px;
+	padding: 0;
+	border-radius: 3px;
+	background-color: #fff;
+	background-image: url(../../Assets/img/transparency-grid.png);
+	box-shadow: 0 0 5px rgba(0,0,0,0.4) inset;
+}
+
+.logincust-alpha-container .ui-slider-handle {
+	position: absolute;
+	z-index: 2;
+	height: 20px;
+	margin-top: -2px;
+	padding: 3px;
+	border: 1px solid #aaa;
+	border-radius: 4px;
+	opacity: 0.9;
+	color: #777;
+	background-color: #fff;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	text-shadow: 0 1px 0 #fff;
+	font-size: 12px;
+	text-decoration: none;
+	cursor: ew-resize;
+}
+
+.logincust-alpha-container .ui-slider {
+	position: relative;
+	width: 88%;
+	text-align: center;
+}
+
+.wp-picker-container button.wp-picker-open ~ div.logincust-alpha-container {
+	display: block;
+}
+
+.logincust-alpha-container {
+	display: none;
+	box-sizing: padding-box;
+	width: 233px;
+	padding: 0 11px 6px;
+	border: 1px solid #dfdfdf;
+	border-top: none;
+	background: #fff;
+}
+
+.customize-control-alphacolor .wp-picker-container .iris-picker {
+	border-bottom: none;
+}
