@@ -47,9 +47,9 @@
                                     <div class="form-group">
                                         <label>Password</label>
                                         <div class="input-group" id="show_hide_password">
-                                            <input class="form-control form-control-lg" type="password">
+                                            <input class="form-control form-control-lg" id="form2Example18" type="password">
                                             <div class="input-group-addon">
-                                                <a href=" " style="color:black"><i class="fa fa-eye-slash" aria-hidden="true">nascondi</i></a>
+                                                <a href=" " style="color:black;"><i class="fa fa-eye-slash" aria-hidden="true">nascondi</i></a>
                                             </div>
                                         </div>
                                     </div>
