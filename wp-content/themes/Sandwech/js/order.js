@@ -16,11 +16,11 @@ $(window).on('load', function () {
         },
         {
             label: "Time:",
-            name: "time"
+            name: "breakTime"
         },
         {
             label: "Description:",
-            name: "description"
+            name: "descriptionStatus"
         },
         {
             label: "Name:",
