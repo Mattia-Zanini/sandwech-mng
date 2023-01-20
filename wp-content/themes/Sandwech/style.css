@@ -51,20 +51,20 @@ body {
     color: black;
 }
 
-.tables_list{
-    background:#fff48f;
+.tables_list {
+    background: #fff48f;
 }
 
 /* colori di prova */
 .box-nav {
-    background-color: #fff48f;
+    background-color: #ffed4bc4;
     border-radius: 20%;
     height: 15vw !important;
     width: 15vw !important;
 }
 
 .box-nav:hover {
-    background-color: #fbff00;
+    background-color: #ffe816;
 }
 
 .login-btn {
@@ -77,12 +77,17 @@ body {
     font-size: 1.2vw;
 }
 
+.text-style {
+    text-align: center;
+    padding-top: 4.3vw;
+}
+
 .menu-box-text:hover {
     text-decoration: none;
     color: black;
 }
 
-ul li{
+ul li {
     background: blanchedalmond;
     margin: 5px;
 }
