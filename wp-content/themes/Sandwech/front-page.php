@@ -30,6 +30,8 @@ get_header();
 
 function MenuBox($text, $tableName)
 {
+    // Inizio della funzione MenuBox con due parametri: $text e $tableName
+    // La funzione crea una sezione di navigazione del menu con un testo e un link specifici
     return
         '<div class="col-2">
         <a class="menu-box-text" href="http://localhost/sandwech-mng/' . $tableName . '">
@@ -38,6 +40,7 @@ function MenuBox($text, $tableName)
             </div>
         </a>
 </div>';
+    // Restituisce il codice HTML della sezione di navigazione del menu. Il link è costruito utilizzando il parametro $tableName, mentre il testo è il parametro $text
 }
 ?>
 
