@@ -5,27 +5,24 @@ $(window).on('load', function () {
     var editor = new $.fn.dataTable.Editor({
         ajax: "../EditorPHP/controllers/offer.php",
         table: "#table",
-        fields: [
-            {
-                label: "Name:",
-                name: "name"
-            },
-            {
-                label: "Price:",
-                name: "price"
-            },
-            {
-                label: "Start:",
-                name: "start"
-            },
-            {
-                label: "Expiry:",
-                name: "expiry"
-            },
-            {
-                label: "Description:",
-                name: "description"
-            }
+        fields: [{
+            label: "Price:",
+            name: "price"
+        },
+        {
+            label: "Start:",
+            name: "start",
+            type: "datetime"
+        },
+        {
+            label: "Expiry:",
+            name: "expiry",
+            type: "datetime"
+        },
+        {
+            label: "Description:",
+            name: "description"
+        }
         ]
     });
 
