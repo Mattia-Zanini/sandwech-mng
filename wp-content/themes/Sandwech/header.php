@@ -32,15 +32,6 @@ incluso in ogni pagina del sito, quindi è possibile utilizzarlo per creare un'i
                 <a class="navbar-brand mb-0 h1" href="http://localhost/sandwech-mng">Sandwech Management</a>
                 <img class="logo-img" src="<?php echo get_template_directory_uri(); ?>/assets/logo.png" width="40"
                     height="40" alt="">
-                <!--
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="http://localhost/sandwech-mng/user">User</a>
-                        </li>
-                    </ul>
-                </div>
-                -->
             </div>
         </nav>
     </header>
