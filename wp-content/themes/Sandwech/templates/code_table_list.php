@@ -13,6 +13,5 @@
         <li class=""><a class="tables_list_name" href="http://localhost/sandwech-mng/pickup">Punti di Ritiro</a></li>
         <li class=""><a class="tables_list_name" href="http://localhost/sandwech-mng/product">Prodotti</a></li>
         <li class=""><a class="tables_list_name" href="http://localhost/sandwech-mng/tag">Categorie</a></li>
-        <li class=""><a class="tables_list_name" href="http://localhost/sandwech-mng/user">Utenti</a></li>
     </ul>
 </div>
