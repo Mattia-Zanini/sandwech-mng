@@ -8,8 +8,7 @@ $(window).on('load', function () {
         fields: [
             {
                 label: "Classe:",
-                name: "class",
-                type:  "select"
+                name: "class"
             },
         ]
     });
@@ -29,8 +28,7 @@ $(window).on('load', function () {
                 data: "surname"
             },
             {
-                data: "section",
-                edietField:"class"
+                data: "section"
             },
             {
                 data: "year"
