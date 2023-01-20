@@ -101,5 +101,7 @@ if ($current_user_role != "administrator") {
     } else {
         echo "error: unknown page type";
     }
+} else {
+    echo "error: unknown page type";
 }
 ?>
