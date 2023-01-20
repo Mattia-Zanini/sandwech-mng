@@ -1,0 +1,2444 @@
+# Translation of Plugins - Members &#8211; Membership &amp; User Role Editor Plugin - Stable (latest release) in Italian
+# This file is distributed under the same license as the Plugins - Members &#8211; Membership &amp; User Role Editor Plugin - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-01-03 23:44:58+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: it\n"
+"Project-Id-Version: Plugins - Members &#8211; Membership &amp; User Role Editor Plugin - Stable (latest release)\n"
+
+#: admin/class-notifications.php:630
+msgid "Notifications"
+msgstr "Notifiche"
+
+#: admin/class-notifications.php:617
+msgid "Close"
+msgstr "Chiudi"
+
+#: admin/class-notifications.php:513 admin/class-notifications.php:578
+msgid "%s year ago"
+msgid_plural "%s years ago"
+msgstr[0] "%s anno fa"
+msgstr[1] "%s anni fa"
+
+#: admin/class-notifications.php:511 admin/class-notifications.php:576
+msgid "%s month ago"
+msgid_plural "%s months ago"
+msgstr[0] "%s mese fa"
+msgstr[1] "%s mesi fa"
+
+#: admin/class-notifications.php:509 admin/class-notifications.php:574
+msgid "%s week ago"
+msgid_plural "%s weeks ago"
+msgstr[0] "%s settimana fa"
+msgstr[1] "%s settimane fa"
+
+#: admin/class-notifications.php:507 admin/class-notifications.php:572
+msgid "%s day ago"
+msgid_plural "%s days ago"
+msgstr[0] "%s giorno fa"
+msgstr[1] "%s giorni fa"
+
+#: admin/class-notifications.php:505 admin/class-notifications.php:570
+msgid "%s hour ago"
+msgid_plural "%s hours ago"
+msgstr[0] "%s ora fa"
+msgstr[1] "%s ore fa"
+
+#: admin/class-notifications.php:503 admin/class-notifications.php:568
+msgid "%s minute ago"
+msgid_plural "%s minutes ago"
+msgstr[0] "%s minuto fa"
+msgstr[1] "%s minuti fa"
+
+#: admin/class-notifications.php:501 admin/class-notifications.php:566
+msgid "%s second ago"
+msgid_plural "%s seconds ago"
+msgstr[0] "%s secondo fa"
+msgstr[1] "%s secondi fa"
+
+#: admin/class-notifications.php:494 admin/class-notifications.php:559
+msgid "Dismiss"
+msgstr "Ignora"
+
+#. Translators: Readable time to display
+#: admin/class-notifications.php:290
+msgid "%1$s ago"
+msgstr "%1$s fa"
+
+#: admin/class-notifications.php:633
+msgid "Dismiss All"
+msgstr "Ignora tutto"
+
+#: admin/class-notifications.php:423
+msgid "%s unread message"
+msgid_plural "%s unread messages"
+msgstr[0] "%s messaggio non letto"
+msgstr[1] "%s messaggi non letti"
+
+#: admin/class-notifications.php:612
+msgid "Inbox"
+msgstr "Posta in arrivo"
+
+#: admin/class-meta-box-content-permissions.php:243
+#: admin/class-meta-box-content-permissions.php:364
+msgid "Add MemberPress"
+msgstr "Aggiungi MemberPress"
+
+#: admin/views/class-view-general.php:65
+msgid "Miscellaneous"
+msgstr "Varie"
+
+#: admin/class-review-prompt.php:97
+msgid "No thanks"
+msgstr "No, grazie"
+
+#: admin/class-review-prompt.php:90
+msgid "I already did"
+msgstr "L'ho già fatto"
+
+#: admin/class-review-prompt.php:89
+msgid "Nope, maybe later"
+msgstr "No, magari più tardi"
+
+#: admin/class-review-prompt.php:88
+msgid "Okay, you deserve it"
+msgstr "Ok, te lo meriti"
+
+#: admin/class-meta-box-content-permissions.php:115
+msgid "<svg width=\"15px\" aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"users-cog\" class=\"svg-inline--fa fa-users-cog fa-w-20\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 512\"><path fill=\"currentColor\" d=\"M610.5 341.3c2.6-14.1 2.6-28.5 0-42.6l25.8-14.9c3-1.7 4.3-5.2 3.3-8.5-6.7-21.6-18.2-41.2-33.2-57.4-2.3-2.5-6-3.1-9-1.4l-25.8 14.9c-10.9-9.3-23.4-16.5-36.9-21.3v-29.8c0-3.4-2.4-6.4-5.7-7.1-22.3-5-45-4.8-66.2 0-3.3.7-5.7 3.7-5.7 7.1v29.8c-13.5 4.8-26 12-36.9 21.3l-25.8-14.9c-2.9-1.7-6.7-1.1-9 1.4-15 16.2-26.5 35.8-33.2 57.4-1 3.3.4 6.8 3.3 8.5l25.8 14.9c-2.6 14.1-2.6 28.5 0 42.6l-25.8 14.9c-3 1.7-4.3 5.2-3.3 8.5 6.7 21.6 18.2 41.1 33.2 57.4 2.3 2.5 6 3.1 9 1.4l25.8-14.9c10.9 9.3 23.4 16.5 36.9 21.3v29.8c0 3.4 2.4 6.4 5.7 7.1 22.3 5 45 4.8 66.2 0 3.3-.7 5.7-3.7 5.7-7.1v-29.8c13.5-4.8 26-12 36.9-21.3l25.8 14.9c2.9 1.7 6.7 1.1 9-1.4 15-16.2 26.5-35.8 33.2-57.4 1-3.3-.4-6.8-3.3-8.5l-25.8-14.9zM496 368.5c-26.8 0-48.5-21.8-48.5-48.5s21.8-48.5 48.5-48.5 48.5 21.8 48.5 48.5-21.7 48.5-48.5 48.5zM96 224c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm224 32c1.9 0 3.7-.5 5.6-.6 8.3-21.7 20.5-42.1 36.3-59.2 7.4-8 17.9-12.6 28.9-12.6 6.9 0 13.7 1.8 19.6 5.3l7.9 4.6c.8-.5 1.6-.9 2.4-1.4 7-14.6 11.2-30.8 11.2-48 0-61.9-50.1-112-112-112S208 82.1 208 144c0 61.9 50.1 112 112 112zm105.2 194.5c-2.3-1.2-4.6-2.6-6.8-3.9-8.2 4.8-15.3 9.8-27.5 9.8-10.9 0-21.4-4.6-28.9-12.6-18.3-19.8-32.3-43.9-40.2-69.6-10.7-34.5 24.9-49.7 25.8-50.3-.1-2.6-.1-5.2 0-7.8l-7.9-4.6c-3.8-2.2-7-5-9.8-8.1-3.3.2-6.5.6-9.8.6-24.6 0-47.6-6-68.5-16h-8.3C179.6 288 128 339.6 128 403.2V432c0 26.5 21.5 48 48 48h255.4c-3.7-6-6.2-12.8-6.2-20.3v-9.2zM173.1 274.6C161.5 263.1 145.6 256 128 256H64c-35.3 0-64 28.7-64 64v32c0 17.7 14.3 32 32 32h65.9c6.3-47.4 34.9-87.3 75.2-109.4z\"></path></svg> "
+msgstr "<svg width=\"15px\" aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"users-cog\" class=\"svg-inline--fa fa-users-cog fa-w-20\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 512\"><path fill=\"currentColor\" d=\"M610.5 341.3c2.6-14.1 2.6-28.5 0-42.6l25.8-14.9c3-1.7 4.3-5.2 3.3-8.5-6.7-21.6-18.2-41.2-33.2-57.4-2.3-2.5-6-3.1-9-1.4l-25.8 14.9c-10.9-9.3-23.4-16.5-36.9-21.3v-29.8c0-3.4-2.4-6.4-5.7-7.1-22.3-5-45-4.8-66.2 0-3.3.7-5.7 3.7-5.7 7.1v29.8c-13.5 4.8-26 12-36.9 21.3l-25.8-14.9c-2.9-1.7-6.7-1.1-9 1.4-15 16.2-26.5 35.8-33.2 57.4-1 3.3.4 6.8 3.3 8.5l25.8 14.9c-2.6 14.1-2.6 28.5 0 42.6l-25.8 14.9c-3 1.7-4.3 5.2-3.3 8.5 6.7 21.6 18.2 41.1 33.2 57.4 2.3 2.5 6 3.1 9 1.4l25.8-14.9c10.9 9.3 23.4 16.5 36.9 21.3v29.8c0 3.4 2.4 6.4 5.7 7.1 22.3 5 45 4.8 66.2 0 3.3-.7 5.7-3.7 5.7-7.1v-29.8c13.5-4.8 26-12 36.9-21.3l25.8 14.9c2.9 1.7 6.7 1.1 9-1.4 15-16.2 26.5-35.8 33.2-57.4 1-3.3-.4-6.8-3.3-8.5l-25.8-14.9zM496 368.5c-26.8 0-48.5-21.8-48.5-48.5s21.8-48.5 48.5-48.5 48.5 21.8 48.5 48.5-21.7 48.5-48.5 48.5zM96 224c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm224 32c1.9 0 3.7-.5 5.6-.6 8.3-21.7 20.5-42.1 36.3-59.2 7.4-8 17.9-12.6 28.9-12.6 6.9 0 13.7 1.8 19.6 5.3l7.9 4.6c.8-.5 1.6-.9 2.4-1.4 7-14.6 11.2-30.8 11.2-48 0-61.9-50.1-112-112-112S208 82.1 208 144c0 61.9 50.1 112 112 112zm105.2 194.5c-2.3-1.2-4.6-2.6-6.8-3.9-8.2 4.8-15.3 9.8-27.5 9.8-10.9 0-21.4-4.6-28.9-12.6-18.3-19.8-32.3-43.9-40.2-69.6-10.7-34.5 24.9-49.7 25.8-50.3-.1-2.6-.1-5.2 0-7.8l-7.9-4.6c-3.8-2.2-7-5-9.8-8.1-3.3.2-6.5.6-9.8.6-24.6 0-47.6-6-68.5-16h-8.3C179.6 288 128 339.6 128 403.2V432c0 26.5 21.5 48 48 48h255.4c-3.7-6-6.2-12.8-6.2-20.3v-9.2zM173.1 274.6C161.5 263.1 145.6 256 128 256H64c-35.3 0-64 28.7-64 64v32c0 17.7 14.3 32 32 32h65.9c6.3-47.4 34.9-87.3 75.2-109.4z\"></path></svg> "
+
+#: admin/class-review-prompt.php:81
+msgid "Are you enjoying using Members?"
+msgstr "Ti sta piacendo utilizzare Members?"
+
+#: admin/functions-admin.php:201
+msgid "You're using Members. To unlock more features, consider <a href=\"https://memberpress.com/plans/pricing/?utm_source=members&utm_medium=link&utm_campaign=in_plugin&utm_content=pro_features\">adding MemberPress.</a>"
+msgstr "Stai utilizzando Members. Per sbloccare ulteriori funzionalità valuta <a href=\"https://memberpress.com/plans/pricing/?utm_source=members&utm_medium=link&utm_campaign=in_plugin&utm_content=pro_features\">l'aggiunta di MemberPress.</a>"
+
+#: admin/class-review-prompt.php:96
+msgid "Give Feedback"
+msgstr "Lasciaci un feedback"
+
+#: admin/class-review-prompt.php:94
+msgid "We're sorry to hear you aren't enjoying Members. We would love a chance to improve. Could you take a minute and let us know what we can do better?"
+msgstr "Ci dispiace sentire che non ti sta piacendo Members. Ci piacerebbe avere la possibilità di migliorare. Potresti dedicarci un minuto per farci sapere cosa possiamo fare meglio?"
+
+#: admin/class-review-prompt.php:85
+msgid "That's awesome! Could you please do me a BIG favor and give it a 5-star rating on WordPress to help us spread the word and boost our motivation?"
+msgstr "Meraviglioso! Potresti farmi un GRANDE favore e lasciare una valutazione a 5 stelle su WordPress per aiutarci a farci conoscere e motivarci?"
+
+#: addons/members-role-hierarchy/admin/class-manage-roles.php:86
+msgid "Position"
+msgstr "Posizione"
+
+#: addons/members-admin-access/app/class-view-settings.php:45
+msgid "Toolbar"
+msgstr "Barra degli strumenti"
+
+#: addons/members-admin-access/app/class-view-settings.php:43
+msgid "Select Roles"
+msgstr "Seleziona ruoli"
+
+#: addons/members-woocommerce-integration/src/functions-filters.php:37
+#: addons/members-woocommerce-integration/src/functions-filters.php:72
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: addons/members-role-hierarchy/admin/functions-settings.php:86
+msgid "Lower or equal."
+msgstr "Minore o uguale."
+
+#: addons/members-role-hierarchy/admin/functions-settings.php:31
+msgid "Role Hierarchy"
+msgstr "Gerarchia dei ruoli"
+
+#: addons/members-admin-access/app/class-view-settings.php:109
+msgid "Select which roles should have admin access."
+msgstr "Seleziona quali ruoli dovrebbero avere accesso amministrativo."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:137
+msgid "Orders: Edit Published"
+msgstr "Ordini: modificare quelli pubblicati"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:142
+msgid "Orders: Publish"
+msgstr "Ordini: pubblicare"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:152
+msgid "Orders: Delete"
+msgstr "Ordini: eliminare"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:165
+msgid "Orders: Delete Others'"
+msgstr "Ordini: eliminare quelli di altri"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:170
+msgid "Orders: Delete Published"
+msgstr "Ordini: eliminare i pubblicati"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:160
+msgid "Orders: Delete Private"
+msgstr "Ordini: eliminare quelli privati"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:127
+msgid "Orders: Edit Others'"
+msgstr "Ordini: modificare quelli di altri"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:119
+msgid "Orders: Edit"
+msgstr "Ordini: modificare"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:132
+msgid "Orders: Edit Private"
+msgstr "Ordini: modificare quelli privati"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:147
+msgid "Orders: Read Private"
+msgstr "Ordini: leggere quelli privati"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:181
+msgid "Orders: Edit Taxonomy Terms"
+msgstr "Ordini: modificare i termini della tassonomia"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:176
+msgid "Orders: Assign Taxonomy Terms"
+msgstr "Ordini: assegnare i termini della tassonomia"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:186
+msgid "Orders: Delete Taxonomy Terms"
+msgstr "Ordini: eliminare i termini della tassonomia"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:191
+msgid "Orders: Manage Taxonomy Terms"
+msgstr "Ordini: gestire i termini della tassonomia"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:197
+msgid "Coupons: Edit"
+msgstr "Codici promozionali: modificare"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:205
+msgid "Coupons: Edit Others'"
+msgstr "Codici promozionali: modificare quelli di altri"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:210
+msgid "Coupons: Edit Private"
+msgstr "Codici promozionali: modificare quelli privati"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:215
+msgid "Coupons: Edit Published"
+msgstr "Codici promozionali: modificare quelli pubblicati"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:220
+msgid "Coupons: Publish"
+msgstr "Codici promozionali: pubblicare"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:230
+msgid "Coupons: Delete"
+msgstr "Codici promozionali: eliminare"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:238
+msgid "Coupons: Delete Private"
+msgstr "Codici promozionali: eliminare quelli privati"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:243
+msgid "Coupons: Delete Others'"
+msgstr "Codici promozionali: eliminare quelli di altri"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:248
+msgid "Coupons: Delete Published"
+msgstr "Codici promozionali: eliminare quelli pubblicati"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:254
+msgid "Coupons: Assign Taxonomy Terms"
+msgstr "Codici promozionali: assegnare termini della tassonomia"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:259
+msgid "Coupons: Edit Taxonomy Terms"
+msgstr "Codici promozionali: modificare termini della tassonomia"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:264
+msgid "Coupons: Delete Taxonomy Terms"
+msgstr "Codici promozionali: eliminare termini della tassonomia"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:269
+msgid "Coupons: Manage Taxonomy Terms"
+msgstr "Codici promozionali: gestire termini della tassonomia"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:113
+msgid "Products: Manage Taxonomy Terms"
+msgstr "Prodotti: gestire i termini della tassonomia"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:108
+msgid "Products: Delete Taxonomy Terms"
+msgstr "Prodotti: eliminare termini della tassonomia"
+
+#: addons/members-role-hierarchy/admin/class-edit-role.php:97
+msgid "Role Position"
+msgstr "Posizione del ruolo"
+
+#: addons/members-admin-access/app/class-view-settings.php:152
+msgid "Redirect users without access to:"
+msgstr "Reindirizza gli utenti senza accesso a:"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:260
+msgid "Allows users to edit coupon taxonomy terms."
+msgstr "Permette agli utenti di modificare termini della tassonomia dei codici promozionali."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:255
+msgid "Allows users to assign taxonomy terms to coupons."
+msgstr "Permette agli utenti di assegnare termini della tassonomia ai codici promozionali."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:249
+msgid "Allows users to delete published coupons."
+msgstr "Permette agli utenti di eliminare codici promozionali pubblicati."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:244
+msgid "Allows users to delete other users' coupons."
+msgstr "Permette agli utenti di eliminare codici promozionali di altri utenti."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:239
+msgid "Allows users to delete private coupons."
+msgstr "Permette agli utenti di eliminare codici promozionali privati."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:226
+msgid "Allows users to read private coupons."
+msgstr "Permette agli utenti di leggere codici promozionali privati."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:225
+msgid "Coupons: Read Private"
+msgstr "Codici promozionali: leggere quelli privati"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:221
+msgid "Allows users to publish coupons."
+msgstr "Permette agli utenti di pubblicare codici promozionali."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:216
+msgid "Allows users to edit published coupons."
+msgstr "Permette agli utenti di modificare codici promozionali pubblicati."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:211
+msgid "Allows users to edit private coupons."
+msgstr "Permette agli utenti di modificare codici promozionali privati."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:206
+msgid "Allows users to edit other user's coupons."
+msgstr "Permette agli utenti di modificare codici promozionali di altri utenti."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:187
+msgid "Allows users to delete order taxonomy terms."
+msgstr "Permette agli utenti di eliminare termini della tassonomia degli ordini."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:182
+msgid "Allows users to edit order taxonomy terms."
+msgstr "Permette agli utenti di modificare termini della tassonomia degli ordini."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:177
+msgid "Allows users to assign taxonomy terms to orders."
+msgstr "Permette agli utenti di assegnare termini della tassonomia agli ordini."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:171
+msgid "Allows users to delete published orders."
+msgstr "Permette agli utenti di eliminare ordini pubblicati."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:166
+msgid "Allows users to delete other users' orders."
+msgstr "Permette agli utenti di eliminare ordini di altri utenti."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:161
+msgid "Allows users to delete private orders."
+msgstr "Permette agli utenti di eliminare ordini privati."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:148
+msgid "Allows users to read private orders."
+msgstr "Permette agli utenti di leggere ordini privati."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:143
+msgid "Allows users to publish orders."
+msgstr "Permette agli utenti di pubblicare ordini."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:138
+msgid "Allows users to edit published orders."
+msgstr "Permette agli utenti di modificare ordini pubblicati."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:133
+msgid "Allows users to edit private orders."
+msgstr "Permette agli utenti di modificare ordini privati."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:128
+msgid "Allows users to edit other user's orders."
+msgstr "Permette agli utenti di modificare ordini di altri utenti."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:109
+msgid "Allows users to delete product taxonomy terms."
+msgstr "Permette agli utenti di eliminare termini della tassonomia dei prodotti."
+
+#: addons/members-admin-access/app/class-view-settings.php:172
+msgid "Disable toolbar on the front end for users without admin access."
+msgstr "Disabilita la barra degli strumenti nel frontend per gli utenti senza accesso amministrativo."
+
+#: addons/members-admin-access/app/class-view-settings.php:44
+msgid "Redirect"
+msgstr "Reindirizzamento"
+
+#: addons/members-admin-access/app/class-view-settings.php:95
+msgid "Control admin access by user role."
+msgstr "Controlla l'accesso amministrativo per ruolo utente."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:265
+msgid "Allows users to delete coupon taxonomy terms."
+msgstr "Permette agli utenti di eliminare termini della tassonomia dei codici promozionali."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:232
+msgid "Allows users to delete coupons. May need to be combined with other %s capabilities, depending on the scenario."
+msgstr "Permette agli utenti di eliminare codici promozionali. Potrebbe essere combinato con altre capacità di %s, a seconda della situazione."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:199
+msgid "Allows users to edit coupons. May need to be combined with other %s capabilities, depending on the scenario."
+msgstr "Permette agli utenti di modificare codici promozionali. Potrebbe essere combinato con altre capacità di %s, a seconda della situazione."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:154
+msgid "Allows users to delete orders. May need to be combined with other %s capabilities, depending on the scenario."
+msgstr "Permette agli utenti di eliminare ordini. Potrebbe essere combinato con altre capacità di %s, a seconda della situazione."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:121
+msgid "Allows users to edit orders. May need to be combined with other %s capabilities, depending on the scenario."
+msgstr "Permette agli utenti di modificare ordini. Potrebbe essere combinato con altre capacità di %s, a seconda della situazione."
+
+#: addons/members-role-hierarchy/admin/class-edit-role.php:124
+msgid "Set the role's position in the hierarchy."
+msgstr "Imposta la posizione del ruolo nella gerarchia."
+
+#: addons/members-category-and-tag-caps/uninstall.php:15
+msgid "%s should only be called when uninstalling the plugin."
+msgstr "%s dovrebbe essere chiamato solo alla disinstallazione del plugin."
+
+#: addons/members-core-create-caps/addon.php:30
+msgid "Create Pages"
+msgstr "Creare pagine"
+
+#: addons/members-core-create-caps/addon.php:25
+msgid "Create Posts"
+msgstr "Creare articoli"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:29
+msgid "Manage WooCommerce"
+msgstr "Gestisci WooCommerce"
+
+#: addons/members-edd-integration/src/functions-filters.php:70
+msgid "Downloads"
+msgstr "Download"
+
+#: addons/members-acf-integration/src/Plugin.php:365
+msgid "Custom Fields"
+msgstr "Campi personalizzati"
+
+#: addons/members-role-levels/admin/class-column-level.php:83
+#: addons/members-role-levels/admin/class-meta-box-level.php:71
+msgid "Level"
+msgstr "Livello"
+
+#: addons/members-role-levels/admin/functions-helpers.php:71
+msgid "Level 10"
+msgstr "Livello 10"
+
+#: addons/members-role-levels/admin/functions-helpers.php:70
+msgid "Level 9"
+msgstr "Livello 9"
+
+#: addons/members-role-levels/admin/functions-helpers.php:69
+msgid "Level 8"
+msgstr "Livello 8"
+
+#: addons/members-role-levels/admin/functions-helpers.php:68
+msgid "Level 7"
+msgstr "Livello 7"
+
+#: addons/members-role-levels/admin/functions-helpers.php:67
+msgid "Level 6"
+msgstr "Livello 6"
+
+#: addons/members-role-levels/admin/functions-helpers.php:66
+msgid "Level 5"
+msgstr "Livello 5"
+
+#: addons/members-role-levels/admin/functions-helpers.php:65
+msgid "Level 4"
+msgstr "Livello 4"
+
+#: addons/members-role-levels/admin/functions-helpers.php:64
+msgid "Level 3"
+msgstr "Livello 3"
+
+#: addons/members-role-levels/admin/functions-helpers.php:63
+msgid "Level 2"
+msgstr "Livello 2"
+
+#: addons/members-role-levels/admin/functions-helpers.php:62
+msgid "Level 1"
+msgstr "Livello 1"
+
+#: addons/members-role-levels/admin/functions-helpers.php:61
+msgid "Level 0"
+msgstr "Livello 0"
+
+#: addons/members-block-permissions/src/Editor.php:94
+msgid "Condition"
+msgstr "Condizione"
+
+#: addons/members-block-permissions/src/Editor.php:115
+msgid "User Role"
+msgstr "Ruolo utente"
+
+#: addons/members-block-permissions/src/Editor.php:114
+#: addons/members-block-permissions/src/Editor.php:123
+msgid "User Status"
+msgstr "Stato utente"
+
+#: addons/members-givewp-integration/src/functions-filters.php:37
+#: addons/members-givewp-integration/src/functions-filters.php:69
+msgid "GiveWP"
+msgstr "GiveWP"
+
+#: addons/members-block-permissions/src/Editor.php:87 members.php:466
+msgid "Permissions"
+msgstr "Autorizzazioni"
+
+#: admin/class-settings.php:228 admin/class-settings.php:353
+msgctxt "admin screen"
+msgid "Payments"
+msgstr "Pagamenti"
+
+#: admin/class-settings.php:225
+msgctxt "admin screen"
+msgid "<span style=\"color: #8CBD5A;\">Add-Ons</span>"
+msgstr "<span style=\"color: #8CBD5A;\">Add-on</span>"
+
+#: admin/class-settings.php:225
+msgctxt "admin screen"
+msgid "Add-Ons"
+msgstr "Add-on"
+
+#: admin/class-settings.php:223
+msgctxt "admin screen"
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: admin/class-settings.php:149
+msgid "Add-on deactivated"
+msgstr "Add-on disattivato"
+
+#: admin/class-settings.php:137
+msgid "Add-on activated"
+msgstr "Add-on attivato"
+
+#: admin/class-role-new.php:133
+msgctxt "admin screen"
+msgid "Add New Role"
+msgstr "Aggiungi nuovo ruolo"
+
+#: admin/class-settings.php:148 admin/views/class-view-addons.php:153
+#: admin/views/class-view-addons.php:159
+msgid "Activate"
+msgstr "Attiva"
+
+#: admin/class-settings.php:231 admin/class-settings.php:609
+msgctxt "admin screen"
+msgid "About Us"
+msgstr "Chi siamo"
+
+#: addons/members-givewp-integration/src/functions-caps.php:112
+msgid "Forms: View Stats"
+msgstr "Moduli: visualizzare statistiche"
+
+#: addons/members-givewp-integration/src/functions-caps.php:107
+msgid "Forms: Import"
+msgstr "Moduli: importare"
+
+#: addons/members-givewp-integration/src/functions-caps.php:92
+msgid "Forms: Delete Private"
+msgstr "Moduli: eliminare quelli privati"
+
+#: addons/members-givewp-integration/src/functions-caps.php:84
+msgid "Forms: Delete"
+msgstr "Moduli: eliminare"
+
+#: addons/members-givewp-integration/src/functions-caps.php:74
+msgid "Forms: Publish"
+msgstr "Moduli: pubblicare"
+
+#: addons/members-givewp-integration/src/functions-caps.php:69
+msgid "Forms: Edit Published"
+msgstr "Moduli: modificare quelli pubblicati"
+
+#: addons/members-givewp-integration/src/functions-caps.php:64
+msgid "Forms: Edit Private"
+msgstr "Moduli: modificare quelli privati"
+
+#: addons/members-givewp-integration/src/functions-caps.php:200
+msgid "Donations: View"
+msgstr "Donazioni: visualizzare"
+
+#: addons/members-givewp-integration/src/functions-caps.php:195
+msgid "Donations: Import"
+msgstr "Donazioni: importare"
+
+#: addons/members-givewp-integration/src/functions-caps.php:190
+msgid "Donations: Delete Published"
+msgstr "Donazioni: eliminare quelle pubblicate"
+
+#: addons/members-givewp-integration/src/functions-caps.php:180
+msgid "Donations: Delete Private"
+msgstr "Donazioni: eliminare quelle private"
+
+#: addons/members-givewp-integration/src/functions-caps.php:172
+msgid "Donations: Delete"
+msgstr "Donazioni: eliminare"
+
+#: addons/members-givewp-integration/src/functions-caps.php:162
+msgid "Donations: Publish"
+msgstr "Donazioni: pubblicare"
+
+#: addons/members-givewp-integration/src/functions-caps.php:157
+msgid "Donations: Edit Published"
+msgstr "Donazioni: modificare quelle pubblicate"
+
+#: addons/members-givewp-integration/src/functions-caps.php:152
+msgid "Donations: Edit Private"
+msgstr "Donazioni: modificare quelle private"
+
+#: addons/members-givewp-integration/src/functions-caps.php:139
+msgid "Donations: Edit"
+msgstr "Donazioni: modificare"
+
+#: addons/members-givewp-integration/src/functions-caps.php:29
+msgid "GiveWP: Manage Settings"
+msgstr "GiveWP: gestire le impostazioni"
+
+#: addons/members-givewp-integration/src/functions-caps.php:34
+msgid "GiveWP: View Sensitive Data"
+msgstr "GiveWP: visualizzare i dati sensibili"
+
+#: addons/members-givewp-integration/src/functions-caps.php:51
+msgid "Forms: Edit"
+msgstr "Moduli: modificare"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:92
+msgid "Products: Delete Published"
+msgstr "Prodotti: eliminare quelli pubblicati"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:87
+msgid "Products: Delete Others'"
+msgstr "Prodotti: eliminare quelli di altri"
+
+#: addons/members-givewp-integration/src/functions-caps.php:59
+msgid "Forms: Edit Others'"
+msgstr "Moduli: modificare quelli di altri"
+
+#: addons/members-givewp-integration/src/functions-caps.php:147
+msgid "Donations: Edit Others'"
+msgstr "Donazioni: modificare quelle di altri"
+
+#: addons/members-givewp-integration/src/functions-caps.php:185
+msgid "Donations: Delete Others'"
+msgstr "Donazioni: eliminare quelle di altri"
+
+#: addons/members-givewp-integration/src/functions-caps.php:97
+msgid "Forms: Delete Others'"
+msgstr "Moduli: eliminare quelli di altri"
+
+#: addons/members-givewp-integration/src/functions-caps.php:102
+msgid "Forms: Delete Published"
+msgstr "Moduli: eliminare quelli pubblicati"
+
+#: addons/members-givewp-integration/src/functions-caps.php:79
+msgid "Forms: Read Private"
+msgstr "Moduli: leggere quelli privati"
+
+#: addons/members-givewp-integration/src/functions-caps.php:205
+msgid "Donations: View Stats"
+msgstr "Donazioni: visualizzare statistiche"
+
+#: addons/members-edd-integration/src/functions-caps.php:62
+msgid "Downloads: View Stats"
+msgstr "Download: visualizzare statistiche"
+
+#: addons/members-acf-integration/src/Plugin.php:333
+msgid "Advanced Custom Fields"
+msgstr "Advanced Custom Fields"
+
+#: addons/members-edd-integration/src/functions-caps.php:106
+msgid "Downloads: Delete"
+msgstr "Download: eliminare"
+
+#: addons/members-edd-integration/src/functions-caps.php:96
+msgid "Downloads: Publish"
+msgstr "Download: pubblicare"
+
+#: addons/members-edd-integration/src/functions-caps.php:91
+msgid "Downloads: Edit Published"
+msgstr "Download: modificare quelli pubblicati"
+
+#: addons/members-edd-integration/src/functions-caps.php:86
+msgid "Downloads: Edit Private"
+msgstr "Download: modificare quelli privati"
+
+#: addons/members-edd-integration/src/functions-caps.php:81
+msgid "Downloads: Edit Others'"
+msgstr "Download: modificare quelli di altri"
+
+#: addons/members-edd-integration/src/functions-caps.php:73
+msgid "Downloads: Edit"
+msgstr "Download: modificare"
+
+#: addons/members-edd-integration/src/functions-caps.php:67
+msgid "Downloads: Import"
+msgstr "Download: importare"
+
+#: addons/members-edd-integration/src/functions-caps.php:160
+msgid "Payments: Import"
+msgstr "Pagamenti: importare"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:103
+msgid "Products: Edit Taxonomy Terms"
+msgstr "Prodotti: modificare termini della tassonomia"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:98
+msgid "Products: Assign Taxonomy Terms"
+msgstr "Prodotti: assegnare termini della tassonomia"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:82
+msgid "Products: Delete Private"
+msgstr "Prodotti: eliminare quelli privati"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:74
+msgid "Products: Delete"
+msgstr "Prodotti: eliminare"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:69
+msgid "Products: Read Private"
+msgstr "Prodotti: leggere quelli privati"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:64
+msgid "Products: Publish"
+msgstr "Prodotti: pubblicare"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:59
+msgid "Products: Edit Published"
+msgstr "Prodotti: modificare quelli pubblicati"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:54
+msgid "Products: Edit Private"
+msgstr "Prodotti: modificare quelli privati"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:49
+msgid "Products: Edit Others'"
+msgstr "Prodotti: modificare quelli di altri"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:41
+msgid "Products: Edit"
+msgstr "Prodotti: modificare"
+
+#: addons/members-edd-integration/src/functions-caps.php:336
+msgid "Discounts: Manage Taxonomy Terms"
+msgstr "Sconti: gestire i termini della tassonomia"
+
+#: addons/members-edd-integration/src/functions-caps.php:331
+msgid "Discounts: Delete Taxonomy Terms"
+msgstr "Sconti: eliminare termini della tassonomia"
+
+#: addons/members-edd-integration/src/functions-caps.php:326
+msgid "Discounts: Edit Taxonomy Terms"
+msgstr "Sconti: modificare termini della tassonomia"
+
+#: addons/members-edd-integration/src/functions-caps.php:321
+msgid "Discounts: Assign Taxonomy Terms"
+msgstr "Sconti: assegnare termini della tassonomia"
+
+#: addons/members-edd-integration/src/functions-caps.php:315
+msgid "Discounts: Delete Published"
+msgstr "Sconti: eliminare quelli pubblicati"
+
+#: addons/members-edd-integration/src/functions-caps.php:310
+msgid "Discounts: Delete Others'"
+msgstr "Sconti: eliminare quelli di altri"
+
+#: addons/members-edd-integration/src/functions-caps.php:305
+msgid "Discounts: Delete Private"
+msgstr "Sconti: eliminare quelli privati"
+
+#: addons/members-edd-integration/src/functions-caps.php:297
+msgid "Discounts: Delete"
+msgstr "Sconti: eliminare"
+
+#: addons/members-edd-integration/src/functions-caps.php:292
+msgid "Discounts: Read Private"
+msgstr "Sconti: leggere quelli privati"
+
+#: addons/members-edd-integration/src/functions-caps.php:287
+msgid "Discounts: Publish"
+msgstr "Sconti: pubblicare"
+
+#: addons/members-edd-integration/src/functions-caps.php:282
+msgid "Discounts: Edit Published"
+msgstr "Sconti: modificare quelli pubblicati"
+
+#: addons/members-edd-integration/src/functions-caps.php:277
+msgid "Discounts: Edit Private"
+msgstr "Sconti: modificare quelli privati"
+
+#: addons/members-edd-integration/src/functions-caps.php:272
+msgid "Discounts: Edit Others'"
+msgstr "Sconti: modificare quelli di altri"
+
+#: addons/members-edd-integration/src/functions-caps.php:264
+msgid "Discounts: Edit"
+msgstr "Sconti: modificare"
+
+#: addons/members-edd-integration/src/functions-caps.php:258
+msgid "Discounts: Import"
+msgstr "Sconti: importare"
+
+#: addons/members-edd-integration/src/functions-caps.php:253
+msgid "Discounts: View Stats"
+msgstr "Sconti: visualizzare le statistiche"
+
+#: addons/members-edd-integration/src/functions-caps.php:248
+msgid "Discounts: Manage"
+msgstr "Sconti: gestire"
+
+#: addons/members-edd-integration/src/functions-caps.php:238
+msgid "Payments: Manage Taxonomy Terms"
+msgstr "Pagamenti: gestire i termini della tassonomia"
+
+#: addons/members-edd-integration/src/functions-caps.php:233
+msgid "Payments: Delete Taxonomy Terms"
+msgstr "Pagamenti: eliminare termini della tassonomia"
+
+#: addons/members-edd-integration/src/functions-caps.php:228
+msgid "Payments: Edit Taxonomy Terms"
+msgstr "Pagamenti: modificare termini della tassonomia"
+
+#: addons/members-edd-integration/src/functions-caps.php:223
+msgid "Payments: Assign Taxonomy Terms"
+msgstr "Pagamenti: assegnare termini della tassonomia"
+
+#: addons/members-edd-integration/src/functions-caps.php:217
+msgid "Payments: Delete Published"
+msgstr "Pagamenti: eliminare quelli pubblicati"
+
+#: addons/members-edd-integration/src/functions-caps.php:212
+msgid "Payments: Delete Others'"
+msgstr "Pagamenti: eliminare quelli di altri"
+
+#: addons/members-edd-integration/src/functions-caps.php:207
+msgid "Payments: Delete Private"
+msgstr "Pagamenti: eliminare quelli privati"
+
+#: addons/members-edd-integration/src/functions-caps.php:199
+msgid "Payments: Delete"
+msgstr "Pagamenti: eliminare"
+
+#: addons/members-edd-integration/src/functions-caps.php:194
+msgid "Payments: Read Private"
+msgstr "Pagamenti: leggere quelli privati"
+
+#: addons/members-edd-integration/src/functions-caps.php:189
+msgid "Payments: Publish"
+msgstr "Pagamenti: pubblicare"
+
+#: addons/members-edd-integration/src/functions-caps.php:184
+msgid "Payments: Edit Published"
+msgstr "Pagamenti: modificare quelli pubblicati"
+
+#: addons/members-edd-integration/src/functions-caps.php:179
+msgid "Payments: Edit Private"
+msgstr "Pagamenti: modificare quelli privati"
+
+#: addons/members-edd-integration/src/functions-caps.php:174
+msgid "Payments: Edit Others'"
+msgstr "Pagamenti: modificare quelli di altri"
+
+#: addons/members-edd-integration/src/functions-caps.php:166
+msgid "Payments: Edit"
+msgstr "Pagamenti: modificare"
+
+#: addons/members-edd-integration/src/functions-caps.php:155
+msgid "Payments: View Stats"
+msgstr "Pagamenti: visualizzare le statistiche"
+
+#: addons/members-edd-integration/src/functions-caps.php:101
+msgid "Downloads: Read Private"
+msgstr "Download: leggere quelli privati"
+
+#: addons/members-edd-integration/src/functions-caps.php:124
+msgid "Downloads: Delete Published"
+msgstr "Download: eliminare quelli pubblicati"
+
+#: addons/members-edd-integration/src/functions-caps.php:119
+msgid "Downloads: Delete Others'"
+msgstr "Download: eliminare quelli di altri"
+
+#: addons/members-edd-integration/src/functions-caps.php:114
+msgid "Downloads: Delete Private"
+msgstr "Download: eliminare quelli privati"
+
+#: addons/members-givewp-integration/src/functions-caps.php:75
+msgid "Allows users to publish donation forms."
+msgstr "Permette agli utenti di pubblicare moduli di donazione."
+
+#: addons/members-givewp-integration/src/functions-caps.php:70
+msgid "Allows users to edit published donation forms."
+msgstr "Permette agli utenti di modificare moduli di donazione pubblicati."
+
+#: addons/members-givewp-integration/src/functions-caps.php:65
+msgid "Allows users to edit private donation forms."
+msgstr "Permette agli utenti di modificare moduli di donazione privati."
+
+#: addons/members-givewp-integration/src/functions-caps.php:60
+msgid "Allows users to edit other user's donation forms."
+msgstr "Permette agli utenti di modificare moduli di donazione di altri utenti."
+
+#: addons/members-givewp-integration/src/functions-caps.php:53
+msgid "Allows users to edit donation forms. May need to be combined with other %s capabilities, depending on the scenario."
+msgstr "Permette agli utenti di modificare moduli di donazione. Potrebbe essere combinato con altre capacità di %s, a seconda della situazione."
+
+#: addons/members-givewp-integration/src/functions-caps.php:30
+msgid "Allows access to manage the GiveWP plugin settings."
+msgstr "Permette l'accesso per gestire le impostazioni del plugin GiveWP."
+
+#: addons/members-givewp-integration/src/functions-caps.php:118
+msgid "Forms: Assign Taxonomy Terms"
+msgstr "Moduli: assegnare termini della tassonomia"
+
+#: addons/members-givewp-integration/src/functions-caps.php:123
+msgid "Forms: Edit Taxonomy Terms"
+msgstr "Moduli: modificare termini della tassonomia"
+
+#: addons/members-givewp-integration/src/functions-caps.php:128
+msgid "Forms: Delete Taxonomy Terms"
+msgstr "Moduli: eliminare termini della tassonomia"
+
+#: addons/members-givewp-integration/src/functions-caps.php:133
+msgid "Forms: Manage Taxonomy Terms"
+msgstr "Moduli: gestire i termini della tassonomia"
+
+#: addons/members-givewp-integration/src/functions-caps.php:108
+msgid "Allows users to import donation forms."
+msgstr "Permette agli utenti di importare moduli di donazione."
+
+#: addons/members-givewp-integration/src/functions-caps.php:103
+msgid "Allows users to delete published donation forms."
+msgstr "Permette agli utenti di eliminare moduli di donazione pubblicati."
+
+#: addons/members-givewp-integration/src/functions-caps.php:98
+msgid "Allows users to delete other users' donation forms."
+msgstr "Permette agli utenti di eliminare moduli di donazione di altri utenti."
+
+#: addons/members-givewp-integration/src/functions-caps.php:93
+msgid "Allows users to delete private donation forms."
+msgstr "Permette agli utenti di eliminare moduli di donazione privati."
+
+#: addons/members-givewp-integration/src/functions-caps.php:80
+msgid "Allows users to read private donation forms."
+msgstr "Permette agli utenti di leggere moduli di donazione privati."
+
+#: addons/members-givewp-integration/src/functions-caps.php:148
+msgid "Allows users to edit other user's donations."
+msgstr "Permette agli utenti di modificare donazioni di altri utenti."
+
+#: addons/members-givewp-integration/src/functions-caps.php:196
+msgid "Allows users to import donations."
+msgstr "Permette agli utenti di importare donazioni."
+
+#: addons/members-givewp-integration/src/functions-caps.php:191
+msgid "Allows users to delete published donations."
+msgstr "Permette agli utenti di eliminare donazioni pubblicate."
+
+#: addons/members-givewp-integration/src/functions-caps.php:186
+msgid "Allows users to delete other users' donations."
+msgstr "Permette agli utenti di eliminare donazioni di altri utenti."
+
+#: addons/members-givewp-integration/src/functions-caps.php:181
+msgid "Allows users to delete private donations."
+msgstr "Permette agli utenti di eliminare donazioni private."
+
+#: addons/members-givewp-integration/src/functions-caps.php:168
+msgid "Allows users to read private donations."
+msgstr "Permette agli utenti di leggere donazioni private."
+
+#: addons/members-givewp-integration/src/functions-caps.php:167
+msgid "Donations: Read Private"
+msgstr "Donazioni: leggere quelle private"
+
+#: addons/members-givewp-integration/src/functions-caps.php:163
+msgid "Allows users to publish donations."
+msgstr "Permette agli utenti di pubblicare donazioni."
+
+#: addons/members-givewp-integration/src/functions-caps.php:158
+msgid "Allows users to edit published donations."
+msgstr "Permette agli utenti di modificare donazioni pubblicate."
+
+#: addons/members-givewp-integration/src/functions-caps.php:153
+msgid "Allows users to edit private donations."
+msgstr "Permette agli utenti di modificare donazioni private."
+
+#: addons/members-givewp-integration/src/functions-caps.php:201
+msgid "Allows users to view donations."
+msgstr "Permette agli utenti di visualizzare donazioni."
+
+#: addons/members-givewp-integration/src/functions-caps.php:211
+msgid "Donations: Assign Taxonomy Terms"
+msgstr "Donazioni: assegnare termini della tassonomia"
+
+#: addons/members-givewp-integration/src/functions-caps.php:206
+msgid "Allows users to view donation stats."
+msgstr "Permette agli utenti di visualizzare le statistiche sulle donazioni."
+
+#: addons/members-givewp-integration/src/functions-caps.php:216
+msgid "Donations: Edit Taxonomy Terms"
+msgstr "Donazioni: modificare termini della tassonomia"
+
+#: addons/members-givewp-integration/src/functions-caps.php:212
+msgid "Allows users to assign taxonomy terms to donations."
+msgstr "Permette agli utenti di assegnare termini della tassonomia alle donazioni."
+
+#: addons/members-block-permissions/src/Editor.php:112
+msgid "Type"
+msgstr "Tipo"
+
+#: addons/members-givewp-integration/src/functions-caps.php:226
+msgid "Donations: Manage Taxonomy Terms"
+msgstr "Donazioni: gestire i termini della tassonomia"
+
+#: addons/members-givewp-integration/src/functions-caps.php:222
+msgid "Allows users to delete donation taxonomy terms."
+msgstr "Permette agli utenti di eliminare termini della tassonomia delle donazioni."
+
+#: addons/members-givewp-integration/src/functions-caps.php:221
+msgid "Donations: Delete Taxonomy Terms"
+msgstr "Donazioni: eliminare termini della tassonomia"
+
+#: addons/members-givewp-integration/src/functions-caps.php:217
+msgid "Allows users to edit donation taxonomy terms."
+msgstr "Permette agli utenti di modificare termini della tassonomia delle donazioni."
+
+#: addons/members-edd-integration/src/functions-caps.php:97
+msgid "Allows users to publish downloads."
+msgstr "Permette agli utenti di pubblicare download."
+
+#: addons/members-edd-integration/src/functions-caps.php:92
+msgid "Allows users to edit published downloads."
+msgstr "Permette agli utenti di modificare download pubblicati."
+
+#: addons/members-edd-integration/src/functions-caps.php:87
+msgid "Allows users to edit private downloads."
+msgstr "Permette agli utenti di modificare download privati."
+
+#: addons/members-edd-integration/src/functions-caps.php:82
+msgid "Allows users to edit other user's downloads."
+msgstr "Permette agli utenti di modificare download di altri utenti."
+
+#: addons/members-edd-integration/src/functions-caps.php:68
+msgid "Allows users to import downloads into the database."
+msgstr "Permette agli utenti di importare download nel database."
+
+#: addons/members-edd-integration/src/functions-caps.php:63
+msgid "Allows users to view download stats."
+msgstr "Permette agli utenti di visualizzare statistiche sui download."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:93
+msgid "Allows users to delete published products."
+msgstr "Permette agli utenti di eliminare prodotti pubblicati."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:88
+msgid "Allows users to delete other users' products."
+msgstr "Permette agli utenti di eliminare prodotti di altri utenti."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:83
+msgid "Allows users to delete private products."
+msgstr "Permette agli utenti di eliminare prodotti privati."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:70
+msgid "Allows users to read private products."
+msgstr "Permette agli utenti di leggere prodotti privati."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:65
+msgid "Allows users to publish products."
+msgstr "Permette agli utenti di pubblicare prodotti."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:60
+msgid "Allows users to edit published products."
+msgstr "Permette agli utenti di modificare prodotti pubblicati."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:55
+msgid "Allows users to edit private products."
+msgstr "Permette agli utenti di modificare prodotti privati."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:50
+msgid "Allows users to edit other user's products."
+msgstr "Permette agli utenti di modificare prodotti di altri utenti."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:104
+msgid "Allows users to edit product taxonomy terms."
+msgstr "Permette agli utenti di modificare termini della tassonomia dei prodotti."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:99
+msgid "Allows users to assign taxonomy terms to products."
+msgstr "Permette agli utenti di assegnare termini della tassonomia ai prodotti."
+
+#: addons/members-edd-integration/src/functions-caps.php:332
+msgid "Allows users to delete discount taxonomy terms."
+msgstr "Permette agli utenti di eliminare termini della tassonomia degli sconti."
+
+#: addons/members-edd-integration/src/functions-caps.php:327
+msgid "Allows users to edit discount taxonomy terms."
+msgstr "Permette agli utenti di modificare termini della tassonomia degli sconti."
+
+#: addons/members-edd-integration/src/functions-caps.php:322
+msgid "Allows users to assign taxonomy terms to discounts."
+msgstr "Permette agli utenti di assegnare termini della tassonomia agli sconti."
+
+#: addons/members-edd-integration/src/functions-caps.php:316
+msgid "Allows users to delete published discounts."
+msgstr "Permette agli utenti di eliminare sconti pubblicati."
+
+#: addons/members-edd-integration/src/functions-caps.php:311
+msgid "Allows users to delete other users' discounts."
+msgstr "Permette agli utenti di eliminare sconti di altri utenti."
+
+#: addons/members-edd-integration/src/functions-caps.php:306
+msgid "Allows users to delete private discounts."
+msgstr "Permette agli utenti di eliminare sconti privati."
+
+#: addons/members-edd-integration/src/functions-caps.php:293
+msgid "Allows users to read private discounts."
+msgstr "Permette agli utenti di leggere sconti privati."
+
+#: addons/members-edd-integration/src/functions-caps.php:288
+msgid "Allows users to publish discounts."
+msgstr "Permette agli utenti di pubblicare sconti."
+
+#: addons/members-edd-integration/src/functions-caps.php:283
+msgid "Allows users to edit published discounts."
+msgstr "Permette agli utenti di modificare sconti pubblicati."
+
+#: addons/members-edd-integration/src/functions-caps.php:278
+msgid "Allows users to edit private discounts."
+msgstr "Permette agli utenti di modificare sconti privati."
+
+#: addons/members-edd-integration/src/functions-caps.php:273
+msgid "Allows users to edit other user's discounts."
+msgstr "Permette agli utenti di modificare sconti di altri utenti."
+
+#: addons/members-edd-integration/src/functions-caps.php:259
+msgid "Allows users to import discounts into the database."
+msgstr "Permette agli utenti di importare sconti nel database."
+
+#: addons/members-edd-integration/src/functions-caps.php:254
+msgid "Allows users to view discount stats."
+msgstr "Permette agli utenti di visualizzare statistiche sugli sconti."
+
+#: addons/members-edd-integration/src/functions-caps.php:234
+msgid "Allows users to delete payment taxonomy terms."
+msgstr "Permette agli utenti di eliminare termini della tassonomia dei pagamenti."
+
+#: addons/members-edd-integration/src/functions-caps.php:229
+msgid "Allows users to edit payment taxonomy terms."
+msgstr "Permette agli utenti di modificare termini della tassonomia dei pagamenti."
+
+#: addons/members-edd-integration/src/functions-caps.php:224
+msgid "Allows users to assign taxonomy terms to payments."
+msgstr "Permette agli utenti di assegnare termini della tassonomia ai pagamenti."
+
+#: addons/members-edd-integration/src/functions-caps.php:218
+msgid "Allows users to delete published payments."
+msgstr "Permette agli utenti di eliminare pagamenti pubblicati."
+
+#: addons/members-edd-integration/src/functions-caps.php:213
+msgid "Allows users to delete other users' payments."
+msgstr "Permette agli utenti di eliminare pagamenti di altri utenti."
+
+#: addons/members-edd-integration/src/functions-caps.php:208
+msgid "Allows users to delete private payments."
+msgstr "Permette agli utenti di eliminare pagamenti privati."
+
+#: addons/members-edd-integration/src/functions-caps.php:195
+msgid "Allows users to read private payments."
+msgstr "Permette agli utenti di leggere pagamenti privati."
+
+#: addons/members-edd-integration/src/functions-caps.php:190
+msgid "Allows users to publish payments."
+msgstr "Permette agli utenti di pubblicare pagamenti."
+
+#: addons/members-edd-integration/src/functions-caps.php:185
+msgid "Allows users to edit published payments."
+msgstr "Permette agli utenti di modificare pagamenti pubblicati."
+
+#: addons/members-edd-integration/src/functions-caps.php:180
+msgid "Allows users to edit private payments."
+msgstr "Permette agli utenti di modificare pagamenti privati."
+
+#: addons/members-edd-integration/src/functions-caps.php:175
+msgid "Allows users to edit other user's payments."
+msgstr "Permette agli utenti di modificare pagamenti di altri utenti."
+
+#: addons/members-edd-integration/src/functions-caps.php:161
+msgid "Allows users to import payments into the database."
+msgstr "Permette agli utenti di importare pagamenti nel database."
+
+#: addons/members-edd-integration/src/functions-caps.php:156
+msgid "Allows users to view payment stats."
+msgstr "Permette agli utenti di visualizzare statistiche sui pagamenti."
+
+#: addons/members-givewp-integration/src/functions-caps.php:129
+msgid "Allows users to delete donation form taxonomy terms."
+msgstr "Permette agli utenti di eliminare termini della tassonomia dei moduli di donazione."
+
+#: addons/members-givewp-integration/src/functions-caps.php:124
+msgid "Allows users to edit donation form taxonomy terms."
+msgstr "Permette agli utenti di modificare termini della tassonomia dei moduli di donazione."
+
+#: addons/members-givewp-integration/src/functions-caps.php:119
+msgid "Allows users to assign taxonomy terms to donation forms."
+msgstr "Permette agli utenti di assegnare termini della tassonomia ai moduli di donazione."
+
+#: addons/members-givewp-integration/src/functions-caps.php:113
+msgid "Allows users to view donation form stats."
+msgstr "Permette agli utenti di visualizzare statistiche sui moduli di donazione."
+
+#: admin/class-settings.php:136 admin/views/class-view-addons.php:159
+msgid "Active"
+msgstr "Attivo"
+
+#: addons/members-givewp-integration/src/functions-caps.php:86
+msgid "Allows users to delete donation forms. May need to be combined with other %s capabilities, depending on the scenario."
+msgstr "Permette agli utenti di eliminare moduli di donazione. Potrebbe essere combinato con altre capacità di %s, a seconda della situazione."
+
+#: addons/members-givewp-integration/src/functions-caps.php:141
+msgid "Allows users to edit donations. May need to be combined with other %s capabilities, depending on the scenario."
+msgstr "Permette agli utenti di modificare donazioni. Potrebbe essere combinato con altre capacità di %s, a seconda della situazione."
+
+#: addons/members-givewp-integration/src/functions-caps.php:174
+msgid "Allows users to delete donations. May need to be combined with other %s capabilities, depending on the scenario."
+msgstr "Permette agli utenti di eliminare donazioni. Potrebbe essere combinato con altre capacità di %s, a seconda della situazione."
+
+#: addons/members-edd-integration/src/functions-caps.php:108
+msgid "Allows users to delete downloads. May need to be combined with other %s capabilities, depending on the scenario."
+msgstr "Permette agli utenti di eliminare download. Potrebbe essere combinato con altre capacità di %s, a seconda della situazione."
+
+#: addons/members-edd-integration/src/functions-caps.php:75
+msgid "Allows users to edit downloads. May need to be combined with other %s capabilities, depending on the scenario."
+msgstr "Permette agli utenti di modificare download. Potrebbe essere combinato con altre capacità di %s, a seconda della situazione."
+
+#: addons/members-edd-integration/src/functions-caps.php:201
+msgid "Allows users to delete payments. May need to be combined with other %s capabilities, depending on the scenario."
+msgstr "Permette agli utenti di eliminare pagamenti. Potrebbe essere combinato con altre capacità di %s, a seconda della situazione."
+
+#: addons/members-edd-integration/src/functions-caps.php:168
+msgid "Allows users to edit payments. May need to be combined with other %s capabilities, depending on the scenario."
+msgstr "Permette agli utenti di modificare pagamenti. Potrebbe essere combinato con altre capacità di %s, a seconda della situazione."
+
+#: addons/members-edd-integration/src/functions-caps.php:299
+msgid "Allows users to delete discounts. May need to be combined with other %s capabilities, depending on the scenario."
+msgstr "Permette agli utenti di eliminare sconti. Potrebbe essere combinato con altre capacità di %s, a seconda della situazione."
+
+#: addons/members-edd-integration/src/functions-caps.php:266
+msgid "Allows users to edit discounts. May need to be combined with other %s capabilities, depending on the scenario."
+msgstr "Permette agli utenti di modificare sconti. Potrebbe essere combinato con altre capacità di %s, a seconda della situazione."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:76
+msgid "Allows users to delete products. May need to be combined with other %s capabilities, depending on the scenario."
+msgstr "Permette agli utenti di eliminare prodotti. Potrebbe essere combinato con altre capacità di %s, a seconda della situazione."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:43
+msgid "Allows users to edit products. May need to be combined with other %s capabilities, depending on the scenario."
+msgstr "Permette agli utenti di modificare prodotti. Potrebbe essere combinato con altre capacità di %s, a seconda della situazione."
+
+#: addons/members-block-permissions/src/Editor.php:96
+msgid "Show block to everyone"
+msgstr "Mostra il blocco a tutti"
+
+#: addons/members-block-permissions/src/Editor.php:97
+msgid "Show block to selected"
+msgstr "Mostra il blocco ai selezionati"
+
+#: addons/members-block-permissions/src/Editor.php:126
+msgid "Logged Out"
+msgstr "Disconnesso"
+
+#: addons/members-block-permissions/src/Editor.php:125
+msgid "Logged In"
+msgstr "Connesso"
+
+#: addons/members-block-permissions/src/Editor.php:104
+msgid "Optionally display an error message for users who cannot see this block."
+msgstr "Facoltativamente mostra un messaggio di errore agli utenti che non possono vedere questo blocco."
+
+#: addons/members-block-permissions/src/Editor.php:98
+msgid "Hide block from selected"
+msgstr "Nascondi il blocco ai selezionati"
+
+#: addons/members-block-permissions/src/Editor.php:130
+msgid "Your user account does not have access to assign permissions to this block."
+msgstr "Il tuo account utente non può dare autorizzazioni a questo blocco."
+
+#: addons/members-edd-integration/src/functions-caps.php:125
+msgid "Allows users to delete published downloads."
+msgstr "Permette agli utenti di eliminare i download pubblicati."
+
+#: addons/members-edd-integration/src/functions-caps.php:120
+msgid "Allows users to delete other users' downloads."
+msgstr "Permette agli utenti di eliminare i download di altri utenti."
+
+#: addons/members-edd-integration/src/functions-caps.php:115
+msgid "Allows users to delete private downloads."
+msgstr "Permette agli utenti di eliminare i download privati."
+
+#: addons/members-edd-integration/src/functions-caps.php:102
+msgid "Allows users to read private downloads."
+msgstr "Permette agli utenti di leggere i download privati."
+
+#: addons/members-edd-integration/src/functions-caps.php:39
+msgid "Allows access to sensitive user data."
+msgstr "Permette l'accesso ai dati utente sensibili."
+
+#: addons/members-edd-integration/src/functions-caps.php:34
+msgid "Allows management of the shop settings."
+msgstr "Permette la gestione delle impostazioni del negozio."
+
+#: addons/members-privacy-caps/addon.php:51
+msgid "Manage Privacy Options"
+msgstr "Gestire le opzioni sulla privacy"
+
+#: addons/members-edd-integration/src/functions-caps.php:47
+#: addons/members-givewp-integration/src/functions-caps.php:45
+#: addons/members-woocommerce-integration/src/functions-caps.php:35
+msgid "Reports: View"
+msgstr "Rapporti: visualizzare"
+
+#: addons/members-edd-integration/src/functions-caps.php:52
+#: addons/members-givewp-integration/src/functions-caps.php:40
+msgid "Reports: Export"
+msgstr "Rapporti: esportare"
+
+#: addons/members-givewp-integration/src/functions-caps.php:41
+msgid "Allows access to export reports."
+msgstr "Permette l'accesso all'esportazione dei rapporti."
+
+#: addons/members-givewp-integration/src/functions-caps.php:46
+#: addons/members-woocommerce-integration/src/functions-caps.php:36
+msgid "Allows access to view reports."
+msgstr "Permette l'accesso alla visualizzazione dei rapporti."
+
+#: addons/members-givewp-integration/src/functions-caps.php:35
+msgid "Allows access to view sensitive user data."
+msgstr "Permette l'accesso per la visualizzazione dei dati utente sensibili."
+
+#: addons/members-edd-integration/src/functions-caps.php:145
+msgid "Downloads: Manage Taxonomy Terms"
+msgstr "Download: gestire i termini della tassonomia"
+
+#: addons/members-edd-integration/src/functions-caps.php:141
+msgid "Allows users to delete download taxonomy terms."
+msgstr "Permette agli utenti di eliminare termini della tassonomia dei download."
+
+#: addons/members-edd-integration/src/functions-caps.php:140
+msgid "Downloads: Delete Taxonomy Terms"
+msgstr "Download: eliminare termini della tassonomia"
+
+#: addons/members-edd-integration/src/functions-caps.php:136
+msgid "Allows users to edit download taxonomy terms."
+msgstr "Permette agli utenti di modificare termini della tassonomia dei download."
+
+#: addons/members-edd-integration/src/functions-caps.php:135
+msgid "Downloads: Edit Taxonomy Terms"
+msgstr "Download: modificare termini della tassonomia"
+
+#: addons/members-edd-integration/src/functions-caps.php:131
+msgid "Allows users to assign taxonomy terms to downloads."
+msgstr "Permette agli utenti di assegnare termini della tassonomia ai download."
+
+#: addons/members-edd-integration/src/functions-caps.php:130
+msgid "Downloads: Assign Taxonomy Terms"
+msgstr "Download: assegnare termini della tassonomia"
+
+#. Author URI of the plugin
+msgid "https://memberpress.com"
+msgstr "https://memberpress.com"
+
+#. Author of the plugin
+msgid "MemberPress"
+msgstr "MemberPress"
+
+#. Plugin URI of the plugin
+msgid "https://memberpress.com/plugins/members"
+msgstr "https://memberpress.com/plugins/members"
+
+#: admin/class-meta-box-publish-role.php:104
+msgid "%s User"
+msgid_plural "%s Users"
+msgstr[0] "%s utente"
+msgstr[1] "%s utenti"
+
+#: admin/views/class-view-general.php:80
+msgid "REST API"
+msgstr "REST API"
+
+#: admin/class-manage-users.php:97
+msgid "Role added to selected users."
+msgstr "Ruolo aggiunto agli utenti selezionati."
+
+#: admin/class-manage-users.php:102
+msgid "Role removed from selected users."
+msgstr "Ruolo rimosso dagli utenti selezionati."
+
+#: admin/class-manage-users.php:107
+msgid "Role removed from other selected users."
+msgstr "Ruolo rimosso da altri utenti selezionati."
+
+#: admin/class-manage-users.php:162 admin/class-manage-users.php:237
+msgid "One of the selected users is not a member of this site."
+msgstr "Uno degli utenti selezionati non è un membro di questo sito."
+
+#: admin/class-manage-users.php:326 admin/class-manage-users.php:330
+msgid "Add role&hellip;"
+msgstr "Aggiungi ruolo&hellip;"
+
+#: admin/class-manage-users.php:334
+msgid "Add"
+msgstr "Aggiungi"
+
+#: admin/class-manage-users.php:337 admin/class-manage-users.php:341
+msgid "Remove role&hellip;"
+msgstr "Rimuovi ruolo&hellip;"
+
+#: admin/class-manage-users.php:345
+msgid "Remove"
+msgstr "Rimuovi"
+
+#: inc/functions-private-site.php:191
+msgid "You do not currently have access to the \"%s\" site. If you believe you should have access, please contact your network administrator."
+msgstr "Attualmente non hai accesso al sito \"%s\". Se credi che dovresti poter accedere, contatta il tuo amministratore di rete."
+
+#: inc/functions-private-site.php:198
+msgid "If you reached this page by accident and meant to visit one of your own sites, try one of the following links."
+msgstr "Se hai raggiunto questa pagina per sbaglio e volevi visitare uno dei tuoi siti, prova uno dei seguenti collegamenti."
+
+#: admin/views/class-view-addons.php:204
+msgid "Purchase"
+msgstr "Acquista"
+
+#: admin/views/class-view-addons.php:195
+msgid "Download"
+msgstr "Scarica"
+
+#: members.php:351
+msgid "Members requires PHP version %1$s. You are running version %2$s. Please upgrade and try again."
+msgstr "Members richiede la versione di PHP %1$s. Stai eseguendo la versione %2$s. Aggiornalo e riprova."
+
+#: admin/views/class-view-addons.php:79
+msgid "There are currently no add-ons to show. Please try again later."
+msgstr "Non ci sono add-on da visualizzare. Riprova più tardi."
+
+#: inc/functions-capabilities.php:85
+msgid "Edit Others' Pages"
+msgstr "Modificare pagine di altri"
+
+#: inc/functions-capabilities.php:86
+msgid "Edit Pages"
+msgstr "Modificare pagine"
+
+#: inc/functions-capabilities.php:143
+msgid "Delete Categories"
+msgstr "Eliminare categorie"
+
+#: inc/functions-capabilities.php:142
+msgid "Edit Categories"
+msgstr "Modificare categorie"
+
+#: inc/functions-capabilities.php:141
+msgid "Assign Categories"
+msgstr "Assegnare categorie"
+
+#: inc/functions-capabilities.php:123
+msgid "Remove Users"
+msgstr "Rimuovere utenti"
+
+#: inc/functions-capabilities.php:122
+msgid "Promote Users"
+msgstr "Promuovere utenti"
+
+#: inc/functions-capabilities.php:121
+msgid "List Users"
+msgstr "Elencare utenti"
+
+#: inc/functions-capabilities.php:120
+msgid "List Roles"
+msgstr "Elencare ruoli"
+
+#: inc/functions-capabilities.php:119
+msgid "Edit Users"
+msgstr "Modificare utenti"
+
+#: inc/functions-capabilities.php:118
+msgid "Edit Roles"
+msgstr "Modificare ruoli"
+
+#: inc/functions-capabilities.php:117
+msgid "Delete Users"
+msgstr "Eliminare utenti"
+
+#: inc/functions-capabilities.php:116
+msgid "Delete Roles"
+msgstr "Eliminare ruoli"
+
+#: inc/functions-capabilities.php:115
+msgid "Create Users"
+msgstr "Creare utenti"
+
+#: inc/functions-capabilities.php:114
+msgid "Create Roles"
+msgstr "Creare ruoli"
+
+#: inc/functions-capabilities.php:111
+msgid "Update Plugins"
+msgstr "Aggiornare plugin"
+
+#: inc/functions-capabilities.php:110
+msgid "Install Plugins"
+msgstr "Installare plugin"
+
+#: inc/functions-capabilities.php:109
+msgid "Edit Plugins"
+msgstr "Modificare plugin"
+
+#: inc/functions-capabilities.php:108
+msgid "Delete Plugins"
+msgstr "Eliminare plugin"
+
+#: inc/functions-capabilities.php:107
+msgid "Activate Plugins"
+msgstr "Attivare plugin"
+
+#: inc/functions-capabilities.php:104
+msgid "Update Themes"
+msgstr "Aggiornare temi"
+
+#: inc/functions-capabilities.php:103
+msgid "Switch Themes"
+msgstr "Cambiare temi"
+
+#: inc/functions-capabilities.php:102
+msgid "Install Themes"
+msgstr "Installare temi"
+
+#: inc/functions-capabilities.php:101
+msgid "Edit Themes"
+msgstr "Modificare temi"
+
+#: inc/functions-capabilities.php:100
+msgid "Edit Theme Options"
+msgstr "Modificare opzioni tema"
+
+#: inc/functions-capabilities.php:99
+msgid "Delete Themes"
+msgstr "Eliminare temi"
+
+#: inc/functions-capabilities.php:96
+msgid "Manage Categories"
+msgstr "Gestire categorie"
+
+#: inc/functions-capabilities.php:93
+msgid "Upload Files"
+msgstr "Caricare file"
+
+#: inc/functions-capabilities.php:90
+msgid "Read Private Pages"
+msgstr "Leggere pagine private"
+
+#: inc/functions-capabilities.php:89
+msgid "Publish Pages"
+msgstr "Pubblicare pagine"
+
+#: inc/functions-capabilities.php:88
+msgid "Edit Published Pages"
+msgstr "Modificare pagine pubblicate"
+
+#: inc/functions-capabilities.php:87
+msgid "Edit Private Pages"
+msgstr "Modificare pagine private"
+
+#: inc/functions-capabilities.php:84
+msgid "Delete Published Pages"
+msgstr "Eliminare pagine pubblicate"
+
+#: inc/functions-capabilities.php:83
+msgid "Delete Private Pages"
+msgstr "Eliminare pagine private"
+
+#: inc/functions-capabilities.php:82
+msgid "Delete Pages"
+msgstr "Eliminare pagine"
+
+#: inc/functions-capabilities.php:78
+msgid "Read Private Posts"
+msgstr "Leggere articoli privati"
+
+#: inc/functions-capabilities.php:77
+msgid "Publish Posts"
+msgstr "Pubblicare articoli"
+
+#: inc/functions-capabilities.php:76
+msgid "Edit Published Posts"
+msgstr "Modificare articoli pubblicati"
+
+#: inc/functions-capabilities.php:75
+msgid "Edit Private Posts"
+msgstr "Modificare articoli privati"
+
+#: inc/functions-capabilities.php:74
+msgid "Edit Posts"
+msgstr "Modificare articoli"
+
+#: inc/functions-capabilities.php:72
+msgid "Delete Published Posts"
+msgstr "Eliminare articoli pubblicati"
+
+#: inc/functions-capabilities.php:71
+msgid "Delete Private Posts"
+msgstr "Eliminare articoli privati"
+
+#: inc/functions-capabilities.php:70
+msgid "Delete Posts"
+msgstr "Eliminare articoli"
+
+#: inc/functions-capabilities.php:66
+msgid "Update Core"
+msgstr "Aggiornare core"
+
+#: inc/functions-capabilities.php:64
+msgid "Read"
+msgstr "Leggere"
+
+#: inc/functions-capabilities.php:63
+msgid "Moderate Comments"
+msgstr "Moderare commenti"
+
+#: inc/functions-capabilities.php:62
+msgid "Manage Options"
+msgstr "Gestire opzioni"
+
+#: inc/functions-capabilities.php:61
+msgid "Manage Links"
+msgstr "Gestire link"
+
+#: inc/functions-capabilities.php:60
+msgid "Import"
+msgstr "Importare"
+
+#: inc/functions-capabilities.php:59
+msgid "Export"
+msgstr "Esportare"
+
+#: inc/functions-capabilities.php:58
+msgid "Edit Files"
+msgstr "Modificare file"
+
+#: inc/functions-capabilities.php:57
+msgid "Edit Dashboard"
+msgstr "Modificare bacheca"
+
+#: admin/functions-settings.php:46
+msgid "Add-Ons"
+msgstr "Add-on"
+
+#: admin/class-role-edit.php:301 admin/class-roles.php:173
+msgctxt "role"
+msgid "Add New"
+msgstr "Aggiungi nuovo"
+
+#: admin/class-meta-box-custom-cap.php:90
+msgctxt "capability"
+msgid "Add New"
+msgstr "Aggiungi nuova"
+
+#: inc/functions-capabilities.php:81
+msgid "Delete Others' Pages"
+msgstr "Eliminare pagine di altri"
+
+#: inc/functions-capabilities.php:73
+msgid "Edit Others' Posts"
+msgstr "Modificare articoli di altri"
+
+#: inc/functions-capabilities.php:69
+msgid "Delete Others' Posts"
+msgstr "Eliminare articoli di altri"
+
+#: admin/views/class-view-addons.php:237
+msgid "Some plugins may be available for direct download. In such cases, you can click the download button to get a ZIP file of the plugin."
+msgstr "Alcuni plugin possono essere disponibili per il download diretto. In questi casi, puoi fare clic sul pulsante di scaricamento per ottenere un file ZIP del plugin."
+
+#: admin/views/class-view-addons.php:223
+msgid "The Add-Ons screen allows you to view available add-ons for the Members plugin. You can download some plugins directly. Others may be available to purchase."
+msgstr "La schermata degli Add-on ti permette di modificare gli add-on disponibili per il plugin Members. Puoi scaricare alcuni plugin direttamente. Altri possono essere in vendita."
+
+#: inc/functions-private-site.php:167
+msgid "You are not currently logged in."
+msgstr "Non sei attualmente connesso."
+
+#: inc/functions-capabilities.php:65
+msgid "Unfiltered HTML"
+msgstr "HTML non filtrato"
+
+#: admin/views/class-view-general.php:251
+msgid "Require authentication for access to the REST API."
+msgstr "Richiedi l'autenticazione per accedere alle REST API."
+
+#: admin/class-manage-users.php:106
+msgid "The current user&#8217;s role must have user editing capabilities."
+msgstr "Il ruolo utente attuale deve avere le capacità di modifica degli utenti."
+
+#: inc/functions-capabilities.php:147
+msgid "Manage Post Tags"
+msgstr "Gestire tag articolo"
+
+#: inc/functions-capabilities.php:146
+msgid "Delete Post Tags"
+msgstr "Eliminare tag articolo"
+
+#: inc/functions-capabilities.php:145
+msgid "Edit Post Tags"
+msgstr "Modificare tag articolo"
+
+#: inc/functions-capabilities.php:144
+msgid "Assign Post Tags"
+msgstr "Assegnare tag articolo"
+
+#: admin/views/class-view-general.php:168
+msgid "Show human-readable capabilities when possible."
+msgstr "Mostra le capacità in formato leggibile quando possibile."
+
+#: admin/views/class-view-general.php:398
+msgid "Tick the checkbox to show human-readable capabilities when possible. Note that custom capabilities and capabilities from third-party plugins will show the machine-readable capability name unless they are registered."
+msgstr "Spunta il checkbox per mostrare le capacità in formato leggibile quando possibile. Nota che le capacità personalizzate e quelle aggiunte da plugin di terze parti mostreranno il nome in formato leggibile dal computer a meno che non siano registrate."
+
+#: inc/functions-capabilities.php:126
+msgid "Restrict Content"
+msgstr "Limitare contenuto"
+
+#: admin/class-role-edit.php:234
+msgid "The %s role is typically the most important role on the site. Please take extreme caution that you do not inadvertently remove necessary capabilities."
+msgstr "Il ruolo %s è normalmente quello più importante nel sito. Fai molta attenzione a non rimuovere inavvertitamente delle capacità necessarie."
+
+#: admin/functions-help.php:114
+msgid "Visit the %s page in the WordPress Codex to see a complete list of roles, capabilities, and their definitions."
+msgstr "Visita la pagina %s nel Codex di WordPress per vedere un elenco completo di ruoli, capacità e le loro definizioni."
+
+#: admin/views/class-view-addons.php:251
+msgid "Some add-ons may require purchase before downloading them. Clicking the purchase button will take you off-site to view the add-on in more detail."
+msgstr "Alcuni add-on possono richiedere l'acquisto prima di essere scaricati. Facendo clic sul pulsante di acquisto sarai portato al sito esterno dell'add-on per vederlo in maggiore dettaglio."
+
+#: inc/class-widget-users.php:203
+msgid "URL"
+msgstr "URL"
+
+#: inc/class-widget-users.php:202
+msgid "Registered"
+msgstr "Registrato"
+
+#: inc/class-widget-users.php:219
+msgid "Order By:"
+msgstr "Ordinato per:"
+
+#: inc/class-widget-users.php:227
+msgid "Order:"
+msgstr "Ordine:"
+
+#: inc/class-widget-users.php:244
+msgid "Limit:"
+msgstr "Limite:"
+
+#: inc/class-widget-users.php:248
+msgid "Offset:"
+msgstr "Offset:"
+
+#: inc/class-widget-users.php:256
+msgid "Include:"
+msgstr "Includi:"
+
+#: inc/class-widget-users.php:260
+msgid "Exclude:"
+msgstr "Escludi:"
+
+#: inc/class-widget-users.php:264
+msgid "Search:"
+msgstr "Cerca:"
+
+#: inc/class-widget-users.php:268
+msgid "Meta Key:"
+msgstr "Meta Key:"
+
+#: inc/functions-options.php:132
+msgid "Sorry, but you do not have permission to view this content."
+msgstr "Non hai il permesso di visualizzare questo contenuto."
+
+#: inc/functions-options.php:133
+msgid "You must be logged into the site to view this content."
+msgstr "Devi aver effettuato l'accesso al sito per visualizzare questo contenuto."
+
+#: members.php:151
+msgid "Method does not exist."
+msgstr "Il metodo non esiste."
+
+#. Plugin Name of the plugin
+msgid "Members"
+msgstr "Members"
+
+#: inc/class-widget-users.php:201
+msgid "Post Count"
+msgstr "Numero di articoli"
+
+#: inc/class-widget-users.php:276
+msgid "Meta Value:"
+msgstr "Valore Meta:"
+
+#. Description of the plugin
+msgid "A user and role management plugin that puts you in full control of your site's permissions. This plugin allows you to edit your roles and their capabilities, clone existing roles, assign multiple roles per user, block post content, or even make your site completely private."
+msgstr "Un plugin di gestione ruoli e utenti che ti dà il pieno controllo dei permessi sul tuo sito. Questo plugin permette di modificare i tuoi ruoli e le loro capacità, clonare ruoli esistenti, assegnare molteplici ruoli per utente, bloccare i contenuti degli articoli, o perfino rendere il tuo sito completamente privato."
+
+#: inc/class-widget-users.php:204
+msgid "Login"
+msgstr "Accesso"
+
+#: admin/functions-help.php:29
+msgid "For more information:"
+msgstr "Per maggiori informazioni:"
+
+#: inc/class-widget-login.php:60
+msgid "Username"
+msgstr "Nome utente"
+
+#: admin/class-role-list-table.php:378 admin/class-roles.php:69
+#: inc/class-widget-users.php:59 inc/functions-cap-groups.php:121
+msgid "Users"
+msgstr "Utenti"
+
+#: admin/class-roles.php:210 admin/functions-help.php:46
+#: admin/views/class-view-addons.php:186
+msgid "Overview"
+msgstr "Panoramica"
+
+#: admin/class-roles.php:228
+msgid "Available Actions"
+msgstr "Azioni Disponibili"
+
+#: inc/functions-cap-groups.php:92
+msgid "Taxonomies"
+msgstr "Tassonomie"
+
+#: inc/functions-cap-groups.php:103
+msgid "Appearance"
+msgstr "Aspetto"
+
+#: admin/class-meta-box-publish-role.php:141
+msgid "Update"
+msgstr "Aggiorna"
+
+#: inc/class-widget-login.php:61
+msgid "Password"
+msgstr "Password"
+
+#: admin/class-role-list-table.php:355 admin/class-role-new.php:352
+#: admin/functions-admin.php:46
+msgid "Edit"
+msgstr "Modifica"
+
+#: inc/class-widget-login.php:209 inc/class-widget-users.php:215
+msgid "Title:"
+msgstr "Titolo:"
+
+#: inc/class-widget-login.php:63
+msgid "Remember Me"
+msgstr "Ricordami"
+
+#: admin/class-manage-users.php:382
+msgid "None"
+msgstr "Nessuno"
+
+#: admin/views/class-view-general.php:64 admin/views/class-view-general.php:367
+msgid "Private Site"
+msgstr "Sito privato"
+
+#: inc/class-widget-users.php:199
+msgid "ID"
+msgstr "ID"
+
+#: admin/class-meta-box-publish-role.php:67 admin/class-roles.php:68
+#: inc/functions-admin-bar.php:35
+msgid "Role"
+msgstr "Ruolo"
+
+#: admin/functions-help.php:23
+msgid "Documentation"
+msgstr "Documentazione"
+
+#: admin/functions-help.php:24
+msgid "Support Forums"
+msgstr "Forum di supporto"
+
+#: inc/functions-cap-groups.php:112
+msgid "Plugins"
+msgstr "Plugin"
+
+#: admin/class-manage-roles.php:87 admin/class-manage-roles.php:93
+#: admin/class-manage-users.php:360
+#: admin/class-meta-box-content-permissions.php:189
+#: admin/class-meta-box-content-permissions.php:308
+#: admin/class-meta-box-content-permissions.php:330 admin/class-roles.php:170
+#: admin/class-user-edit.php:93
+msgid "Roles"
+msgstr "Ruoli"
+
+#: admin/class-manage-roles.php:90 admin/class-role-edit.php:298
+msgid "Edit Role"
+msgstr "Modifica il ruolo"
+
+#: admin/class-role-edit.php:320 admin/class-role-new.php:344
+#: admin/class-roles.php:67 admin/functions-help.php:62
+msgid "Role Name"
+msgstr "Nome del ruolo"
+
+#: admin/class-role-edit.php:326 admin/class-role-new.php:350
+#: inc/class-widget-users.php:235
+msgid "Role:"
+msgstr "Ruolo:"
+
+#: admin/class-role-list-table.php:236
+msgid "Your Role"
+msgstr "Il tuo ruolo"
+
+#: admin/class-role-list-table.php:370
+msgid "Clone"
+msgstr "Clona"
+
+#: admin/class-cap-tabs.php:165
+msgid "All"
+msgstr "Tutte"
+
+#: admin/class-role-list-table.php:232
+msgid "Default Role"
+msgstr "Ruolo predefinito"
+
+#: admin/class-meta-box-publish-role.php:110
+msgid "Users:"
+msgstr "Utenti:"
+
+#: admin/class-roles.php:71
+msgid "Denied"
+msgstr "Negato"
+
+#: inc/class-widget-users.php:198
+msgid "Email"
+msgstr "Email"
+
+#: inc/class-widget-login.php:266
+msgid "Check \"remember me\"?"
+msgstr "Spuntare il flag \"ricordami\"?"
+
+#: inc/class-widget-login.php:44
+msgid "A widget that allows users to log into your site."
+msgstr "Un widget che permette agli utenti di effettuare il login nel tuo sito."
+
+#: inc/functions-role-groups.php:42
+msgid "WordPress"
+msgstr "WordPress"
+
+#: inc/functions-role-groups.php:43
+msgid "WordPress %s"
+msgid_plural "WordPress %s"
+msgstr[0] "WordPress %s"
+msgstr[1] "WordPress %s"
+
+#: admin/class-role-list-table.php:433
+msgid "No Users %s"
+msgid_plural "No Users %s"
+msgstr[0] "Nessun utente %s"
+msgstr[1] "Nessun utente %s"
+
+#: admin/functions-admin.php:47
+msgid "OK"
+msgstr "OK"
+
+#: addons/members-block-permissions/src/Editor.php:108
+#: admin/class-user-edit.php:98 admin/class-user-new.php:109
+msgid "User Roles"
+msgstr "Ruoli dell'utente"
+
+#: addons/members-admin-access/app/class-view-settings.php:189
+#: admin/views/class-view-general.php:319
+msgid "Update Settings"
+msgstr "Aggiorna impostazioni"
+
+#: admin/views/class-view-general.php:186
+msgid "Allow users to be assigned more than a single role."
+msgstr "Permetti di assegnare più ruoli agli utenti."
+
+#: addons/members-block-permissions/src/Editor.php:103
+#: admin/class-meta-box-content-permissions.php:203
+#: admin/class-meta-box-content-permissions.php:322
+#: admin/class-meta-box-content-permissions.php:371
+#: admin/views/class-view-general.php:76
+msgid "Error Message"
+msgstr "Messaggio di errore"
+
+#: admin/class-role-new.php:327
+msgid "Clone Role"
+msgstr "Clona il ruolo"
+
+#: admin/class-role-new.php:256
+msgid "The %s role already exists."
+msgstr "Il ruolo %s esiste già."
+
+#: admin/class-role-edit.php:238 admin/class-role-new.php:243
+msgid "The %s role has been created."
+msgstr "Il ruolo %s è stato creato."
+
+#: admin/class-role-list-table.php:423
+msgid "Mine %s"
+msgid_plural "Mine %s"
+msgstr[0] "Mio %s"
+msgstr[1] "Miei %s"
+
+#: inc/class-widget-users.php:44
+msgid "Provides the ability to list the users of the site."
+msgstr "Rende possibile elencare gli utenti del sito."
+
+#: inc/class-widget-login.php:281
+msgid "Logged in text:"
+msgstr "Testo per utente connesso:"
+
+#: inc/class-widget-login.php:276
+msgid "Logged out text:"
+msgstr "Testo per utente disconnesso:"
+
+#: admin/tmpl/cap-section.php:21 admin/tmpl/cap-section.php:29
+msgid "Deny"
+msgstr "Nega"
+
+#: inc/class-widget-login.php:74
+msgid "You are currently logged in."
+msgstr "Ora sei connesso."
+
+#: inc/class-widget-login.php:260
+msgid "\"Remember me\" checkbox?"
+msgstr "Checkbox \"ricordami\"?"
+
+#: inc/class-widget-login.php:245
+msgid "Password Field ID:"
+msgstr "ID del campo password:"
+
+#: inc/class-widget-login.php:241
+msgid "Remember Me Field ID:"
+msgstr "ID del campo \"ricordami\":"
+
+#: inc/class-widget-login.php:237
+msgid "Username Field ID:"
+msgstr "ID del campo nome utente:"
+
+#: inc/class-widget-login.php:233
+msgid "Username Value:"
+msgstr "Valore del nome utente:"
+
+#: inc/class-widget-login.php:225
+msgid "Remember Me Label:"
+msgstr "Etichetta di \"Ricordami\":"
+
+#: inc/class-widget-login.php:221
+msgid "Log In Label:"
+msgstr "Etichetta di \"Accedi\":"
+
+#: inc/class-widget-login.php:217
+msgid "Password Label:"
+msgstr "Etichetta di \"Password\":"
+
+#: inc/class-widget-login.php:213
+msgid "Username Label:"
+msgstr "Etichetta di \"Nome utente\":"
+
+#: admin/class-role-new.php:345
+msgid "Enter role name"
+msgstr "Inserire il nome del ruolo"
+
+#: admin/class-role-new.php:260
+msgid "You must enter a valid role name."
+msgstr "Devi inserire un nome valido per il ruolo."
+
+#: admin/class-role-new.php:252
+msgid "You must enter a valid role."
+msgstr "Devi inserire un ruolo valido."
+
+#: admin/class-role-edit.php:99
+msgid "The requested role to edit does not exist."
+msgstr "Il ruolo richiesto per la modifica non esiste."
+
+#: admin/functions-settings.php:35 inc/functions-cap-groups.php:42
+msgid "General"
+msgstr "Generali"
+
+#: admin/class-role-list-table.php:359 admin/class-role-list-table.php:508
+msgid "Delete"
+msgstr "Elimina"
+
+#: admin/class-role-list-table.php:365
+msgid "View"
+msgstr "Visualizza"
+
+#: admin/class-role-list-table.php:418
+msgid "All %s"
+msgid_plural "All %s"
+msgstr[0] "Tutto %s"
+msgstr[1] "Tutti %s"
+
+#: admin/class-meta-box-content-permissions.php:213
+#: admin/class-meta-box-content-permissions.php:333
+msgid "Limit access to the content to users of the selected roles."
+msgstr "Limita l'accesso agli utenti dei ruoli selezionati."
+
+#: admin/class-role-edit.php:226
+msgid "%s role updated."
+msgstr "Ruolo %s aggiornato."
+
+#: admin/class-roles.php:112
+msgid "Selected roles deleted."
+msgstr "Ruoli selezionati eliminati."
+
+#: admin/class-roles.php:131
+msgid "%s role deleted."
+msgstr "Ruolo %s eliminato."
+
+#: admin/class-roles.php:275
+msgid "You can filter the list of roles by types using the text links in the upper left. The default view is to show all roles."
+msgstr "Puoi filtrare la lista dei ruoli usando i collegamenti di testo in alto a sinistra. La vista predefinita mostra tutti i ruoli."
+
+#: admin/class-roles.php:289
+msgid "Hovering over a row in the roles list will display action links that allow you to manage your role. You can perform the following actions:"
+msgstr "Passare il mouse su una riga nella lista dei ruoli mostra i collegamenti alle azioni che permettono di gestire il ruolo. Puoi eseguire le seguenti azioni:"
+
+#: admin/class-roles.php:294
+msgid "<strong>Delete</strong> removes your role from this list and permanently deletes it."
+msgstr "<strong>Elimina</strong> rimuove il tuo ruolo da questa lista e lo elimina definitivamente."
+
+#: admin/class-roles.php:295
+msgid "<strong>Clone</strong> copies the role and takes you to the new role screen to further edit it."
+msgstr "<strong>Clona</strong> copia il ruolo e ti porta alla schermata del nuovo ruolo per modificarlo."
+
+#: admin/class-roles.php:296
+msgid "<strong>Users</strong> takes you to the users screen and lists the users that have that role."
+msgstr "<strong>Utenti</strong> ti porta alla schermata utenti ed elenca gli utenti che hanno quei ruoli."
+
+#: admin/class-role-new.php:345
+msgid "%s Clone"
+msgstr "Clone di %s"
+
+#: admin/class-meta-box-publish-role.php:123
+msgid "Denied:"
+msgstr "Negati:"
+
+#: admin/class-settings.php:330
+msgctxt "admin screen"
+msgid "Members"
+msgstr "Members"
+
+#: admin/functions-help.php:109
+msgid "This screen allows you to edit an individual role and its capabilities."
+msgstr "Questa schermata permette di aggiungere un ruolo individuale e le sue capacità."
+
+#: admin/functions-help.php:148
+msgid "The capabilities edit box is made up of tabs that separate capabilities into groups. You may take the following actions for each capability:"
+msgstr "La sezione di modifica delle capacità è costituita da schede che separano le capacità in gruppi. Puoi intraprendere le seguenti azioni per ciascuna capacità:"
+
+#: admin/functions-help.php:153
+msgid "<strong>Deny</strong> allows you to explicitly deny the role a capability."
+msgstr "<strong>Nega</strong> permette di negare esplicitamente una capacità al ruolo."
+
+#: inc/class-widget-users.php:192
+msgid "Ascending"
+msgstr "Crescente"
+
+#: inc/class-widget-users.php:193
+msgid "Descending"
+msgstr "Decrescente"
+
+#: admin/views/class-view-general.php:72
+msgid "Capabilities"
+msgstr "Capacità"
+
+#: admin/views/class-view-general.php:128
+msgid "Your roles and capabilities will not revert back to their previous settings after deactivating or uninstalling this plugin, so use this feature wisely."
+msgstr "I tuoi ruoli e capacità non saranno riportati alle impostazioni precedenti dopo aver disattivato o disinstallato questo plugin, quindi usa questa caratteristica con attenzione."
+
+#: admin/views/class-view-general.php:143
+msgid "Enable the role manager."
+msgstr "Abilita il gestore dei ruoli."
+
+#: admin/views/class-view-general.php:266
+msgid "Show error message for feed items."
+msgstr "Mostra i messaggi d'errore per gli elementi del feed."
+
+#: admin/views/class-view-general.php:386
+msgid "The role manager allows you to manage roles on your site by giving you the ability to create, edit, and delete any role. Note that changes to roles do not change settings for the Members plugin. You are literally changing data in your WordPress database. This plugin feature merely provides an interface for you to make these changes."
+msgstr "Il gestore dei ruoli permette di gestire i ruoli nel sito dandoti la possibilità di creare, modificare ed eliminare qualsiasi ruolo. Nota che i cambiamenti ai ruoli non cambiano le impostazioni del plugin Members. Stai letteralmente modificando le impostazioni nel tuo database WordPress. Questo plugin offre semplicemente un'interfaccia per permetterti di apportare questi cambiamenti."
+
+#: addons/members-block-permissions/src/Editor.php:90
+#: addons/members-block-permissions/src/Editor.php:116
+#: admin/tmpl/cap-section.php:19 admin/tmpl/cap-section.php:27
+msgid "Capability"
+msgstr "Capacità"
+
+#: admin/class-roles.php:256
+msgid "This screen provides access to all of your user roles. Roles are a method of grouping users. They are made up of capabilities (caps), which give permission to users to perform specific actions on the site."
+msgstr "Questa schermata permette di accedere a tutti i tuoi ruoli utente. I ruoli sono un metodo per raggruppare gli utenti. Sono costituiti da capacità (caps), che danno i permessi agli utenti di eseguire azioni specifiche all'interno del sito."
+
+#: admin/class-roles.php:310
+msgid "You can permanently delete multiple roles at once. Select the roles you want to act on using the checkboxes, then select the action you want to take from the Bulk Actions menu and click Apply."
+msgstr "Puoi rimuovere definitivamente molteplici ruoli alla volta. Seleziona i ruoli su cui vuoi agire usando le caselle di controllo, poi seleziona le azioni che vuoi intraprendere dal menu Azioni di Gruppo e fai clic su Applica."
+
+#: admin/class-roles.php:293
+msgid "<strong>Edit</strong> takes you to the editing screen for that role. You can also reach that screen by clicking on the role name."
+msgstr "<strong>Modifica</strong> ti porta alla schermata di modifica per quel ruolo. Puoi anche raggiungere questa schermata facendo clic sul nome del ruolo."
+
+#: admin/class-meta-box-publish-role.php:141
+msgid "Add Role"
+msgstr "Aggiungi ruolo"
+
+#: admin/class-roles.php:237
+msgid "Bulk Actions"
+msgstr "Azioni di gruppo"
+
+#: admin/views/class-view-general.php:358
+msgid "Sidebar Widgets"
+msgstr "Widget barra laterale"
+
+#: admin/functions-admin.php:50
+msgid "Are you sure you want to delete this role? This is a permanent action and cannot be undone."
+msgstr "Desideri eliminare questo ruolo? Questa è un'azione definitiva e non può essere annullata."
+
+#: admin/functions-help.php:78
+msgid "Edit Capabilities"
+msgstr "Modifica capacità"
+
+#: inc/class-widget-login.php:59 inc/class-widget-login.php:62
+msgid "Log In"
+msgstr "Accedi"
+
+#: inc/class-widget-login.php:55
+msgid "Members: Login Form"
+msgstr "Members: modulo di login"
+
+#: inc/class-widget-users.php:197
+msgid "Display Name"
+msgstr "Nome visibile"
+
+#: inc/class-widget-users.php:55
+msgid "Members: Users"
+msgstr "Members: utenti"
+
+#: admin/views/class-view-general.php:81
+msgid "Disable Feed"
+msgstr "Disabilita feed"
+
+#: admin/class-meta-box-publish-role.php:134
+msgctxt "delete role"
+msgid "Delete"
+msgstr "Elimina"
+
+#: admin/views/class-view-general.php:82
+msgid "Feed Error Message"
+msgstr "Messaggio di errore feed"
+
+#: admin/class-role-edit.php:230
+msgid "The %s role is not editable. This means that it is most likely added via another plugin for a special use or that you do not have permission to edit it."
+msgstr "Il ruolo %s non è modificabile. Questo significa che probabilmente è stato aggiunto da un altro plugin per un uso speciale o che non hai i permessi per modificarlo."
+
+#: admin/class-meta-box-custom-cap.php:73 admin/functions-help.php:94
+msgid "Custom Capability"
+msgstr "Capacità personalizzata"
+
+#: admin/class-meta-box-content-permissions.php:233
+#: admin/class-meta-box-content-permissions.php:353
+msgid "If no roles are selected, everyone can view the content. The author, any users who can edit the content, and users with the %s capability can view the content regardless of role."
+msgstr "Se nessun ruolo è selezionato, tutti possono visualizzare il contenuto. L'autore, qualsiasi utente in grado di modificare il contenuto e gli utenti con la capacità %s possono visualizzare il contenuto a prescindere dal ruolo."
+
+#: admin/class-meta-box-content-permissions.php:115
+#: admin/views/class-view-general.php:63 admin/views/class-view-general.php:349
+msgid "Content Permissions"
+msgstr "Autorizzazioni sui contenuti"
+
+#: admin/class-roles.php:270
+msgid "You can customize the display of this screen&#8216;s contents in a number of ways:"
+msgstr "Puoi personalizzare la visualizzazione dei contenuti di questa schermata in svariati modi:"
+
+#: admin/functions-help.php:152
+msgid "<strong>Grant</strong> allows you to grant the role a capability."
+msgstr "<strong>Concedi</strong> permette di assegnare una capacità al ruolo."
+
+#: admin/functions-help.php:154
+msgid "You may also opt to neither grant nor deny the role a capability."
+msgstr "Puoi anche scegliere di non concedere né negare una capacità al ruolo."
+
+#: admin/views/class-view-general.php:161
+msgid "Denied capabilities should always overrule granted capabilities."
+msgstr "Le capacità negate prevalgono sempre sulle capacità concesse."
+
+#: admin/views/class-view-general.php:394
+msgid "Tick the checkbox for denied capabilities to always take precedence over granted capabilities when there is a conflict. This is only relevant when using multiple roles per user."
+msgstr "Spunta la casella di controllo perché le capacità negate abbiano sempre la precedenza sulle capacità concesse quando c'è un conflitto. Questo è utile soltanto quando si assegnano più ruoli a un utente."
+
+#: admin/functions-help.php:115 admin/views/class-view-general.php:62
+msgid "Roles and Capabilities"
+msgstr "Ruoli e capacità"
+
+#: admin/views/class-view-general.php:201
+msgid "Enable the content permissions feature."
+msgstr "Abilita autorizzazioni sui contenuti."
+
+#: admin/tmpl/cap-section.php:20 admin/tmpl/cap-section.php:28
+msgid "Grant"
+msgstr "Concedi"
+
+#: admin/class-roles.php:70
+msgid "Granted"
+msgstr "Concesso"
+
+#: admin/class-meta-box-publish-role.php:117
+msgid "Granted:"
+msgstr "Concessi:"
+
+#: admin/class-cap-control.php:118 admin/functions-admin.php:48
+msgid "Grant %s capability"
+msgstr "Concedi la capacità %s"
+
+#: admin/class-cap-control.php:119 admin/functions-admin.php:49
+msgid "Deny %s capability"
+msgstr "Nega la capacità %s"
+
+#: inc/class-widget-login.php:272
+msgid "Display avatar?"
+msgstr "Visualizza avatar?"
+
+#: admin/views/class-view-general.php:75
+msgid "Enable Permissions"
+msgstr "Abilita autorizzazioni"
+
+#: admin/class-cap-tabs.php:194
+msgid "Edit Capabilities: %s"
+msgstr "Modifica le capacità: %s"
+
+#: admin/views/class-view-general.php:79
+msgid "Enable Private Site"
+msgstr "Abilita sito privato"
+
+#: admin/views/class-view-general.php:236
+msgid "Redirect all logged-out users to the login page before allowing them to view the site."
+msgstr "Reindirizza tutti gli utenti scollegati alla pagina di login prima di permettergli di visualizzare il sito."
+
+#: admin/views/class-view-general.php:71
+msgid "Multiple User Roles"
+msgstr "Ruoli utente multipli"
+
+#: admin/class-role-new.php:327
+msgid "Add New Role"
+msgstr "Aggiungi nuovo ruolo"
+
+#: admin/class-role-list-table.php:374
+msgid "Change Default"
+msgstr "Cambia predefinito"
+
+#: admin/views/class-view-general.php:70
+msgid "Role Manager"
+msgstr "Gestore dei ruoli"
+
+#: admin/class-manage-users.php:161 admin/class-manage-users.php:236
+#: admin/class-role-edit.php:92 members.php:129 members.php:140
+msgid "Whoah, partner!"
+msgstr "Ehi, amico!"
+
+#: inc/class-widget-users.php:200
+msgid "Nice Name"
+msgstr "Nome da visualizzare"
+
+#: inc/class-widget-login.php:249
+msgid "Submit Button ID:"
+msgstr "ID del pulsante di invio:"
+
+#: inc/class-widget-login.php:73
+msgid "Please log into the site."
+msgstr "Effettua il login al sito."
+
+#: admin/class-role-list-table.php:443
+msgid "Uneditable %s"
+msgid_plural "Uneditable %s"
+msgstr[0] "Non modificabile %s"
+msgstr[1] "Non modificabili %s"
+
+#: admin/class-role-list-table.php:438
+msgid "Editable %s"
+msgid_plural "Editable %s"
+msgstr[0] "Modificabile %s"
+msgstr[1] "Modificabili %s"
+
+#: admin/functions-help.php:168
+msgid "The custom capability box allows you to create a custom capability for the role. After hitting the Add New button, it will add the capability to the Custom tab in the Edit Capabilities box."
+msgstr "Il riquadro Capacità personalizzata permette di creare una capacità personalizzata per il ruolo. Dopo aver fatto clic sul pulsante Aggiungi nuova, la capacità sarà aggiunta alla scheda Personalizzate nella sezione Modifica capacità."
+
+#: admin/functions-help.php:134
+msgid "The machine-readable version of the role appears below the name field, which you can edit. This can only have lowercase letters, numbers, or underscores."
+msgstr "La versione in formato leggibile dal computer del nome del ruolo compare sotto al nome in formato leggibile ed è modificabile. Questo può avere solo lettere minuscole, numeri o underscore."
+
+#: admin/functions-help.php:130
+msgid "The role name field allows you to enter a human-readable name for your role."
+msgstr "Il campo nome ruolo permette di inserire un nome in formato leggibile per il tuo ruolo."
+
+#: admin/views/class-view-general.php:440
+msgid "The private site feature redirects all users who are not logged into the site to the login page, creating an entirely private site. You may also replace your feed content with a custom error message."
+msgstr "La caratteristica sito privato redirige tutti gli utenti non autenticati alla pagina di login, creando un sito completamente privato. Puoi anche sostituire i contenuti del tuo feed con un messaggio di errore personalizzato."
+
+#: admin/views/class-view-general.php:426
+msgid "The sidebar widgets feature adds additional widgets for use in your theme's sidebars."
+msgstr "La caratteristica widget barra laterale aggiunge ulteriori widget da usare nelle barre laterali del tema."
+
+#: admin/views/class-view-general.php:412
+msgid "The content permissions features adds a meta box to the edit post screen that allows you to grant permissions for who can read the post content based on the user's role. Only users of roles with the %s capability will be able to use this component."
+msgstr "La caratteristica autorizzazioni sui contenuti aggiunge un meta box alla schermata di modifica dell'articolo che ti permette di assegnare l'autorizzazione alla lettura dei contenuti dell'articolo in base al ruolo. Solo gli utenti appartenenti a ruoli con la capacità %s potranno usare questo componente."
+
+#: admin/views/class-view-general.php:390
+msgid "The multiple user roles feature allows you to assign more than one role to each user from the edit user screen."
+msgstr "La caratteristica ruoli utente multipli permette di assegnare più di un ruolo a ciascun utente dalla schermata di modifica dell'utente."
+
+#: admin/class-roles.php:274
+msgid "You can hide/display columns based on your needs and decide how many roles to list per screen using the Screen Options tab."
+msgstr "Puoi nascondere/mostrare le colonne in base alle tue necessità e decidere quanti ruoli elencare per schermata usando la scheda Impostazioni schermata."
+
+#: admin/class-roles.php:219
+msgid "Screen Content"
+msgstr "Contenuto schermata"
+
+#: inc/functions-cap-groups.php:130
+msgid "Custom"
+msgstr "Personalizzate"
+
+#: admin/views/class-view-general.php:340
+msgid "Role and Capabilities"
+msgstr "Ruoli e capacità"
+
+#: admin/class-role-list-table.php:428
+msgid "Has Users %s"
+msgid_plural "Has Users %s"
+msgstr[0] "Ha utenti %s"
+msgstr[1] "Ha utenti %s"
