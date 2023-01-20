@@ -68,6 +68,11 @@ function MenuBox($text, $tableName)
                     </div>
                 </div>
             </div>
+            <?php
+            $current_user_role = wp_get_current_user()->roles[0];
+            if ($current_user_role == "administrator")
+                require("templates/admin_menu_box.php");
+            ?>
         </div>
     </div>
 </div>
