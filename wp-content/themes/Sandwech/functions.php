@@ -67,3 +67,41 @@ function remove_admin_bar()
 	}
 }
 add_action('after_setup_theme', 'remove_admin_bar');
+
+//Hide for non-logged-in users (public visitors)
+add_action('template_redirect', 'redirect_non_logged_users');
+function redirect_non_logged_users()
+{
+	if (
+		!is_user_logged_in() && (
+			is_page('home') ||
+			is_page('allergen') ||
+			is_page('break') ||
+			is_page('favourite') ||
+			is_page('ingredient') ||
+			is_page('nutritional_value') ||
+			is_page('offer') ||
+			is_page('order') ||
+			is_page('pickup') ||
+			is_page('product') ||
+			is_page('tag') ||
+			is_page('user') ||
+			is_page('cart') ||
+			is_page('class') ||
+			is_page('pickup_break') ||
+			is_page('product_allergen') ||
+			is_page('product_ingredient') ||
+			is_page('product_offer') ||
+			is_page('product_order') ||
+			is_page('product_tag') ||
+			is_page('reset') ||
+			is_page('status') ||
+			is_page('user_class') ||
+			is_page('class') ||
+			is_page('pickup_break') ||
+			is_page('product_allergen'))
+	) {
+		wp_redirect('http://localhost/sandwech-mng/wp-login.php');
+		exit();
+	}
+}
