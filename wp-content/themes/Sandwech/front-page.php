@@ -34,7 +34,7 @@ function MenuBox($text, $tableName)
         '<div class="col-2">
         <a class="menu-box-text" href="http://localhost/sandwech-mng/' . $tableName . '">
             <div class="box-nav">
-                <h1>' . $text . '</h1>
+                <h1 class="text-style">' . $text . '</h1>
             </div>
         </a>
 </div>';
