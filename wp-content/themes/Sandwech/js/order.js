@@ -12,7 +12,7 @@ $(window).on('load', function () {
         },
         {
             label: "Pickup:",
-            name: "pickupname"
+            name: "pickup"
         },
         {
             label: "Time:",

@@ -25,7 +25,8 @@ Editor::inst($db, 'order', 'ID')
 		Field::inst('break.time','time'),
 		Field::inst('status.description', 'description'),
         Field::inst('class.year', 'year'),
-        Field::inst('class.section', 'section')
+        Field::inst('class.section', 'section'),
+		Field::inst('order.pickup', 'pickup')
 		
 	)
 	->leftJoin( 'user', 'user.id', '=', 'order.user' )
