@@ -15,6 +15,11 @@
                     <?php echo get_the_title() ?>
                 </h1>
             </div>
+             <input id="file_upload" type="file" >
+            <!--<button type="button" id="bottonone" class="btn btn-warning">Stacce</button>-->
+            <button type="button" onclick="upload()" class="btn btn-warning">Stacce</button>
+            <div id="main"></div>
+            <div id="res"></div>
             <div class="row">
                 <div <?php echo TABLE_SIZE_CLASS; ?>>
                     <table id="table" class="table table-striped" style="width:100%">
@@ -35,6 +40,8 @@
     </div>
 </div>
 
+
+<script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/csv.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/user.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/setupBtn.js"></script>
 
