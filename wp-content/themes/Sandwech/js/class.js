@@ -20,12 +20,13 @@ $(window).on('load', function () {
     var table = $('#table').DataTable({
         lengthChange: false,
         ajax: "../EditorPHP/controllers/class.php",
-        columns: [{
-            data: "year"
-        },
-        {
-            data: "section"
-        }
+        columns: [
+            {
+                data: "year"
+            },
+            {
+                data: "section"
+            }
         ],
         select: true,
     });

@@ -20,12 +20,8 @@
                     <table id="table" class="table table-striped" style="width:100%">
                         <thead>
                             <tr>
-                                <th>ID</th>
                                 <th>Prodotto</th>
-                                <th>Prezzo</th>
-                                <th>Inizio</th>
-                                <th>Scadenza</th>
-                                <th>Descrizione</th>
+                                <th>Allergeno</th>
                             </tr>
                         </thead>
                     </table>
@@ -35,7 +31,7 @@
     </div>
 </div>
 
-<script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/offer.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/product_allergen.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/setupBtn.js"></script>
 
 <?php get_footer(); ?>

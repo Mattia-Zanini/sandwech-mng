@@ -3,33 +3,30 @@ var $ = jQuery;
 $(window).on('load', function () {
     // fields dell'editor
     var editor = new $.fn.dataTable.Editor({
-        ajax: "../EditorPHP/controllers/cart.php",
+        ajax: "../EditorPHP/controllers/pickup_break.php",
         table: "#table",
-        fields: [
-            {
-                label: "Quantità:",
-                name: "quantity"
-            },
+        fields: [{
+            label: "Name:",
+            name: "name"
+        },
+        {
+            label: "Time:",
+            name: "time"
+        }
         ]
     });
 
     // fields della tabella
     var table = $('#table').DataTable({
         lengthChange: false,
-        ajax: "../EditorPHP/controllers/cart.php",
+        ajax: "../EditorPHP/controllers/pickup_break.php",
         columns: [
             {
-                data: "user_name"
+                data: "name"
             },
             {
-                data: "user_surname"
-            },
-            {
-                data: "product_name"
-            },
-            {
-                data: "quantity"
-            },
+                data: "time"
+            }
         ],
         select: true,
     });

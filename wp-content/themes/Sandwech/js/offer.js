@@ -7,11 +7,6 @@ $(window).on('load', function () {
         table: "#table",
         fields: [
             {
-                label: "Nome:",
-                name: "name",
-                type: "select"
-            },
-            {
                 label: "Price:",
                 name: "price"
             },
@@ -37,6 +32,9 @@ $(window).on('load', function () {
         lengthChange: false,
         ajax: "../EditorPHP/controllers/offer.php",
         columns: [
+            {
+                data: "id"
+            },
             {
                 data: "name"
             },

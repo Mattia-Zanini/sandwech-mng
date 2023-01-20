@@ -20,10 +20,10 @@
                     <table id="table" class="table table-striped" style="width:100%">
                         <thead>
                             <tr>
-                                <th>vwdad</th>
-                                <th>awdadad</th>
-                                <th>awdadadad</th>
-                                <th>Qudvbfvsfantity</th>
+                                <th>Nome</th>
+                                <th>Cognome</th>
+                                <th>Prodotto</th>
+                                <th>Quantità</th>
                             </tr>
                         </thead>
                     </table>

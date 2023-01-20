@@ -3,33 +3,30 @@ var $ = jQuery;
 $(window).on('load', function () {
     // fields dell'editor
     var editor = new $.fn.dataTable.Editor({
-        ajax: "../EditorPHP/controllers/cart.php",
+        ajax: "../EditorPHP/controllers/product_allergen.php",
         table: "#table",
-        fields: [
-            {
-                label: "Quantità:",
-                name: "quantity"
-            },
+        fields: [{
+            label: "Prodotto:",
+            name: "product_name"
+        },
+        {
+            label: "Allergeno:",
+            name: "allergen_name"
+        }
         ]
     });
 
     // fields della tabella
     var table = $('#table').DataTable({
         lengthChange: false,
-        ajax: "../EditorPHP/controllers/cart.php",
+        ajax: "../EditorPHP/controllers/product_allergen.php",
         columns: [
-            {
-                data: "user_name"
-            },
-            {
-                data: "user_surname"
-            },
             {
                 data: "product_name"
             },
             {
-                data: "quantity"
-            },
+                data: "allergen_name"
+            }
         ],
         select: true,
     });
