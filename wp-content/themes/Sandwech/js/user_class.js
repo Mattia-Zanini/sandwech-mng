@@ -7,10 +7,6 @@ $(window).on('load', function () {
         table: "#table",
         fields: [
             {
-                label: "Studente:",
-                name: "user"
-            },
-            {
                 label: "Classe:",
                 name: "class"
             },

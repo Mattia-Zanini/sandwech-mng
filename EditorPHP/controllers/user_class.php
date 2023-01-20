@@ -17,9 +17,9 @@ use Illuminate\Support\Str;
 // user table
 Editor::inst($db, 'user_class','user')
 	->fields(
-        Field::inst('user.id','id'),
 		Field::inst('user_class.class','class'),
 		Field::inst('user_class.user','user'),
+        Field::inst('user.id','id'),
         Field::inst('user.name','name'),
         Field::inst('user.surname','surname'),
         Field::inst('class.section','section'),
