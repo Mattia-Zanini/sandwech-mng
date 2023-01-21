@@ -15,7 +15,7 @@
                     <?php echo get_the_title() ?>
                 </h1>
             </div>
-            <input id="file_upload" type="file" accept=".csv">
+            <input id="file_upload" type="file" accept=".xls">
             <button type="button" class="btn btn-warning" id="bottonone_upload">Carica</button>
             <div id="main"></div>
             <div id="res"></div>
@@ -44,4 +44,6 @@
 <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/user.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/setupBtn.js"></script>
 
+<script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/XLSX_jszip.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/XLSX_xlsx.js"></script>
 <?php get_footer(); ?>
