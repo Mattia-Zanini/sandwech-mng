@@ -14,6 +14,25 @@ $("#bottonone_upload").click(function () {
     reader.readAsBinaryString(file);
 });
 
+/*
+La funzione ExcelToJson converte i dati in formato Excel in un oggetto JSON, utilizzando la libreria XLS.
+La funzione legge i dati in formato binario utilizzando XLS.read(data, { type: 'binary' }); e assegna il risultato alla variabile cfb.
+Viene quindi estratta la "worksheet" dai dati letti e assegnati alla variabile workSheet.
+La funzione estrae i riferimenti alla prima e all'ultima cella della worksheet, che vengono assegnati 
+alle variabili colFirst, colLast, rowFirst e rowLast.
+
+Viene creato un array vuoto chiamato params che conterrà i nomi delle colonne. Viene quindi calcolato il numero di 
+colonne utilizzando una funzione esterna chiamata AlphadecimalToDecimal(colLast) + 1 e viene eseguito un ciclo for 
+per ogni colonna. In ogni iterazione, la funzione utilizza un'altra funzione esterna chiamata DecimalToAlphadecimal(i) + "1" 
+per ottenere il nome della colonna corrente e lo inserisce nell'array params.
+
+Viene creato un array vuoto chiamato students che conterrà i dati dello studente. Viene quindi eseguito un ciclo for per 
+ogni riga, a partire dalla seconda riga (indice 2). In ogni iterazione, viene creato un oggetto vuoto chiamato student, 
+poi viene eseguito un altro ciclo for per ogni colonna. In ogni iterazione del secondo ciclo, la funzione utilizza ancora 
+una volta la funzione DecimalToAlphadecimal(j) + i.toString() per ottenere il valore della cella corrente, poi assegna questo 
+valore all'oggetto student utilizzando il nome della colonna corrispondente (ottenuto dall'array params) come chiave. Alla 
+fine dei due cicli, l'oggetto student viene inserito nell'array students.
+*/
 function ExcelToJson(data) {
     var cfb = XLS.read(data, { type: 'binary' });
     var workSheet = cfb.Sheets.Worksheet;

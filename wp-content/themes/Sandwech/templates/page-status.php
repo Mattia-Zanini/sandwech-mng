@@ -20,8 +20,8 @@
                     <table id="table" class="table table-striped" style="width:100%">
                         <thead>
                             <tr>
-                                <th>Prodotto</th>
-                                <th>Ingrediente</th>
+                                <th>ID</th>
+                                <th>Nome</th>
                             </tr>
                         </thead>
                     </table>
@@ -31,7 +31,7 @@
     </div>
 </div>
 
-<script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/product_ingredient.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/status.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/setupBtn.js"></script>
 
 <?php get_footer(); ?>
