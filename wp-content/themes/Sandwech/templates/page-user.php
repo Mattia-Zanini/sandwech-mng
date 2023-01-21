@@ -15,9 +15,8 @@
                     <?php echo get_the_title() ?>
                 </h1>
             </div>
-             <input id="file_upload" type="file" >
-            <!--<button type="button" id="bottonone" class="btn btn-warning">Stacce</button>-->
-            <button type="button" onclick="upload()" class="btn btn-warning">Stacce</button>
+            <input id="file_upload" type="file" accept=".csv">
+            <button type="button" class="btn btn-warning" id="bottonone_upload">Carica</button>
             <div id="main"></div>
             <div id="res"></div>
             <div class="row">
