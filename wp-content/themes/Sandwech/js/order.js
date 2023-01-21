@@ -68,12 +68,16 @@ $(window).on('load', function () {
         {
             data: "surname"
         },
+        { data: null, render: function ( data) {
+                // Combine the first and last names into a single table field
+                return data.year+data.section;
+            } },/*
         {
             data: "year"
         },
         {
             data: "section"
-        }
+        }*/
         ],
         select: true,
     });

@@ -28,7 +28,6 @@
                                 <th>Nome</th>
                                 <th>Cognome</th>
                                 <th>Classe</th>
-                                <th>Sezione</th>
                             </tr>
                         </thead>
                     </table>
