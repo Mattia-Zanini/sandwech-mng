@@ -22,8 +22,8 @@
                             <tr>
                                 <th>Nome</th>
                                 <th>Prezzo</th>
-                                <th>Quantità</th>
                                 <th>Descrizione</th>
+                                <th>Quantità</th>
                             </tr>
                         </thead>
                     </table>
