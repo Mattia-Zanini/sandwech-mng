@@ -8,7 +8,8 @@ $("#bottonone_upload").click(function () {
         //console.log(extension);
 
         var file = reader.result;
-        ExcelToJson(file);
+        var jsonStudents = ExcelToJson(file);
+        //SendData(JSON.stringify(jsonStudents));
     };
     reader.readAsBinaryString(file);
 });
@@ -50,17 +51,21 @@ function ExcelToJson(data) {
             try { student[params[j]] = workSheet[casella]["h"]; }
             catch (e) { student[params[j]] = ""; }
         }
+        //esempio  --> "classe": "1E ITIS - ITIA - INFORMATICA"
+        var anno = student["classe"].split(" ")[0].replace(/\D/g, '');
+        student["anno"] = anno;
+
         students.push(student);
         //console.log("index: " + i);
         //console.log(student);
     }
     //console.log(students);
 
-    var studentiPrimini = [];
+    /*var studentiPrimini = [];
     var studentiAltri = [];
 
     for (let i = 0; i < students.length; i++) {
-        if (students[i]["classe"].replace(/\D/g, '') == "1") {
+        if (students[i]["anno"] == "1") {
             studentiPrimini.push(students[i]);
         }
         else {
@@ -72,10 +77,11 @@ function ExcelToJson(data) {
         "primini": studentiPrimini,
         "altri": studentiAltri
     }
+    */
 
     //console.log(students);
     //console.log(JSON.stringify(students));
-    SendData(JSON.stringify(students));
+    return students;
 }
 
 function SendData(json) {
