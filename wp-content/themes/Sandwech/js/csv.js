@@ -9,7 +9,7 @@ $("#bottonone_upload").click(function () {
 
         var file = reader.result;
         var jsonStudents = ExcelToJson(file);
-        //SendData(JSON.stringify(jsonStudents));
+        SendData(JSON.stringify(jsonStudents));
     };
     reader.readAsBinaryString(file);
 });
@@ -112,6 +112,11 @@ function SendData(json) {
         data: json,
         success: function () {
             //alert("Data sended");
+            location.reload();
+        },
+        error: function (xhr, status, error) {
+            var err = JSON.parse(xhr.responseText);
+            alert(err.Message);
         }
     });
 }
