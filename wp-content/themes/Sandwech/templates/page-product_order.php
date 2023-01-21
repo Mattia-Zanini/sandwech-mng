@@ -20,10 +20,10 @@
                     <table id="table" class="table table-striped" style="width:100%">
                         <thead>
                             <tr>
-                                <th>vwdad</th>
-                                <th>awdadad</th>
-                                <th>awdadadad</th>
-                                <th>Qudvbfvsfantity</th>
+                                <th>Prodotto</th>
+                                <th>Ordine</th>
+                                
+                                
                             </tr>
                         </thead>
                     </table>
@@ -33,7 +33,7 @@
     </div>
 </div>
 
-<script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/cart.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/product_order.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/setupBtn.js"></script>
 
 <?php get_footer(); ?>
