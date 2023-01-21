@@ -6,6 +6,7 @@ $("#bottonone_upload").click(function () {
     reader.onload = function () {
         var file = reader.result.replaceAll("\r", "").replaceAll("\"", "");
         var json = CsvToJson(file);
+        //console.log(json);
     };
     reader.readAsText(file);
 });
@@ -38,7 +39,7 @@ function SendData(json) {
         type: 'POST',
         // make sure you respect the same origin policy with this url:
         // http://en.wikipedia.org/wiki/Same_origin_policy
-        url: 'http://localhost/food-api/API',
+        url: 'http://localhost/food-api/API/user/importUser.php',
         data: json,
         success: function (msg) {
             alert("Data sended");
