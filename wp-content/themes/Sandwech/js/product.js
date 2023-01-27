@@ -56,7 +56,33 @@ $(window).on('load', function () {
     new $.fn.dataTable.Buttons(table, [
         { extend: "create", editor: editor },
         { extend: "edit", editor: editor },
-        { extend: "remove", editor: editor }
+        {
+            extend: "selectedSingle",
+            text: "Stacce",
+            action: function ( e, dt, node, config ) {
+
+                alert( 'Disattivato' );
+                // Immediately add `250` to the value of the salary and submit
+                editor
+                    .edit( table.row( { selected: true } ).index(), false )
+                    .set( 'active',0)
+                    .submit();
+            }
+        },
+        {
+            extend: "selectedSingle",
+            text: "Ristabilisci",
+            action: function ( e, dt, node, config ) {
+
+                alert( 'riattivato' );
+                // Immediately add `250` to the value of the salary and submit
+                editor
+                    .edit( table.row( { selected: true } ).index(), false )
+                    .set( 'active',1)
+                    .submit();
+            }
+        }
+        //{ extend: "remove", editor: editor }
     ]);
 
     table.buttons().container()

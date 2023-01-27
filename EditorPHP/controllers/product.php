@@ -24,6 +24,7 @@ Editor::inst($db, 'product', 'ID')
 		Field::inst('nutritional_value'),
 		Field::inst('active')
 	)
+	->where("active"==1)
 	->debug(true)
 	->process($_POST)
 	->json();
