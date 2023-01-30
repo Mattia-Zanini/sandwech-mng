@@ -30,6 +30,26 @@ class Setup {
 		add_action( 'admin_init', array( $this, 'logincust_setting_init' ) );
 		add_action( 'admin_menu', array( $this, 'logincust_setting_menu' ) );
 		// add_action( 'wp_enqueue_scripts', array( $this, 'logincust_setting_enqueue' ) );
+		add_action( 'wp_ajax_logincust_help', array( $this, 'logincust_help' ) );
+    }
+
+	/**
+	 * Download log file functionality callback function.
+	 *
+	 * @since 2.2.0
+	 * @return void
+	 */
+	function logincust_help() {
+
+		check_ajax_referer( 'login_customizer_log_nonce', 'security' );
+
+		if ( ! current_user_can( 'manage_options' ) ) {
+			wp_die( 'No cheating, huh!' );
+		}
+
+		$log =  Help::get_sysinfo();
+		echo $log;
+		wp_die();
 	}
 
 	/**
@@ -329,6 +349,9 @@ class Setup {
 		$html .= '<pre><textarea rows="25" cols="75" readonly="readonly">';
 		$html .=  Help::get_sysinfo();
 		$html .= '</textarea></pre>';
+		$html .= '<input type="button" class="button logincust-log-file" value="' . __( 'Download Log File', 'login-customizer' ) . '"/>';
+		$html .= '<span class="log-file-sniper"><img src="' . admin_url( 'images/wpspin_light.gif' ) . '" /></span>';
+		$html .= '<span class="log-file-text">Login Customizer\'s Log File Downloaded Successfully!</span>';
 		$html .= '</div>';
 		echo $html;
 	}

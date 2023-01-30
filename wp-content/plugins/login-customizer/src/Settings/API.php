@@ -37,13 +37,24 @@ namespace LoginCustomizer\Settings;
     }
 
     /**
-    * Enqueue scripts and styles
-    */
+     * Enqueue scripts and styles
+	 * @since 1.0.0
+	 * @version 2.2.0
+     */
     function admin_enqueue_scripts( $hook ) {
-		
-		if( $hook != 'toplevel_page_login-customizer-settings' ) {
+
+		if( ( $hook != 'toplevel_page_login-customizer-settings' && $hook != 'login-customizer_page_login-customizer-help' ) ) {
 			return;
 		}
+
+		wp_enqueue_script( 'logincust_script', plugins_url( '/Assets/JS/admin-custom.js', __FILE__ ), array(), LOGINCUST_FREE_VERSION );
+
+		// Array for localize.
+		$logincust_localize = array(
+			'log_nonce' => wp_create_nonce( 'login_customizer_log_nonce' )
+		);
+
+		wp_localize_script( 'logincust_script', 'logincust_js', $logincust_localize );
 
 		wp_enqueue_style( 'login_customizer_stlye', plugins_url( '/Assets/CSS/style.css', __FILE__ ), array(), LOGINCUST_FREE_VERSION );
     }

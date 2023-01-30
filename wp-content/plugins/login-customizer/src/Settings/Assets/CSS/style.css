@@ -19,7 +19,12 @@
 	vertical-align: middle;
 	max-width: 40px;
  }
-
+.log-file-sniper{
+	display: none;
+}
+.log-file-sniper img{
+	padding-top: 6px;
+}
 .logincust_page_logincust-settings #normal-sortables{
   padding-top: 20px;
 }

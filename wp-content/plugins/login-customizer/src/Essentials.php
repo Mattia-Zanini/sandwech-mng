@@ -26,11 +26,12 @@ class Essentials {
 	 *
 	 * @var string
 	 */
-	public $version = '2.1.0';
-/**
- * Class Essentials construct
- * @version 2.2.0 
- */
+	public $version = '2.2.0';
+
+	/**
+	 * Class Essentials construct
+	 * @version 2.2.0
+	 */
 	public function __construct() {
 
 		$this->define_constants();
@@ -40,7 +41,8 @@ class Essentials {
 	/**
 	 * Defining Constants 
 	 *
-	 * @since  2.2.0
+	 * @since  1.0.0
+	 * @version 2.2.0 
 	 * @access public
 	 * @return void
 	 */

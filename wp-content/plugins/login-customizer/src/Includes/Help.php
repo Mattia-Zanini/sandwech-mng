@@ -121,8 +121,10 @@ class Help {
 				$html .= $plugin['Name'] . ': v(' . $plugin['Version'] . ")\n";
 			}
 		}
-		$html .= "\n\n".'Total Customized Fields:  ' . count( $login_customizer ) . "\n";
-		$html .= 'Customization Detail:     ' . $customization . "\n";
+		$html .= "\n\n". __( 'Total Customized Fields:  ', 'login-customizer' ) . count( $login_customizer ) . "\n";
+		$html .= __( 'Customization Detail:', 'login-customizer' );
+		$html .= $customization;
+
 
 		$html .= "\n" . '### End System Info ###';
 		return $html;
