@@ -1,0 +1,13 @@
+# BEGIN BPS FILE WHITELIST: BPS Frontend Loading Website Plugin scripts/files
+RewriteRule ^.*bps-maintenance(.*).php - [S=6]
+RewriteRule ^400.php - [S=5]
+RewriteRule ^403.php - [S=4]
+RewriteRule ^405.php - [S=3]
+RewriteRule ^410.php - [S=2]
+RewriteRule ^isl-logout.php - [S=1]
+# END BPS FILE WHITELIST
+
+# Block all other files in the BPS plugin folder except the whitelisted files above
+# This only blocks files from being accessed by a Browser and not internally.
+RewriteCond %{REQUEST_URI} ^.*\.(7z|as|bat|bin|cgi|chm|chml|cmd|com|command|dat|db|db2|db3|dba|dll|DS_Store|exe|gz|hta|htaccess|htc|htm|html|html5|htx|ico|idc|ini|ins|isp|jar|jav|java|jse|jsfl|json|jsp|jsx|lib|lnk|out|php|phps|php5|php4|php3|phtml|phpt|pl|py|pyd|pyc|pyo|rar|shtm|shtml|sql|swf|sys|tar|taz|tgz|tpl|txt|vb|vbe|vbs|war|ws|wsf|xhtml)$ [NC]
+RewriteRule ^(.*)$ - [F]

@@ -1,0 +1,2616 @@
+# Translation of Plugins - All-In-One Security (AIOS) – Security and Firewall - Stable (latest release) in Italian
+# This file is distributed under the same license as the Plugins - All-In-One Security (AIOS) – Security and Firewall - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-12-16 21:43:10+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: it\n"
+"Project-Id-Version: Plugins - All-In-One Security (AIOS) – Security and Firewall - Stable (latest release)\n"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1243
+#: other-includes/wp-security-rename-login-feature.php:1101
+msgid "https://wordpress.org/support/forums/"
+msgstr "https://wordpress.org/support/forums/"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1424
+#: other-includes/wp-security-rename-login-feature.php:1282
+msgid "Show password"
+msgstr "Mostra la password"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:978
+#: other-includes/wp-security-rename-login-feature.php:836
+msgid "Hide password"
+msgstr "Nascondi la password"
+
+#. translators: %s: Site title.
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:286
+#: other-includes/wp-security-rename-login-feature.php:287
+msgctxt "site"
+msgid "&larr; Go to %s"
+msgstr "&larr; Vai a %s"
+
+#. translators: URL to the WordPress help section about admin email.
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:687
+#: other-includes/wp-security-rename-login-feature.php:545
+msgid "https://wordpress.org/support/article/settings-general-screen/#email-address"
+msgstr "https://wordpress.org/support/article/settings-general-screen/#email-address"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:480
+msgid "https://wordpress.org/support/article/resetting-your-password/"
+msgstr "https://wordpress.org/support/article/resetting-your-password/"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:721
+#: other-includes/wp-security-rename-login-feature.php:579
+msgid "Update"
+msgstr "Aggiorna"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:737
+#: other-includes/wp-security-rename-login-feature.php:595
+msgid "Remind me later"
+msgstr "Ricordamelo più tardi"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:722
+#: other-includes/wp-security-rename-login-feature.php:580
+msgid "The email is correct"
+msgstr "L'email è corretta"
+
+#. translators: Accessibility text.
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:690
+#: other-includes/wp-security-rename-login-feature.php:548
+msgid "(opens in a new tab)"
+msgstr "(si apre in una nuova scheda)"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:653
+#: other-includes/wp-security-rename-login-feature.php:511
+msgid "Confirm your administration email"
+msgstr "Conferma la tua email di amministratore"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:680
+#: other-includes/wp-security-rename-login-feature.php:538
+msgid "Administration email verification"
+msgstr "Verifica dell'email dell'amministratore"
+
+#: classes/wp-security-general-init-tasks.php:662
+#: classes/wp-security-general-init-tasks.php:664
+#: templates/may-also-like.php:88 templates/may-also-like.php:100
+#: templates/may-also-like.php:112 templates/may-also-like.php:124
+#: templates/may-also-like.php:136 templates/may-also-like.php:148
+#: templates/may-also-like.php:180 templates/may-also-like.php:192
+#: templates/may-also-like.php:204 templates/may-also-like.php:216
+#: templates/may-also-like.php:228 templates/may-also-like.php:240
+#: templates/may-also-like.php:276 templates/may-also-like.php:294
+#: templates/may-also-like.php:306 templates/may-also-like.php:324
+#: templates/may-also-like.php:336 templates/may-also-like.php:348
+#: templates/may-also-like.php:365 templates/may-also-like.php:377
+#: templates/notices/custom-notice.php:27
+msgid "No"
+msgstr "No"
+
+#: classes/wp-security-general-init-tasks.php:662
+#: classes/wp-security-general-init-tasks.php:664
+#: templates/may-also-like.php:40 templates/may-also-like.php:43
+#: templates/may-also-like.php:54 templates/may-also-like.php:57
+#: templates/may-also-like.php:68 templates/may-also-like.php:71
+#: templates/may-also-like.php:91 templates/may-also-like.php:103
+#: templates/may-also-like.php:115 templates/may-also-like.php:127
+#: templates/may-also-like.php:139 templates/may-also-like.php:151
+#: templates/may-also-like.php:168 templates/may-also-like.php:171
+#: templates/may-also-like.php:183 templates/may-also-like.php:195
+#: templates/may-also-like.php:207 templates/may-also-like.php:219
+#: templates/may-also-like.php:231 templates/may-also-like.php:243
+#: templates/may-also-like.php:252 templates/may-also-like.php:255
+#: templates/may-also-like.php:264 templates/may-also-like.php:267
+#: templates/may-also-like.php:279 templates/may-also-like.php:297
+#: templates/may-also-like.php:309 templates/may-also-like.php:327
+#: templates/may-also-like.php:339 templates/may-also-like.php:351
+#: templates/may-also-like.php:368 templates/may-also-like.php:380
+msgid "Yes"
+msgstr "Sì"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1253
+#: other-includes/wp-security-rename-login-feature.php:1111
+msgid "https://wordpress.org/support/article/cookies/#enable-cookies-in-your-browser"
+msgstr "https://wordpress.org/support/article/cookies/#enable-cookies-in-your-browser"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1242
+#: other-includes/wp-security-rename-login-feature.php:1100
+msgid "https://wordpress.org/support/article/cookies/"
+msgstr "https://wordpress.org/support/article/cookies/"
+
+#. translators: %s: site title
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:253
+msgctxt "site"
+msgid "&larr; Back to %s"
+msgstr "&larr; Torna a %s"
+
+#: classes/wp-security-general-init-tasks.php:703
+msgid "You are not authorized to perform this action."
+msgstr "Non sei autorizzato ad eseguire quest’azione."
+
+#: classes/wp-security-process-renamed-login-page.php:166
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:850
+msgid "Invalid key"
+msgstr "Chiave non valida"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:841
+msgid "Invalid request."
+msgstr "Richiesta non valida."
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:707
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:985
+#: other-includes/wp-security-rename-login-feature.php:843
+msgid "Confirm use of weak password"
+msgstr "Conferma l'utilizzo di una password debole"
+
+#. translators: %s: site name
+#. translators: %s: Site name.
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:371
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:428
+msgid "Site Name: %s"
+msgstr "Nome del sito: %s"
+
+#. translators: Login screen title. 1: Login screen name, 2: Network or site
+#. name
+#. translators: Login screen title. 1: Login screen name, 2: Network or site
+#. name.
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:60
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:72
+#: other-includes/wp-security-rename-login-feature.php:73
+msgid "%1$s &lsaquo; %2$s &#8212; WordPress"
+msgstr "%1$s &lsaquo; %2$s &#8212; WordPress"
+
+#: classes/wp-security-process-renamed-login-page.php:174
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:872
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1191
+#: other-includes/wp-security-rename-login-feature.php:1049
+msgid "User action confirmed."
+msgstr "Azione utente confermata."
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:975
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1346
+#: other-includes/wp-security-rename-login-feature.php:1204
+msgid "Your session has expired. Please log in to continue where you left off."
+msgstr "La sessione è scaduta! Accedi di nuovo per continuare da dove eri rimasto."
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:593
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:1030
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:863
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1416
+#: other-includes/wp-security-rename-login-feature.php:721
+#: other-includes/wp-security-rename-login-feature.php:1274
+msgid "Username or Email Address"
+msgstr "Nome utente o indirizzo email"
+
+#: classes/wp-security-user-login.php:396
+msgid "Username:"
+msgstr "Nome utente:"
+
+#: classes/wp-security-process-renamed-login-page.php:152
+msgid "Not available."
+msgstr "Non disponibile."
+
+#: classes/wp-security-general-init-tasks.php:684
+msgid "Your registration is pending approval."
+msgstr "La tua registrazione è in attesa di approvazione."
+
+#: other-includes/wp-security-unlock-request.php:93
+msgid "You are here because you have been locked out due to too many incorrect login attempts."
+msgstr "Sei qui perché sei stato bloccato a causa di troppi tentativi di accesso non corretti."
+
+#: classes/wp-security-user-login.php:516
+msgid "You have requested for the account with email address %s to be unlocked. Please click the link below to unlock your account:"
+msgstr "Hai richiesto che l'account con indirizzo email %s sia sbloccato. Fai clic sul link sottostante per sbloccare il tuo account:"
+
+#: classes/wp-security-user-login.php:516
+msgid "Unlock link: %s"
+msgstr "Link di sblocco: %s"
+
+#: other-includes/wp-security-unlock-request.php:76
+msgid "An email has been sent to you with the unlock instructions."
+msgstr "Ti è stata inviata un'email con le istruzioni per lo sblocco."
+
+#: other-includes/wp-security-unlock-request.php:94
+msgid "Please enter your email address and you will receive an email with instructions on how to unlock yourself."
+msgstr "Inserisci il tuo indirizzo email e riceverai un'email con le istruzioni su come sbloccarti."
+
+#: admin/wp-security-user-login-menu.php:467
+msgid "This tab displays the failed login attempts for your site."
+msgstr "Questa scheda visualizza i tentativi di accesso non riusciti per il tuo sito."
+
+#: admin/wp-security-user-login-menu.php:468
+msgid "The information below can be handy if you need to do security investigations because it will show you the IP range, username and ID (if applicable) and the time/date of the failed login attempt."
+msgstr "Le informazioni qui di seguito possono essere utili se hai bisogno di fare indagini sulla sicurezza, perché mostreranno l'intervallo IP, nome utente e ID (se applicabile) e la data/ora del tentativo di accesso non riuscito."
+
+#: admin/wp-security-user-login-menu.php:514
+msgid "Click this button if you wish to delete all failed login records in one go."
+msgstr "Clicca su questo pulsante se vuoi eliminare tutti i record di accesso non riusciti in un colpo solo."
+
+#: admin/wp-security-user-login-menu.php:544
+msgid "You entered a non numeric value for the logout time period field. It has been set to the default value."
+msgstr "È stato immesso un valore non numerico per il campo periodo di tempo disconnessione. Reimpostato il valore di default."
+
+#: admin/wp-security-user-login-menu.php:569
+msgid "Setting an expiry period for your WP administration session is a simple way to protect against unauthorized access to your site from your computer."
+msgstr "Impostare un periodo di scadenza per la sessione di amministrazione WP è un modo semplice per proteggere il sito dall'accesso non autorizzato da computer."
+
+#: admin/wp-security-user-login-menu.php:570
+msgid "This feature allows you to specify a time period in minutes after which the admin session will expire and the user will be forced to log back in."
+msgstr "Questa funzione consente di specificare un periodo di tempo in minuti dopo il quale la sessione di amministrazione scadrà e l'utente sarà costretto ad accedere di nuovo."
+
+#: admin/wp-security-user-login-menu.php:590
+msgid "Check this if you want to force a wp user to be logged out after a configured amount of time"
+msgstr "Seleziona questa casella se vuoi forzare un utente wp a ri-autenticarsi dopo un periodo di tempo scelto"
+
+#: admin/wp-security-user-login-menu.php:596
+msgid "(Minutes) The user will be forced to log back in after this time period has elapased."
+msgstr "(Minuti), l'utente sarà costretto a ricollegarsi dopo che è trascorso questo periodo di tempo."
+
+#: admin/wp-security-user-login-menu.php:706
+msgid "This tab displays all users who are currently logged into your site."
+msgstr "Questa scheda consente di visualizzare tutti gli utenti che sono connessi nel tuo sito."
+
+#: admin/wp-security-user-login-menu.php:707
+msgid "If you suspect there is a user or users who are logged in which should not be, you can block them by inspecting the IP addresses from the data below and adding them to your blacklist."
+msgstr "Se si sospetta ci sia uno o più utenti registrati, che non dovrebbero esserci, è possibile bloccarli ispezionando gli indirizzi IP dai dati qui sotto e aggiungendoli alla tua lista nera."
+
+#: admin/wp-security-user-registration-menu.php:124
+msgid "This feature will automatically set a newly registered account to \"pending\" until the administrator activates it. Therefore undesirable registrants will be unable to log in without your express approval."
+msgstr "Questa funzione consente di impostare automaticamente un account appena registrato  \"in attesa\"  fino a quando l'amministratore lo attiva. Pertanto, gli iscritti indesiderati non saranno in grado di accedere senza la vostra approvazione esplicita."
+
+#: admin/wp-security-user-registration-menu.php:125
+msgid "You can view all accounts which have been newly registered via the handy table below and you can also perform bulk activation/deactivation/deletion tasks on each account."
+msgstr "È possibile visualizzare tutti gli account che sono stati recentemente registrati tramite la tabella qui sotto e si possono anche effettuare operazioni di attivazione/disattivazione/eliminazione di massa su ogni account."
+
+#: admin/wp-security-user-registration-menu.php:142
+msgid "Enable manual approval of new registrations"
+msgstr "Attiva approvazione manuale di nuove registrazioni"
+
+#: admin/wp-security-user-registration-menu.php:145
+msgid "Check this if you want to automatically disable all newly registered accounts so that you can approve them manually."
+msgstr "Seleziona questa casella se desideri disattivare automaticamente tutti gli account di nuova registrazione in modo da approvarli manualmente."
+
+#: admin/wp-security-user-registration-menu.php:207
+msgid "Users who attempt to register will also need to enter the answer to a simple mathematical question - if they enter the wrong answer, the plugin will not allow them to register."
+msgstr "Gli utenti che tentano di registrarsi devono inserire la risposta ad una semplice domanda matematica - se inseriscono la risposta sbagliata il plugin non permetterà loro di registrarsi."
+
+#: classes/wp-security-captcha.php:81
+#: classes/wp-security-general-init-tasks.php:411
+msgid "Please enter an answer in digits:"
+msgstr "Inserisci una risposta in cifre:"
+
+#: classes/wp-security-captcha.php:161
+msgid "one"
+msgstr "uno"
+
+#: classes/wp-security-captcha.php:162
+msgid "two"
+msgstr "due"
+
+#: classes/wp-security-captcha.php:163
+msgid "three"
+msgstr "tre"
+
+#: classes/wp-security-captcha.php:164
+msgid "four"
+msgstr "quattro"
+
+#: classes/wp-security-captcha.php:165
+msgid "five"
+msgstr "cinque"
+
+#: classes/wp-security-captcha.php:166
+msgid "six"
+msgstr "sei"
+
+#: classes/wp-security-captcha.php:167
+msgid "seven"
+msgstr "sette"
+
+#: classes/wp-security-captcha.php:168
+msgid "eight"
+msgstr "otto"
+
+#: classes/wp-security-captcha.php:169
+msgid "nine"
+msgstr "nove"
+
+#: classes/wp-security-captcha.php:170
+msgid "ten"
+msgstr "dieci"
+
+#: classes/wp-security-captcha.php:171
+msgid "eleven"
+msgstr "undici"
+
+#: classes/wp-security-captcha.php:172
+msgid "twelve"
+msgstr "dodici"
+
+#: classes/wp-security-captcha.php:173
+msgid "thirteen"
+msgstr "tredici"
+
+#: classes/wp-security-captcha.php:174
+msgid "fourteen"
+msgstr "quattordici"
+
+#: classes/wp-security-captcha.php:175
+msgid "fifteen"
+msgstr "quindici"
+
+#: classes/wp-security-captcha.php:176
+msgid "sixteen"
+msgstr "sedici"
+
+#: classes/wp-security-captcha.php:177
+msgid "seventeen"
+msgstr "diciassette"
+
+#: classes/wp-security-captcha.php:178
+msgid "eighteen"
+msgstr "diciotto"
+
+#: classes/wp-security-captcha.php:179
+msgid "nineteen"
+msgstr "diciannove"
+
+#: classes/wp-security-captcha.php:180
+msgid "twenty"
+msgstr "venti"
+
+#: classes/wp-security-file-scan.php:85
+msgid "All In One WP Security - File change detected!"
+msgstr "All In One WP Security - Rilevata Modifica File!"
+
+#: classes/wp-security-file-scan.php:87
+msgid "A file change was detected on your system for site URL"
+msgstr "Un cambiamento file è stato rilevato sul sistema del sito con URL"
+
+#: classes/wp-security-file-scan.php:87
+msgid ". Scan was generated on"
+msgstr ".Scansione è stata generata su"
+
+#: classes/wp-security-file-scan.php:91
+msgid "Login to your site to view the scan details."
+msgstr "Accedi al sito per visualizzare i dettagli di scansione."
+
+#: classes/wp-security-general-init-tasks.php:520
+msgid "Error: You entered an incorrect CAPTCHA answer. Please go back and try again."
+msgstr "Errore: Hai inserito una risposta CAPTCHA sbagliata. Prova di nuovo."
+
+#: classes/wp-security-general-init-tasks.php:432
+#: classes/wp-security-general-init-tasks.php:545
+#: classes/wp-security-general-init-tasks.php:578
+#: classes/wp-security-user-login.php:137
+#: classes/wp-security-user-registration.php:74
+msgid "<strong>ERROR</strong>: Your answer was incorrect - please try again."
+msgstr "<strong>ERRORE</strong>: La risposta è sbagliata - si prega di riprovare."
+
+#: classes/wp-security-user-login.php:242
+msgid "<strong>ERROR</strong>: Invalid login credentials."
+msgstr "<strong>ERRORE</strong>: credenziali login non valide."
+
+#: classes/wp-security-user-login.php:163
+msgid "<strong>ACCOUNT PENDING</strong>: Your account is currently not active. An administrator needs to activate your account before you can login."
+msgstr "<strong>ACCOUNT IN SOSPESO </strong>: Il tuo account non è attivo. Un amministratore deve attivare il tuo account prima di poter accedere."
+
+#: classes/wp-security-user-login.php:392
+msgid "Site Lockout Notification"
+msgstr "Avviso Blocco Sito"
+
+#: classes/wp-security-user-login.php:736
+msgid "Your session has expired because it has been over %d minutes since your last login."
+msgstr "La sessione è scaduta perché è passato più di %d minuti dal tuo ultimo accesso."
+
+#: classes/wp-security-user-login.php:737
+#: classes/wp-security-user-login.php:741
+msgid "Please log back in to continue."
+msgstr "Accedi nuovamente per continuare."
+
+#: classes/wp-security-user-login.php:740
+msgid "You were logged out because you just changed the \"admin\" username."
+msgstr "Sei stato disconnesso perché hai appena cambiato il nome utente \"admin\"."
+
+#: classes/wp-security-utility.php:256
+msgid "This feature can only be configured by the \"superadmin\" on the main site."
+msgstr "Questa funzione può essere configurata solo dal  \"superadmin\" sul sito principale."
+
+#: classes/grade-system/wp-security-feature-item.php:29
+msgid "Basic"
+msgstr "Base"
+
+#: classes/grade-system/wp-security-feature-item.php:31
+msgid "Intermediate"
+msgstr "Intermedio"
+
+#: classes/grade-system/wp-security-feature-item.php:33
+msgid "Advanced"
+msgstr "Avanzate"
+
+#: classes/wp-security-user-login.php:516
+msgid "After clicking the above link you will be able to login to the WordPress administration panel."
+msgstr "Dopo aver cliccato sul link qui sopra sarai in grado di accedere al pannello di amministrazione di WordPress."
+
+#. translators: %s: user login
+#. translators: %s: User login.
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:373
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:430
+msgid "Username: %s"
+msgstr "Nome Utente: %s"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:374
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr "Se questo è stato un errore, è sufficiente ignorare questa email e non accadrà nulla."
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:375
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:432
+msgid "To reset your password, visit the following address:"
+msgstr "Per reimpostare la password visita il seguente indirizzo:"
+
+#. translators: Password reset email subject. %s: Site name
+#. translators: Password reset notification email subject. %s: Site title.
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:379
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:445
+msgid "[%s] Password Reset"
+msgstr "[%s] Ripristino Password"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:409
+msgid "Possible reason: your host may have disabled the mail() function."
+msgstr "Possibile ragione: il tuo host potrebbe aver disabilitato la funzione mail()."
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:581
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:851
+#: other-includes/wp-security-rename-login-feature.php:709
+msgid "Lost Password"
+msgstr "Password Persa"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:581
+msgid "Please enter your username or email address. You will receive a link to create a new password via email."
+msgstr "Inserisci il tuo nome utente o indirizzo e-mail. Riceverai un link per creare una nuova password via email."
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:662
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:941
+#: other-includes/wp-security-rename-login-feature.php:799
+msgid "The passwords do not match."
+msgstr "Le password non coincidono."
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:677
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:957
+#: other-includes/wp-security-rename-login-feature.php:815
+msgid "Password Reset"
+msgstr "Reimposta Password"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:677
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:957
+#: other-includes/wp-security-rename-login-feature.php:815
+msgid "Your password has been reset."
+msgstr "La tua password è stata reimpostata."
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:692
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:972
+#: other-includes/wp-security-rename-login-feature.php:830
+msgid "New password"
+msgstr "Nuova password"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:712
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:990
+#: other-includes/wp-security-rename-login-feature.php:848
+msgid "Confirm new password"
+msgstr "Conferma la nuova password"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:702
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:981
+#: other-includes/wp-security-rename-login-feature.php:839
+msgid "Strength indicator"
+msgstr "Indicatore Forza"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:800
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1084
+#: other-includes/wp-security-rename-login-feature.php:942
+msgid "Registration Form"
+msgstr "Modulo Registrazione"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:800
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1084
+#: other-includes/wp-security-rename-login-feature.php:942
+msgid "Register For This Site"
+msgstr "Registrazione per questo sito"
+
+#. translators: 1: Browser cookie documentation URL, 2: Support forums URL
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:916
+msgid "<strong>ERROR</strong>: Cookies are blocked due to unexpected output. For help, please see <a href=\"%1$s\">this documentation</a> or try the <a href=\"%2$s\">support forums</a>."
+msgstr "<strong>ERRORE</strong>: I cookie sono bloccati causa un'uscita inaspettata. Per ulteriori informazioni, consulta  <a href=\"%1$s\">questa documentazione</a> or try the <a href=\"%2$s\">support forums</a>."
+
+#. translators: 1: Browser cookie documentation URL
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:920
+msgid "<strong>ERROR</strong>: Cookies are blocked or not supported by your browser. You must <a href=\"%s\">enable cookies</a> to use WordPress."
+msgstr "<strong>ERRORE</strong>: I cookie sono bloccati o non supportati dal tuo browser. È necessario <a href=\"%s\">abilitare i cookie</a> per usare WordPress."
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:938
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1273
+#: other-includes/wp-security-rename-login-feature.php:1131
+msgid "You have logged in successfully."
+msgstr "Hai fatto il login con successo."
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:979
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1351
+#: other-includes/wp-security-rename-login-feature.php:1209
+msgid "You are now logged out."
+msgstr "Ora sei disconnesso."
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:981
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1353
+#: other-includes/wp-security-rename-login-feature.php:1211
+msgid "User registration is currently not allowed."
+msgstr "Registrazione utente non è attualmente consentita."
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:1045
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1438
+#: other-includes/wp-security-rename-login-feature.php:1296
+msgid "Remember Me"
+msgstr "Ricordami"
+
+#: other-includes/wp-security-unlock-request.php:45
+msgid "Please enter a valid email address"
+msgstr "Inserisci un indirizzo email valido"
+
+#: other-includes/wp-security-unlock-request.php:57
+msgid "User account not found!"
+msgstr "Account utente non trovato!"
+
+#: admin/wp-security-user-registration-menu.php:219
+msgid "The core default behaviour for WordPress Multi Site regarding user registration is that all users are registered via the main site."
+msgstr "Il comportamento predefinito di base per WordPress Multi Site, per quanto riguarda la registrazione degli utenti, è che tutti gli utenti sono registrati attraverso il sito principale."
+
+#: classes/wp-security-general-init-tasks.php:467
+msgid "Enter something special:"
+msgstr "Inserisci qualcosa di speciale:"
+
+#: classes/wp-security-general-init-tasks.php:562
+msgid "Your CAPTCHA answer was incorrect - please try again."
+msgstr "La tua risposta CAPTCHA è sbagliata - si prega di riprovare."
+
+#: classes/wp-security-file-scan.php:88
+msgid "A summary of the scan results is shown below:"
+msgstr "Riepilogo del risultato della scansione:"
+
+#: classes/wp-security-file-scan.php:313
+msgid "The following files were added to your host"
+msgstr "I seguenti file sono stati aggiunti al tuo host"
+
+#: classes/wp-security-file-scan.php:315 classes/wp-security-file-scan.php:323
+#: classes/wp-security-file-scan.php:332
+msgid "modified on: "
+msgstr "modificato il: "
+
+#: classes/wp-security-file-scan.php:321
+msgid "The following files were removed from your host"
+msgstr "I seguenti file sono stati rimosso dal tuo host"
+
+#: classes/wp-security-file-scan.php:330
+msgid "The following files were changed on your host"
+msgstr "I seguenti file sono cambiati nel tuo host"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:115
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:123
+#: other-includes/wp-security-rename-login-feature.php:124
+msgid "https://wordpress.org/"
+msgstr "https://it.wordpress.org/"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:608
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:677
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:734
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:827
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:1047
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:882
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:957
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1015
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1115
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1440
+#: other-includes/wp-security-rename-login-feature.php:740
+#: other-includes/wp-security-rename-login-feature.php:815
+#: other-includes/wp-security-rename-login-feature.php:873
+#: other-includes/wp-security-rename-login-feature.php:973
+#: other-includes/wp-security-rename-login-feature.php:1298
+msgid "Log in"
+msgstr "Accedi"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:558
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:824
+#: other-includes/wp-security-rename-login-feature.php:682
+msgid "Your password reset link appears to be invalid. Please request a new link below."
+msgstr "Il tuo link per reimpostare la password risulta non valido. Richiedine un altro qui sotto."
+
+#: classes/wp-security-user-registration.php:68
+msgid "<strong>ERROR</strong>: You are not allowed to register because your IP address is currently locked!"
+msgstr "<strong>ERRORE</strong>:  Non hai il permesso di registrarti perch&#233; il tuo indirizzo IP &#232; momentaneamente bloccato!"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:560
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:826
+#: other-includes/wp-security-rename-login-feature.php:684
+msgid "Your password reset link has expired. Please request a new link below."
+msgstr "Il link per richiedere una nuova password &#232; scaduto. Per favore, richiedi un nuovo link qui sotto."
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:1006
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1389
+#: other-includes/wp-security-rename-login-feature.php:1247
+msgid "Log In"
+msgstr "Accedi"
+
+#: other-includes/wp-security-unlock-request.php:32
+msgid "ERROR: Unable to process your request!"
+msgstr "ERRORE: Impossibile elaborare la tua richiesta!"
+
+#. translators: 1: Browser cookie documentation URL, 2: Support forums URL
+#. translators: 1: Browser cookie documentation URL
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:916
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:920
+msgid "https://codex.wordpress.org/Cookies"
+msgstr "https://codex.wordpress.org/Cookies"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:987
+msgid "Registration complete. Please check your email."
+msgstr "Registrazione completata. Controlla la tua email."
+
+#: classes/grade-system/wp-security-feature-item-manager.php:97
+msgid "Enable IP blocking for 404 detection"
+msgstr "Attiva il blocco IP per rilevamento 404"
+
+#: classes/wp-security-utility-ip-address.php:217
+#: classes/wp-security-utility-ip-address.php:231
+#: classes/wp-security-utility-ip-address.php:245
+#: classes/wp-security-utility-ip-address.php:257
+#: classes/wp-security-utility-ip-address.php:269
+msgid " is not a valid ip address format."
+msgstr " non è un formato di indirizzo ip valido."
+
+#: classes/wp-security-utility-ip-address.php:274
+msgid "You cannot ban your own IP address: "
+msgstr "Non puoi vietare il tuo indirizzo IP: "
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:116
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:152
+#: other-includes/wp-security-rename-login-feature.php:153
+#: other-includes/wp-security-unlock-request.php:15
+msgid "Powered by WordPress"
+msgstr "Powered by WordPress"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:685
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:965
+#: other-includes/wp-security-rename-login-feature.php:823
+msgid "Enter your new password below."
+msgstr "Inserisci una nuova password di seguito."
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:820
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1105
+#: other-includes/wp-security-rename-login-feature.php:963
+msgid "Registration confirmation will be emailed to you."
+msgstr "La conferma della registrazione ti sarà inviata via email."
+
+#. translators: 1: Browser cookie documentation URL, 2: Support forums URL
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:916
+msgid "https://wordpress.org/support/"
+msgstr "https://wordpress.org/support/"
+
+#: other-includes/wp-security-unlock-request.php:14
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:409
+msgid "The email could not be sent."
+msgstr "Impossibile inviare l’email."
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:985
+msgid "Check your email for your new password."
+msgstr "Controlla la tua casella di posta elettronica per la tua nuova password."
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:983
+msgid "Check your email for the confirmation link."
+msgstr "Controlla la tua email per il link di conferma che ti abbiamo inviato."
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:829
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:1072
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1117
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1481
+#: other-includes/wp-security-rename-login-feature.php:975
+#: other-includes/wp-security-rename-login-feature.php:1339
+msgid "Lost your password?"
+msgstr "Password dimenticata?"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:346
+msgid "<strong>ERROR</strong>: Invalid username or email."
+msgstr "<strong>ERRORE</strong>: nome utente o indirizzo email non validi."
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:325
+msgid "<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr "<strong>ERRORE</strong>: nessun utente registrato con questo indirizzo email."
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:321
+msgid "<strong>ERROR</strong>: Enter a username or email address."
+msgstr "<strong>ERRORE</strong>: inserisci un nome utente o un indirizzo email."
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:685
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:965
+#: other-includes/wp-security-rename-login-feature.php:823
+msgid "Reset Password"
+msgstr "Reimposta password"
+
+#: other-includes/wp-security-unlock-request.php:104
+msgid "Email Address"
+msgstr "Indirizzo email"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:611
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:737
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:823
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:1064
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:886
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1019
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1110
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1472
+#: other-includes/wp-security-rename-login-feature.php:744
+#: other-includes/wp-security-rename-login-feature.php:877
+#: other-includes/wp-security-rename-login-feature.php:968
+#: other-includes/wp-security-rename-login-feature.php:1330
+msgid "Register"
+msgstr "Registrati"
+
+#: admin/wp-security-user-accounts-menu.php:34
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:1034
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1421
+#: other-includes/wp-security-rename-login-feature.php:1279
+msgid "Password"
+msgstr "Password"
+
+#: admin/wp-security-user-accounts-menu.php:85
+msgid "By default, WordPress sets the administrator username to \"admin\" at installation time."
+msgstr "Per impostazione predefinita, WordPress imposta il nome utente amministratore come \"admin\" al momento dell'installazione."
+
+#: admin/wp-security-user-accounts-menu.php:87
+msgid "From a security perspective, changing the default \"admin\" user name is one of the first and smartest things you should do on your site."
+msgstr "Dal punto di vista della sicurezza, la modifica del valore predefinito nome utente \"admin\" è una delle prime e più intelligenti cose che dovresti fare sul tuo sito."
+
+#: admin/wp-security-user-accounts-menu.php:88
+msgid "This feature will allow you to change your default \"admin\" user name to a more secure name of your choosing."
+msgstr "Questa funzione permette di cambiare il nome utente predefinito  \"admin \" in un nome più sicuro a tua scelta."
+
+#: admin/wp-security-user-accounts-menu.php:126
+msgid "NOTE: If you are currently logged in as \"admin\" you will be automatically logged out after changing your username and will be required to log back in."
+msgstr "NOTA: Se si è effettuato l'accesso come \"admin\" si viene automaticamente disconnessi dopo aver cambiato il nome utente e sarà richiesto di effettuare il login per rientrare."
+
+#: admin/wp-security-user-accounts-menu.php:135
+msgid "Your site does not have any account which uses the default \"admin\" username. "
+msgstr "Il tuo sito non ha nessun account che usa il nome utente predefinito \"admin\"."
+
+#: admin/wp-security-user-accounts-menu.php:136
+msgid "This is good security practice."
+msgstr "Questa è una buona pratica di sicurezza."
+
+#: admin/wp-security-user-accounts-menu.php:151
+msgid "When you submit a post or answer a comment, WordPress will usually display your \"nickname\"."
+msgstr "Quando si pubblica un articolo o si risponde a un commento, WordPress farà comparire il tuo \"nickname\"."
+
+#: admin/wp-security-user-accounts-menu.php:152
+msgid "By default the nickname is set to the login (or user) name of your account."
+msgstr "Per impostazione predefinita, il nickname impostato per il login (o utente) è il nome del tuo account."
+
+#: admin/wp-security-user-accounts-menu.php:153
+msgid "From a security perspective, leaving your nickname the same as your user name is bad practice because it gives a hacker at least half of your account's login credentials."
+msgstr "Dal punto di vista della sicurezza, lasciando il tuo nickname uguale al tuo nome utente, è sbagliato e pericoloso, perché offre su un piatto a un hacker almeno la metà delle credenziali di accesso del tuo account."
+
+#: admin/wp-security-user-accounts-menu.php:154
+msgid "Therefore to further tighten your site's security you are advised to change your <strong>nickname</strong> and <strong>Display name</strong> to be different from your <strong>Username</strong>."
+msgstr "Quindi per stringere ulteriormente la sicurezza del tuo sito si consiglia di cambiare il tuo <strong>nickname</strong> e <strong>Nome Visualizzato</strong> in modo che siano diverso da <strong>Nome Utente</strong>."
+
+#: admin/wp-security-user-accounts-menu.php:169
+msgid "Your site currently has the following accounts which have an identical login name and display name."
+msgstr "Il sito ha attualmente i seguenti account che hanno un nome di login identico al nome visualizzato."
+
+#: admin/wp-security-user-accounts-menu.php:186
+msgid "Your site does not have a user account where the display name is identical to the username."
+msgstr "Il sito non dispone di un account utente in cui il nome di visualizzazione è identica al nome utente."
+
+#: admin/wp-security-user-accounts-menu.php:200
+msgid "Poor password selection is one of the most common weak points of many sites and is usually the first thing a hacker will try to exploit when attempting to break into your site."
+msgstr "Scelta di password brevi o facili è uno dei punti deboli più comuni di molti siti e di solito è la prima cosa che un hacker cercherà di sfruttare quando tenta di violare il sito."
+
+#: admin/wp-security-user-accounts-menu.php:201
+msgid "Many people fall into the trap of using a simple word or series of numbers as their password. Such a predictable and simple password would take a competent hacker merely minutes to guess your password by using a simple script which cycles through the easy and most common combinations."
+msgstr "Molte persone cadono nella trappola di usare una semplice parola o una serie di numeri come password. Tale parola, prevedibile e semplice, permette a un hacker competente di indovinare la password in pochi minuti, utilizzando un semplice script che crea cicli di combinazioni semplici e più comuni."
+
+#: admin/wp-security-user-accounts-menu.php:202
+msgid "The longer and more complex your password is the harder it is for hackers to \"crack\" because more complex passwords require much greater computing power and time."
+msgstr "Una password  più lunga e complessa è più difficile per gli hacker da \"crackare \", perché richiede maggiore tempo e potenza di calcolo."
+
+#: admin/wp-security-user-accounts-menu.php:203
+msgid "This section contains a useful password strength tool which you can use to check whether your password is sufficiently strong enough."
+msgstr "Questa sezione contiene un utile strumento password che è possibile utilizzare per controllare se la password è sufficientemente forte."
+
+#: admin/wp-security-user-accounts-menu.php:216
+msgid "It would take a desktop PC approximately"
+msgstr "Con un PC desktop ci vorrebbe circa"
+
+#: admin/wp-security-user-accounts-menu.php:217
+msgid "1 sec"
+msgstr "1 sec"
+
+#: admin/wp-security-user-accounts-menu.php:217
+msgid "to crack your password!"
+msgstr "per crackare la tua password!"
+
+#: admin/wp-security-user-accounts-menu.php:222
+msgid "Password Strength"
+msgstr "Forza Password"
+
+#: admin/wp-security-user-accounts-menu.php:262
+msgid "The database update operation of the user account failed!"
+msgstr "L'operazione di aggiornamento database dell'account utente non è riuscita!"
+
+#: admin/wp-security-user-login-menu.php:254
+msgid "This is where attackers use repeated login attempts until they guess the password."
+msgstr "Questo è dove gli aggressori usano i tentativi di accesso ripetuti fino a quando non indovinano la password."
+
+#: admin/wp-security-user-login-menu.php:255
+msgid "Apart from choosing strong passwords, monitoring and blocking IP addresses which are involved in repeated login failures in a short period of time is a very effective way to stop these types of attacks."
+msgstr "Oltre alla scelta di password, il monitoraggio e il blocco degli indirizzi IP che sono coinvolti in errori di login ripetuti in un breve periodo di tempo è un modo molto efficace per fermare questi tipi di attacchi."
+
+#: admin/wp-security-user-login-menu.php:256
+msgid "You may also want to checkout our %s feature for another secure way to protect against these types of attacks."
+msgstr "Si consiglia inoltre di vedere %s un altro modo sicuro per proteggere contro questi tipi di attacchi."
+
+#: admin/wp-security-user-login-menu.php:288
+msgid "Set the value for the maximum login retries before IP address is locked out"
+msgstr "Impostare il valore per il numero massimo di tentativi d'accesso prima che l'indirizzo IP venga bloccato"
+
+#: admin/wp-security-user-login-menu.php:294
+msgid "If the maximum number of failed login attempts for a particular IP address occur within this time period the plugin will lock out that address"
+msgstr "Se il numero massimo di tentativi di accesso non riusciti per un particolare indirizzo IP avviene entro questo periodo di tempo il plugin blocca quell'indirizzo"
+
+#: admin/wp-security-user-login-menu.php:334
+msgid "Check this if you want to instantly lockout login attempts with usernames which do not exist on your system"
+msgstr "Seleziona questa casella se vuoi bloccare istantaneamente i tentativi di accesso con nomi utente che non esistono sul tuo sistema"
+
+#: admin/wp-security-user-login-menu.php:358
+msgid "Check this if you want to receive an email when someone has been locked out due to maximum failed login attempts"
+msgstr "Seleziona questa casella se vuoi ricevere una e-mail quando qualcuno è stato bloccato a causa di massimi tentativi falliti d'accesso"
+
+#: admin/wp-security-user-login-menu.php:282
+msgid "Check this if you want to allow users to generate an automated unlock request link which will unlock their account"
+msgstr "Seleziona questa casella se desideri consentire agli utenti di generare una richiesta di link sblocco automatico che sbloccherà il loro account"
+
+#: admin/wp-security-user-login-menu.php:394
+msgid "To see a list of all locked IP addresses and ranges go to the %s tab in the dashboard menu."
+msgstr "Per visualizzare un elenco di tutti gli indirizzi IP bloccati e gli intervalli vai alla scheda %s nel menu della bacheca."
+
+#: admin/wp-security-spam-menu.php:530
+msgid "BuddyPress is not active! In order to use this feature you will need to have BuddyPress installed and activated."
+msgstr "BuddyPress non è attivo! Per poter utilizzare questa funzione è necessario aver installato e attivato BuddyPress."
+
+#: admin/wp-security-user-accounts-menu.php:120
+msgid "Choose a new username for admin."
+msgstr "Scegli un nuovo nome per l'utente admin."
+
+#: admin/wp-security-user-accounts-menu.php:133
+msgid "No action required! "
+msgstr "Nessuna azione richiesta! "
+
+#: admin/wp-security-user-accounts-menu.php:185
+msgid "No action required."
+msgstr "Nessuna azione richiesta."
+
+#: admin/wp-security-user-accounts-menu.php:245
+msgid "Username "
+msgstr "Nome utente "
+
+#: admin/wp-security-user-accounts-menu.php:245
+msgid " already exists. Please enter another value. "
+msgstr " già esistente. Inserisci un altro valore. "
+
+#: admin/wp-security-user-accounts-menu.php:291
+msgid "You entered an invalid username. Please enter another value. "
+msgstr "Hai inserito un nome utente non valido. Inserisci un altro valore. "
+
+#: admin/wp-security-user-login-menu.php:254
+msgid "One of the ways hackers try to compromise sites is via a "
+msgstr "Uno dei modi con cui gli hacker tentano di compromettere siti è tramite un "
+
+#: admin/wp-security-user-accounts-menu.php:295
+msgid "Please enter a value for your username. "
+msgstr "Inserisci un valore per il nome utente. "
+
+#: admin/wp-security-user-accounts-menu.php:213
+msgid "Start typing a password."
+msgstr "Inizia a digitare una password."
+
+#: admin/wp-security-user-login-menu.php:327
+msgid "Check this if you want to show a generic error message when a login attempt fails"
+msgstr "Seleziona questa casella per mostrare un messaggio di errore generico quando un tentativo di accesso fallisce"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:369
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:426
+msgid "Someone has requested a password reset for the following account:"
+msgstr "Qualcuno ha richiesto la reimpostazione della password per il seguente account:"
+
+#: admin/wp-security-list-comment-spammer-ip.php:62
+msgid "Status"
+msgstr "Stato"
+
+#: admin/wp-security-list-404.php:121
+#: admin/wp-security-list-acct-activity.php:36
+#: admin/wp-security-list-acct-activity.php:83
+#: admin/wp-security-list-locked-ip.php:38
+#: admin/wp-security-list-locked-ip.php:85
+#: admin/wp-security-list-login-fails.php:74
+#: admin/wp-security-list-registered-users.php:94
+msgid "Delete"
+msgstr "Elimina"
+
+#: admin/wp-security-brute-force-menu.php:335
+#: admin/wp-security-firewall-menu.php:672
+msgid "backup"
+msgstr "backup"
+
+#: admin/wp-security-list-acct-activity.php:61
+#: admin/wp-security-list-locked-ip.php:61
+#: admin/wp-security-list-logged-in-users.php:45
+#: admin/wp-security-list-login-fails.php:55
+#: admin/wp-security-list-registered-users.php:70
+msgid "User ID"
+msgstr "ID utente"
+
+#: admin/wp-security-dashboard-menu.php:473
+msgid "Follow us on"
+msgstr "Seguici su"
+
+#: admin/wp-security-dashboard-menu.php:200
+#: admin/wp-security-firewall-menu.php:1169
+#: admin/wp-security-user-login-menu.php:485
+#: admin/wp-security-user-login-menu.php:643
+#: admin/wp-security-user-registration-menu.php:164
+msgid "Search"
+msgstr "Cerca"
+
+#: admin/general/wp-security-list-table.php:887
+msgid "Last page"
+msgstr "Ultima pagina"
+
+#: admin/general/wp-security-list-table.php:876
+msgid "Next page"
+msgstr "Pagina successiva"
+
+#: admin/general/wp-security-list-table.php:851
+msgid "Previous page"
+msgstr "Pagina precedente"
+
+#: admin/general/wp-security-list-table.php:840
+msgid "First page"
+msgstr "Prima pagina"
+
+#: admin/general/wp-security-list-table.php:803
+#: admin/general/wp-security-list-table.php:1384
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] "%s elemento"
+msgstr[1] "%s elementi"
+
+#: admin/general/wp-security-list-table.php:727
+msgid "No pending comments"
+msgstr "Nessun commento in attesa"
+
+#: admin/general/wp-security-list-table.php:704
+msgid "No approved comments"
+msgstr "Nessun commento approvato"
+
+#: admin/general/wp-security-list-table.php:682
+#: admin/general/wp-security-list-table.php:704
+#: admin/general/wp-security-list-table.php:727
+msgid "No comments"
+msgstr "Nessun commento"
+
+#: admin/general/wp-security-list-table.php:676
+msgid "%s pending comment"
+msgid_plural "%s pending comments"
+msgstr[0] "%s commento in attesa"
+msgstr[1] "%s commenti in attesa"
+
+#: admin/general/wp-security-list-table.php:675
+msgid "%s approved comment"
+msgid_plural "%s approved comments"
+msgstr[0] "%s commento approvato"
+msgstr[1] "%s commenti approvati"
+
+#: admin/general/wp-security-list-table.php:674
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] "%s commento"
+msgstr[1] "%s commenti"
+
+#: admin/general/wp-security-list-table.php:606
+msgid "Filter by date"
+msgstr "Filtra per data"
+
+#: admin/general/wp-security-list-table.php:608
+msgid "All dates"
+msgstr "Tutte le date"
+
+#: admin/general/wp-security-list-table.php:538
+#: admin/general/wp-security-list-table.php:1360
+msgid "Show more details"
+msgstr "Mostra maggiori dettagli"
+
+#: admin/wp-security-dashboard-menu.php:380
+msgid "View all"
+msgstr "Visualizza tutti"
+
+#: admin/wp-security-misc-options-menu.php:31
+msgid "WP REST API"
+msgstr "WP REST API"
+
+#: admin/wp-security-filesystem-menu.php:114
+msgid "This plugin has detected that your site is running on a Windows server."
+msgstr "Questo plugin ha rilevato che il tuo sito è in esecuzione su un server Windows."
+
+#: admin/wp-security-filesystem-menu.php:115
+msgid "This feature is not applicable for Windows server installations."
+msgstr "Questa funzione non è applicabile alle installazioni su server Windows."
+
+#: admin/wp-security-firewall-menu.php:1294
+msgid "Place custom rules at the top"
+msgstr "Metti le regole personalizzate in cima"
+
+#: admin/wp-security-firewall-menu.php:1181
+#: admin/wp-security-firewall-menu.php:1190
+#: admin/wp-security-user-login-menu.php:495
+#: admin/wp-security-user-login-menu.php:504
+#: admin/wp-security-user-login-menu.php:653
+#: admin/wp-security-user-login-menu.php:662
+msgid "Export to CSV"
+msgstr "Esporta in CSV"
+
+#: admin/wp-security-list-comment-spammer-ip.php:131
+msgid "The selected IP addresses are now permanently blocked!"
+msgstr "Gli indirizzi IP selezionati sono ora permanentemente bloccati!"
+
+#: admin/wp-security-list-permanent-blocked-ip.php:127
+msgid "Nonce check failed for unblock IP operation!"
+msgstr "Controllo nonce fallito durante lo sblocco degli IP!"
+
+#: admin/wp-security-list-registered-users.php:246
+#: admin/wp-security-list-registered-users.php:260
+msgid "View Blocked IPs"
+msgstr "Visualizza IP bloccati"
+
+#: admin/wp-security-misc-options-menu.php:101
+msgid "When admin user is logged in, the feature is automatically disabled for his session."
+msgstr "Quando l'utente amministratore è connesso, la funzione viene automaticamente disabilitata per la sua sessione."
+
+#: admin/wp-security-misc-options-menu.php:191
+msgid "Users Enumeration Prevention feature settings saved!"
+msgstr "Le impostazioni della funzione di prevenzione dell'enumerazione degli utenti sono state salvate!"
+
+#: admin/wp-security-settings-menu.php:287
+msgid "This setting allows you to enable/disable debug for this plugin."
+msgstr "Questa impostazione consente di abilitare/disabilitare il debug per questo plugin."
+
+#: admin/wp-security-firewall-menu.php:1187
+#: admin/wp-security-user-login-menu.php:501
+#: admin/wp-security-user-login-menu.php:659
+msgid "Click this button if you wish to download this log in CSV format."
+msgstr "Fai clic su questo pulsante se desideri scaricare questo log in formato CSV."
+
+#: admin/wp-security-filescan-menu.php:381
+msgid "We provide advice for malware cleanup"
+msgstr "Forniamo consigli per la pulizia del malware"
+
+#: templates/info/ip-address-ip-range-info.php:6
+msgid "To specify an IPv4 range use a wildcard \"*\" character. Acceptable ways to use wildcards is shown in the examples below:"
+msgstr "Per specificare un intervallo IPv4 utilizza un carattere jolly \"*\". I modi accettabili per utilizzare i caratteri jolly sono mostrati negli esempi seguenti:"
+
+#: admin/wp-security-dashboard-menu.php:488
+msgid "Wanna know more about the developers behind this plugin?"
+msgstr "Vuoi saperne di più sugli sviluppatori dietro questo plugin?"
+
+#: admin/wp-security-blacklist-menu.php:198
+#: admin/wp-security-brute-force-menu.php:216
+msgid "This feature can lock you out of admin if it doesn't work correctly on your site. You %s before activating this feature."
+msgstr "Questa funzione può bloccare l’amministratore se non funziona correttamente sul tuo sito. %s prima di attivare questa funzione."
+
+#: admin/wp-security-list-acct-activity.php:62
+#: admin/wp-security-list-locked-ip.php:62
+#: admin/wp-security-list-login-fails.php:56
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:805
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1088
+#: other-includes/wp-security-rename-login-feature.php:946
+msgid "Username"
+msgstr "Nome utente"
+
+#. Plugin Name of the plugin
+msgid "All In One WP Security"
+msgstr "All In One WP Security"
+
+#: admin/wp-security-list-registered-users.php:72
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:809
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1092
+#: other-includes/wp-security-rename-login-feature.php:950
+msgid "Email"
+msgstr "Email"
+
+#: admin/wp-security-list-404.php:131 admin/wp-security-list-404.php:139
+#: admin/wp-security-list-404.php:146
+#: admin/wp-security-list-acct-activity.php:94
+#: admin/wp-security-list-comment-spammer-ip.php:96
+#: admin/wp-security-list-locked-ip.php:100
+#: admin/wp-security-list-locked-ip.php:108
+#: admin/wp-security-list-login-fails.php:85
+#: admin/wp-security-list-permanent-blocked-ip.php:90
+#: admin/wp-security-list-registered-users.php:110
+#: admin/wp-security-list-registered-users.php:118
+#: admin/wp-security-list-registered-users.php:126
+msgid "Please select some records using the checkboxes"
+msgstr "Si prega di selezionare alcuni record utilizzando le caselle di controllo"
+
+#: admin/wp-security-list-comment-spammer-ip.php:175
+msgid "The selected IP addresses were saved in the blacklist configuration settings."
+msgstr "Gli indirizzi IP selezionati sono stati salvati nelle impostazioni di configurazione blacklist."
+
+#: admin/wp-security-list-comment-spammer-ip.php:181
+msgid "The .htaccess file was successfully modified to include the selected IP addresses."
+msgstr "Il file .htaccess è stato modificato correttamente per includere gli indirizzi IP selezionati."
+
+#: admin/wp-security-list-comment-spammer-ip.php:188
+msgid "NOTE: The .htaccess file was not modified because you have disabled the \"Enable IP or User Agent Blacklisting\" check box."
+msgstr "NOTE: Il file .htaccess non è stata modificato perché è stata disattivata la casella \"Abilita IP o User Agent Blacklisting\"."
+
+#: admin/wp-security-list-comment-spammer-ip.php:189
+msgid "To block these IP addresses you will need to enable the above flag in the %s menu"
+msgstr "Per bloccare questi indirizzi IP è necessario attivare il flag sopra nel menù %s"
+
+#: admin/wp-security-list-registered-users.php:158
+msgid "The selected accounts were approved successfully!"
+msgstr "Gli account selezionati sono stati approvati con successo!"
+
+#: admin/wp-security-list-registered-users.php:168
+msgid "The selected account was approved successfully!"
+msgstr "Gli account selezionati sono stati approvati con successo!"
+
+#: admin/wp-security-list-registered-users.php:213
+msgid "The selected accounts were deleted successfully!"
+msgstr "Gli account selezionati sono stati approvati con successo!"
+
+#: admin/wp-security-list-registered-users.php:226
+msgid "The selected account was deleted successfully!"
+msgstr "Gli account selezionati sono stati approvati con successo!"
+
+#: admin/wp-security-maintenance-menu.php:85
+msgid "Site lockout feature settings saved!"
+msgstr "Impostazioni funzioni blocco sito salvate con successo!"
+
+#: admin/wp-security-maintenance-menu.php:98
+msgid "This feature allows you to put your site into \"maintenance mode\" by locking down the front-end to all visitors except logged in users with super admin privileges."
+msgstr "Questa funzione consente di mettere il sito in \"modalità manutenzione\" bloccando il front-end a tutti i visitatori, tranne gli utenti registrati con privilegi di super amministratore."
+
+#: admin/wp-security-maintenance-menu.php:99
+msgid "Locking your site down to general visitors can be useful if you are investigating some issues on your site or perhaps you might be doing some maintenance and wish to keep out all traffic for security reasons."
+msgstr "Bloccare il sito per i visitatori generali può essere utile se si stanno indagando alcuni problemi sul sito o forse si vuole fare un po' di manutenzione e voler tenere fuori tutto il traffico per motivi di sicurezza."
+
+#: admin/wp-security-maintenance-menu.php:107
+msgid "Check this if you want all visitors except those who are logged in as administrator to be locked out of the front-end of your site."
+msgstr "Seleziona questa casella se desideri che tutti i visitatori, ad eccezione di chi ha effettuato l'accesso come amministratore, siano bloccati fuori dal front-end del tuo sito."
+
+#: admin/wp-security-maintenance-menu.php:123
+msgid "Enter a message you wish to display to visitors when your site is in maintenance mode."
+msgstr "Immettere un messaggio che si desidera mostrare ai visitatori quando il sito è in modalità manutenzione."
+
+#: admin/wp-security-settings-menu.php:125
+msgid "All the security features have been disabled successfully!"
+msgstr "Tutte le caratteristiche di sicurezza sono state disabilitate con successo!"
+
+#: admin/wp-security-settings-menu.php:127
+#: admin/wp-security-settings-menu.php:148
+msgid "Could not write to the .htaccess file. Please restore your .htaccess file manually using the restore functionality in the \".htaccess File\"."
+msgstr "Impossibile scrivere nel file .htaccess. Si prega di ripristinare il file manualmente utilizzando la funzione di ripristino del \"File .htaccess\"."
+
+#: admin/wp-security-settings-menu.php:131
+msgid "Could not write to the wp-config.php. Please restore your wp-config.php file manually using the restore functionality in the \"wp-config.php File\"."
+msgstr "Impossibile scrivere il wp-config.php. Si prega di ripristinare il file wp-config.php manualmente utilizzando la funzione di ripristino del \"File wp-config.php\"."
+
+#: admin/wp-security-settings-menu.php:146
+msgid "All firewall rules have been disabled successfully!"
+msgstr "Tutte le regole del firewall sono state disabilitate con successo!"
+
+#: admin/wp-security-settings-menu.php:217
+msgid "Backup your database"
+msgstr "Backup tuo database"
+
+#: admin/wp-security-settings-menu.php:218
+#: admin/wp-security-settings-menu.php:396
+msgid "Backup .htaccess file"
+msgstr "Backup file .htaccess"
+
+#: admin/wp-security-settings-menu.php:219
+#: admin/wp-security-settings-menu.php:477
+msgid "Backup wp-config.php file"
+msgstr "Backup file wp-config.php"
+
+#: admin/wp-security-settings-menu.php:232
+msgid "If you think that some plugin functionality on your site is broken due to a security feature you enabled in this plugin, then use the following option to turn off all the security features of this plugin."
+msgstr "Se pensi che alcune funzionalità del plugin sul ​​tuo sito non vanno più bene a causa di una funzione di sicurezza attivata in questo plugin, utilizza la seguente opzione per disattivare tutte le funzioni di sicurezza del plugin."
+
+#: admin/wp-security-settings-menu.php:336
+msgid "htaccess file rename failed during backup. Please check your root directory for the backup file using FTP."
+msgstr "tentativo di rinominare il file .htaccess fallito durante il backup. Verifica la tua root directory per il file di backup tramite FTP."
+
+#: admin/wp-security-settings-menu.php:377
+msgid "Your \".htaccess\" file is a key component of your website's security and it can be modified to implement various levels of protection mechanisms."
+msgstr "Il file \".htaccess\" è un componente chiave della sicurezza del tuo sito web e può essere modificato per implementare diversi livelli di meccanismi di protezione."
+
+#: admin/wp-security-settings-menu.php:379
+msgid "You can also restore your site's .htaccess settings using a backed up .htaccess file."
+msgstr "È inoltre possibile ripristinare le impostazioni .htaccess del tuo sito utilizzando un file .htaccess di cui hai eseguito il backup."
+
+#: admin/wp-security-settings-menu.php:391
+msgid "Save the current .htaccess file"
+msgstr "Salva il file .htaccess attuale"
+
+#: admin/wp-security-settings-menu.php:400
+msgid "Restore from a backed up .htaccess file"
+msgstr "Ripristina da un file di backup .htaccess"
+
+#: admin/wp-security-settings-menu.php:406
+msgid ".htaccess file to restore from"
+msgstr "ripristina file .htaccess da"
+
+#: admin/wp-security-settings-menu.php:443
+msgid "wp-config.php file restore failed. Please attempt to restore this file manually using FTP."
+msgstr "ripristino file wp-config.php non riuscito. Cerca di ripristinare questo file manualmente tramite FTP."
+
+#: admin/wp-security-settings-menu.php:458
+msgid "Your \"wp-config.php\" file is one of the most important in your WordPress installation. It is a primary configuration file and contains crucial things such as details of your database and other critical components."
+msgstr "Il file è \"wp-config.php\" uno dei più importanti dell'installazione di WordPress. Si tratta di un file di configurazione principale e contiene cose fondamentali come i dettagli del database e altri componenti critici."
+
+#: admin/wp-security-settings-menu.php:460
+msgid "You can also restore your site's wp-config.php settings using a backed up wp-config.php file."
+msgstr "È inoltre possibile ripristinare le impostazioni di wp-config.php del tuo sito utilizzando un file wp-config.php di cui hai fatto il backup."
+
+#: admin/wp-security-settings-menu.php:472
+msgid "Save the current wp-config.php file"
+msgstr "Salva il file wp-config.php corrente"
+
+#: admin/wp-security-settings-menu.php:482
+msgid "Restore from a backed up wp-config file"
+msgstr "Ripristina file wp-config.php da un backup"
+
+#: admin/wp-security-settings-menu.php:488
+msgid "wp-config file to restore from"
+msgstr "ripristino file wp-config.php da"
+
+#: admin/wp-security-settings-menu.php:587
+msgid "The above meta information shows which version of WordPress your site is currently running and thus can help hackers or crawlers scan your site to see if you have an older version of WordPress or one with a known exploit."
+msgstr "La meta informazioni di cui sopra mostra la versione di WordPress attualmente in esecuzione e quindi può aiutare gli hacker o crawler nella scansione del sito che potrebbero sfruttare bug noti di tale versione WordPress."
+
+#: admin/wp-security-spam-menu.php:185
+msgid "Check this if you want to apply a firewall rule which will block comments originating from spambots."
+msgstr "Seleziona questa casella se vuoi applicare una regola firewall che blocca i commenti provenienti da spambot."
+
+#: admin/wp-security-spam-menu.php:189
+msgid "This feature will implement a firewall rule to block all comment attempts which do not originate from your domain."
+msgstr "Questa funzione consente di applicare una regola firewall per bloccare tutti i tentativi di commento che non hanno origine dal proprio dominio."
+
+#: admin/wp-security-spam-menu.php:190
+msgid "A legitimate comment is one which is submitted by a human who physically fills out the comment form and clicks the submit button. For such events, the HTTP_REFERRER is always set to your own domain."
+msgstr "Un commento legittimo è quello che viene presentato da un umano che riempie fisicamente il modulo commenti e fa clic sul pulsante di invio. Per tali eventi, il HTTP_REFERRER è sempre impostato per il proprio dominio."
+
+#: admin/wp-security-spam-menu.php:191
+msgid "A comment submitted by a spambot is done by directly calling the comments.php file, which usually means that the HTTP_REFERRER value is not your domain and often times empty."
+msgstr "Un commento lasciato da uno spambot viene fatto chiamando direttamente il file comments.php, che di solito significa che il valore HTTP_REFERRER non è il vostro dominio e spesso vuoto."
+
+#: admin/wp-security-spam-menu.php:417
+msgid "This information can be handy for identifying the most persistent IP addresses or ranges used by spammers."
+msgstr "Questa informazione può essere utile per identificare gli indirizzi IP, o intervalli IP,  più persistenti dagli spammer."
+
+#: admin/wp-security-spam-menu.php:451 classes/wp-security-utility.php:255
+msgid "The plugin has detected that you are using a Multi-Site WordPress installation."
+msgstr "Il plugin ha rilevato che si sta usando una installazione di WordPress Multi-Site."
+
+#: admin/wp-security-spam-menu.php:452
+msgid "Only the \"superadmin\" can block IP addresses from the main site."
+msgstr "Solo il \"superadmin\" può bloccare gli indirizzi IP dal sito principale."
+
+#: admin/wp-security-spam-menu.php:453
+msgid "Take note of the IP addresses you want blocked and ask the superadmin to add these to the blacklist using the \"Blacklist Manager\" on the main site."
+msgstr "Prendere nota degli indirizzi IP da bloccare e chiedere al superadmin di aggiungere questi per la lista nera con \"Gestione Blacklist\" sul sito principale."
+
+#: admin/wp-security-firewall-menu.php:1018
+msgid "You entered a non numeric value for the lockout time length field. It has been set to the default value."
+msgstr "È stato immesso un valore non numerico per il campo lunghezza tempo di blocco. Reimpostato il valore di default."
+
+#: admin/wp-security-firewall-menu.php:938
+msgid "Due to the fact that the image being displayed on the other person's site is coming from your server, this can cause leaking of bandwidth and resources for you because your server has to present this image for the people viewing it on someone elses's site."
+msgstr "Il fatto che l'immagine visualizzata sul sito dell'altra persona è in realtà sul tuo server causa perdita di banda e risorse per te, se il server da la possibilità di usare l'immagine esternamente chiunque può sfruttare le tue risorse su altri siti."
+
+#: admin/wp-security-firewall-menu.php:939
+msgid "This feature will prevent people from directly hotlinking images from your site's pages by writing some directives in your .htaccess file."
+msgstr "Questa funzione impedisce alle persone di fare hotlinking sulle immagini del tuo sito, direttamente dall'esterno, scrivendo alcune direttive nel file htaccess.."
+
+#: admin/wp-security-firewall-menu.php:959
+msgid "Check this if you want to prevent hotlinking to images on your site."
+msgstr "Seleziona questa casella se desideri impedire l'hotlinking alle immagini sul tuo sito."
+
+#: admin/wp-security-firewall-menu.php:979
+msgid "Nonce check failed for delete all 404 event logs operation!"
+msgstr "Selezione non riuscita per cancellare tutte le operazioni del registro eventi 404!"
+
+#: admin/wp-security-firewall-menu.php:990
+msgid "404 Detection Feature - Delete all 404 event logs operation failed!"
+msgstr "404 Caratteristiche Rilevamento - Operazione elimina tutti gli eventi 404 registrati non riuscita!"
+
+#: admin/wp-security-firewall-menu.php:994
+msgid "All 404 event logs were deleted from the DB successfully!"
+msgstr "Tutti gli eventi 404 sono stati cancellati dal DB con successo!"
+
+#: admin/wp-security-firewall-menu.php:1024
+msgid "You entered an incorrect format for the \"Redirect URL\" field. It has been set to the default value."
+msgstr "È stato inserito un formato non corretto per il campo  \"Redirect URL\". È stato reimpostato sul valore predefinito."
+
+#: admin/wp-security-firewall-menu.php:1060
+msgid "A 404 or Not Found error occurs when somebody tries to access a non-existent page on your website."
+msgstr "L'errore 404, o Nessun contenuto trovato, si verifica quando qualcuno tenta di accedere a una pagina inesistente sul tuo sito web."
+
+#: admin/wp-security-firewall-menu.php:1061
+msgid "Typically, most 404 errors happen quite innocently when people have mis-typed a URL or used an old link to page which doesn't exist anymore."
+msgstr "In genere, la maggior parte degli errori 404, accade abbastanza innocentemente quando le persone hanno erroneamente digitato un URL o utilizzato un vecchio link a una pagina che non esiste più."
+
+#: admin/wp-security-firewall-menu.php:1062
+msgid "However, in some cases you may find many repeated 404 errors which occur in a relatively short space of time and from the same IP address which are all attempting to access a variety of non-existent page URLs."
+msgstr "Tuttavia, in alcuni casi, si possono trovare ripetuti errori 404, che si verificano in un lasso di tempo relativamente breve e dallo stesso indirizzo IP, che stanno tutti tentando di accedere a una serie di URL di pagine inesistenti."
+
+#: admin/wp-security-firewall-menu.php:1063
+msgid "Such behaviour can mean that a hacker might be trying to find a particular page or URL for sinister reasons."
+msgstr "Tale comportamento può significare che un hacker tenta di trovare una determinata pagina o un URL per motivi sinistri."
+
+#: admin/wp-security-firewall-menu.php:1064
+msgid "This feature allows you to monitor all 404 events which occur on your site, and it also gives you the option of blocking IP addresses for a configured length of time."
+msgstr "Questa funzione consente di monitorare tutti gli eventi 404 che si verificano sul tuo sito, e ti dà anche la possibilità di bloccare gli indirizzi IP per un periodo di tempo configurato."
+
+#: admin/wp-security-firewall-menu.php:1104
+msgid "Check this if you want to enable the lockout of selected IP addresses."
+msgstr "Seleziona questa casella se desideri attivare il blocco di indirizzi IP selezionati."
+
+#: admin/wp-security-firewall-menu.php:1120
+msgid "Check this if you want to enable the logging of 404 events"
+msgstr "Seleziona questa casella se desideri attivare la registrazione eventi 404"
+
+#: admin/wp-security-firewall-menu.php:1127
+msgid "Set the length of time for which a blocked IP address will be prevented from visiting your site"
+msgstr "Imposta un periodo di tempo per cui un indirizzo IP sarà bloccato e non potrà visitare il tuo sito"
+
+#: admin/wp-security-firewall-menu.php:1132
+msgid "You can lock any IP address which is recorded in the \"404 Event Logs\" table section below."
+msgstr "Puoi bloccare qualsiasi indirizzo IP che viene registrato nella sezione  \"Registro Eventi 404\" sotto."
+
+#: admin/wp-security-firewall-menu.php:1134
+msgid "To temporarily lock an IP address, hover over the ID column and click the \"Temp Block\" link for the applicable IP entry."
+msgstr "Per bloccare temporaneamente un indirizzo IP, passa il mouse sopra la colonna ID e clicca sul link  \"Temp Block\" per la voce IP che vuoi."
+
+#: admin/wp-security-firewall-menu.php:1143
+msgid "A blocked visitor will be automatically redirected to this URL."
+msgstr "Un visitatore bloccato verrà automaticamente reindirizzato a questo URL."
+
+#: admin/wp-security-list-registered-users.php:186
+msgid "Your account is now active"
+msgstr "Il tuo account è ora attivo"
+
+#: admin/wp-security-misc-options-menu.php:89
+msgid "Copy Protection feature settings saved!"
+msgstr "Impostazioni delle funzioni di protezione copia salvata!"
+
+#: admin/wp-security-misc-options-menu.php:100
+msgid "This feature allows you to disable the ability to select and copy text from your front end."
+msgstr "Questa funzione consente di disabilitare la possibilità di selezionare e copiare testo dal front-end."
+
+#: admin/wp-security-spam-menu.php:164
+msgid "In other words, if the comment was not submitted by a human who physically submitted the comment on your site, the request will be blocked."
+msgstr "In altre parole, se il commento non è stato fatto da un essere umano che fisicamente ha scritto il commento sul tuo sito, la richiesta verrà bloccata."
+
+#: admin/wp-security-settings-menu.php:45
+msgid "Import/Export"
+msgstr "Importa/Esporta"
+
+#: admin/wp-security-settings-menu.php:682
+msgid "This section allows you to export or import your All In One WP Security & Firewall settings."
+msgstr "Questa sezione permette di esportare o importare le impostazioni del tuo All In One WP Security & Firewall."
+
+#: admin/wp-security-settings-menu.php:683
+msgid "This can be handy if you wanted to save time by applying the settings from one site to another site."
+msgstr "Questo può essere utile se si vuole risparmiare tempo applicando le impostazioni da un sito a un altro sito."
+
+#: admin/wp-security-settings-menu.php:684
+msgid "NOTE: Before importing, it is your responsibility to know what settings you are trying to import. Importing settings blindly can cause you to be locked out of your site."
+msgstr "NOTA: Prima di importare, è tua responsabilità sapere quali impostazioni stai tentando di importare. L'importazione delle impostazioni alla cieca può causare il blocco del tuo sito."
+
+#: admin/wp-security-settings-menu.php:697
+msgid "To export your All In One WP Security & Firewall settings click the button below."
+msgstr "Per esportare le impostazioni di All In One WP Security & Firewall clicca sul pulsante qui sotto."
+
+#: admin/wp-security-misc-options-menu.php:140
+msgid "Frame Display Prevention feature settings saved!"
+msgstr "Impostazioni funzione prevenzione di visualizzazione Frame salvate!"
+
+#: admin/wp-security-misc-options-menu.php:151
+msgid "This feature allows you to prevent other sites from displaying any of your content via a frame or iframe."
+msgstr "Questa funzione consente di impedire ad altri siti di visualizzare i tuoi contenuti tramite un frame o iframe."
+
+#: admin/wp-security-misc-options-menu.php:152
+msgid "When enabled, this feature will set the \"X-Frame-Options\" paramater to \"sameorigin\" in the HTTP header."
+msgstr "Se abilitata, questa funzione imposta il parametro \"X-Frame-Options\" a \"sameorigin\" nell'intestazione HTTP."
+
+#: admin/wp-security-misc-options-menu.php:160
+msgid "Check this if you want to stop other sites from displaying your content in a frame or iframe."
+msgstr "Seleziona questa casella se vuoi impedire ad altri siti di visualizzare i tuoi contenuti in un frame o iframe."
+
+#: admin/wp-security-firewall-menu.php:1267
+msgid "It is useful for when you want to tweak our existing firewall rules or when you want to add your own."
+msgstr "E' utile quando vuoi ottimizzare le nostre regole di firewall oppure quando ne vuoi aggiungere di tue."
+
+#: admin/wp-security-firewall-menu.php:1274
+msgid "<strong>Warning</strong>: Only use this feature if you know what you are doing."
+msgstr "<strong>Attenzione</strong>: Utilizza questa funzione solo se sai cosa stai facendo."
+
+#: admin/wp-security-firewall-menu.php:1275
+msgid "Incorrect .htaccess rules or directives can break or prevent access to your site."
+msgstr "Regole o direttive .htaccess non corrette possono bloccare gli accessi al tuo sito."
+
+#: admin/wp-security-firewall-menu.php:1290
+msgid "Check this if you want to enable custom rules entered in the text box below"
+msgstr "Seleziona questo se vuoi abilitare le regole personalizzate inserite nel riquadro sottostante"
+
+#: admin/wp-security-list-404.php:180
+msgid "The selected IP addresses are now temporarily blocked!"
+msgstr "Gli indirizzi IP selezionati sono ora bloccati temporaneamente!"
+
+#: admin/wp-security-list-404.php:185
+msgid "The selected IP address is now temporarily blocked!"
+msgstr "L'indirizzo IP selezionato è ora temporaneamente bloccato!"
+
+#: admin/wp-security-list-404.php:187
+msgid "The selected entry is not a valid IP address!"
+msgstr "La voce selezionata non è un indirizzo IP valido!"
+
+#: admin/wp-security-list-404.php:235
+msgid "The selected IP addresses have been added to the blacklist and will be permanently blocked!"
+msgstr "Gli indirizzi IP selezionati sono stati aggiunti alla blacklist e saranno bloccati permanentemente!"
+
+#: admin/wp-security-settings-menu.php:685
+msgid "For Example: If a settings item relies on the domain URL then it may not work correctly when imported into a site with a different domain."
+msgstr "Per esempio: se una impostazione si affida all'URL di un dominio, potrà non funzionare correttamente quando verrà importata in un sito con un dominio differente."
+
+#: admin/wp-security-firewall-menu.php:1266
+msgid "This feature can be used to apply your own custom .htaccess rules and directives."
+msgstr "Questa funzione può essere utilizzata per applicate le tue regole e direttive .htaccess personalizzate."
+
+#: admin/wp-security-firewall-menu.php:1305
+msgid "Enter your custom .htaccess rules/directives."
+msgstr "Inserisci le tue regole/direttive .htaccess personalizzate."
+
+#: admin/wp-security-list-logged-in-users.php:92
+msgid "The selected user was logged out successfully!"
+msgstr "L'utente selezionato è stato disconnesso con successo!"
+
+#: admin/wp-security-list-registered-users.php:187
+msgid " is now active"
+msgstr " è ora attivo"
+
+#: admin/wp-security-list-registered-users.php:187
+msgid "Your account with username: "
+msgstr "Il tuo account con nome utente: "
+
+#: admin/wp-security-list-registered-users.php:219
+msgid "Nonce check failed for delete registered user account operation!"
+msgstr "Controllo nonce fallito durante l'eliminazione degli utenti registrati!"
+
+#: admin/wp-security-settings-menu.php:340
+msgid "htaccess backup failed."
+msgstr "backup .htaccess fallito."
+
+#: admin/wp-security-settings-menu.php:378
+msgid "This feature allows you to backup and save your currently active .htaccess file should you need to re-use the the backed up file in the future."
+msgstr "Questa funzione consente di eseguire il backup e salvare il file .htaccess attualmente attivo e in caso di necessità riutilizzare il file di backup in futuro."
+
+#: admin/wp-security-settings-menu.php:432
+msgid "Please choose a wp-config.php file to restore from."
+msgstr "Scegli il file wp-config.php da ripristinare."
+
+#: admin/wp-security-settings-menu.php:459
+msgid "This feature allows you to backup and save your currently active wp-config.php file should you need to re-use the the backed up file in the future."
+msgstr "Questa funzione consente di eseguire il backup e salvare il file wp-config.php attualmente attivo e in caso di necessità riutilizzare il file di backup in futuro."
+
+#: admin/wp-security-spam-menu.php:30
+msgid "BuddyPress"
+msgstr "BuddyPress"
+
+#: admin/wp-security-list-registered-users.php:162
+msgid "The following accounts failed to update successfully: "
+msgstr "I seguenti account non sono stati aggiornati correttamente: "
+
+#: admin/wp-security-firewall-menu.php:1200
+msgid "Click this button if you wish to purge all 404 event logs from the DB."
+msgstr "Fai clic su questo pulsante per pulire il database da tutti gli eventi 404 registrati."
+
+#: admin/wp-security-misc-options-menu.php:29
+msgid "Frames"
+msgstr "Frame"
+
+#: admin/wp-security-settings-menu.php:332
+msgid "Your .htaccess file was successfully backed up! Using an FTP program go to the \"/wp-content/aiowps_backups\" directory to save a copy of the file to your computer."
+msgstr "Il backup del file .htaccess è stato eseguito con successo! Usando un programma FTP vai alla directory \"/wp-content/aiowps_backups\" per salvare una copia del file sul computer."
+
+#: admin/wp-security-settings-menu.php:636
+msgid "Please choose a file to import your settings from."
+msgstr "Scegli un file da cui importare le impostazioni."
+
+#: admin/wp-security-settings-menu.php:476
+msgid "Click the button below to backup and download the contents of the currently active wp-config.php file."
+msgstr "Fai clic sul pulsante qui sotto per eseguire il backup e salvare il file wp-config.php attualmente attivo."
+
+#: admin/wp-security-filesystem-menu.php:133
+#: admin/wp-security-filesystem-menu.php:152
+msgid "Name"
+msgstr "Nome"
+
+#: admin/wp-security-database-menu.php:147
+msgid "Nonce check failed for DB prefix change operation!"
+msgstr "Check non riuscito per operazione di cambiamento prefisso tabelle DB!"
+
+#: admin/wp-security-database-menu.php:155
+msgid "The plugin has detected that it cannot write to the wp-config.php file. This feature can only be used if the plugin can successfully write to the wp-config.php file."
+msgstr "Il plugin ha rilevato che non si può scrivere nel file wp-config.php. Questa funzione può essere utilizzata solo se il plug-in è in grado di scrivere correttamente il file wp-config.php."
+
+#: admin/wp-security-database-menu.php:168
+msgid "Please enter a value for the DB prefix."
+msgstr "Prego inserisci un valore per il prefisso DB."
+
+#: admin/wp-security-database-menu.php:177
+msgid "<strong>ERROR</strong>: The table prefix can only contain numbers, letters, and underscores."
+msgstr "<strong>ERRORE</strong>: Il prefisso della tabella può contenere solo numeri, lettere e caratteri di sottolineatura."
+
+#: admin/wp-security-database-menu.php:191
+msgid "One way to add a layer of protection for your DB is to change the default WordPress table prefix from \"wp_\" to something else which will be difficult for hackers to guess."
+msgstr "Un modo per aggiungere un livello di protezione per il vostro DB è quello di cambiare il prefisso delle tabelle di WordPress di default da \"wp_\" a qualcos'altro che sarà difficile per gli hacker individuare."
+
+#: admin/wp-security-database-menu.php:238
+msgid "Check this if you want the plugin to generate a random 6 character string for the table prefix"
+msgstr "Seleziona questo se vuoi che il plugin generi una stringa casuale di 6 caratteri per il prefisso tabella"
+
+#: admin/wp-security-database-menu.php:239
+msgid "OR"
+msgstr "O"
+
+#: admin/wp-security-filesystem-menu.php:80
+msgid "Nonce check failed for manual DB backup operation!"
+msgstr "Check non riuscito per l'operazione di backup DB manuale!"
+
+#: admin/wp-security-filescan-menu.php:161
+msgid "You entered a non numeric value for the \"backup time interval\" field. It has been set to the default value."
+msgstr "È stato immesso un valore non numerico per il campo \"intervallo di tempo di backup\". È stato impostato il valore di default."
+
+#: admin/wp-security-filescan-menu.php:294
+msgid "Hours"
+msgstr "Ore"
+
+#: admin/wp-security-filescan-menu.php:295
+msgid "Days"
+msgstr "Giorni"
+
+#: admin/wp-security-filescan-menu.php:296
+msgid "Weeks"
+msgstr "Settimane"
+
+#: admin/wp-security-database-menu.php:312
+msgid "Starting DB prefix change operations....."
+msgstr "Operazioni Cambio Impostazioni Prefisso  DB..."
+
+#: admin/wp-security-database-menu.php:314
+msgid "Your WordPress system has a total of %s tables and your new DB prefix will be: %s"
+msgstr "Il tuo sito WordPress ha un totale di%s tabelle ed il nuovo prefisso DB sarà:%s"
+
+#: admin/wp-security-database-menu.php:320 classes/wp-security-utility.php:308
+msgid "Failed to make a backup of the wp-config.php file. This operation will not go ahead."
+msgstr "Impossibile effettuare un backup del file wp-config.php. Questa operazione non andrà avanti."
+
+#: admin/wp-security-database-menu.php:324
+msgid "A backup copy of your wp-config.php file was created successfully!"
+msgstr "Una copia di backup del file wp-config.php è stato creato con successo!"
+
+#: admin/wp-security-database-menu.php:351
+msgid "%s table name update failed"
+msgstr "%s aggiornamento nome tabelle fallito"
+
+#: admin/wp-security-database-menu.php:366
+msgid "%s tables had their prefix updated successfully!"
+msgstr "%s tabelle hanno il loro prefisso aggiornato con successo!"
+
+#: admin/wp-security-database-menu.php:387
+msgid "wp-config.php file was updated successfully!"
+msgstr "wp-config.php file è stato aggiornato con successo!"
+
+#: admin/wp-security-database-menu.php:405
+msgid "The options table records which had references to the old DB prefix were updated successfully!"
+msgstr "Le opzioni dei record della tabella che avevano i riferimenti al vecchio prefisso DB sono state aggiornate con successo!"
+
+#: admin/wp-security-database-menu.php:452
+msgid "Error updating user_meta table where new meta_key = %s, old meta_key = %s and user_id = %s."
+msgstr "Errore di aggiornamento della tabella user_meta dove nuovo meta_key = %s, vecchio meta_key = %s e user_id = %s."
+
+#: admin/wp-security-database-menu.php:457
+msgid "The usermeta table records which had references to the old DB prefix were updated successfully!"
+msgstr "I record della tabella usermeta che avevano riferimenti al vecchio prefisso DB sono state aggiornate con successo!"
+
+#: admin/wp-security-filescan-menu.php:231
+msgid "All In One WP Security & Firewall has detected that there was a change in your host's files."
+msgstr "All In One WP Security & firewall ha rilevato che c'è stato un cambiamento nei file del proprio host."
+
+#: admin/wp-security-filescan-menu.php:240
+msgid "If given an opportunity hackers can insert their code or files into your system which they can then use to carry out malicious acts on your site."
+msgstr "Esiste la possibilità che hacker possano inserire il loro codice, nei file o nel vostro sistema, da utilizzare poi per eseguire operazioni dannose sul tuo sito."
+
+#: admin/wp-security-filescan-menu.php:241
+msgid "Being informed of any changes in your files can be a good way to quickly prevent a hacker from causing damage to your website."
+msgstr "Essere informati di eventuali cambiamenti nei file può essere un buon modo per evitare rapidamente che un hacker possa causare danni al tuo sito web."
+
+#: admin/wp-security-filescan-menu.php:242
+msgid "In general, WordPress core and plugin files and file types such as \".php\" or \".js\" should not change often and when they do, it is important that you are made aware when a change occurs and which file was affected."
+msgstr "In generale, i file del cuore di WordPress dei plugin e tipi di file come ad esempio \".php\" o \".js\" non dovrebbero cambiare spesso e, quando succede, è importante sapere quando si verifica un cambiamento e quale file è stata influenzato."
+
+#: admin/wp-security-filescan-menu.php:243
+msgid "The \"File Change Detection Feature\" will notify you of any file change which occurs on your system, including the addition and deletion of files by performing a regular automated or manual scan of your system's files."
+msgstr "La funzione \"Rilevamento Modifiche File\" comunicherà qualsiasi modifica di file che si verifica sul sistema, tra cui l'aggiunta e la cancellazione dei file per effettuare una normale scansione automatica o manuale dei file del proprio sistema."
+
+#: admin/wp-security-filescan-menu.php:244
+msgid "This feature also allows you to exclude certain files or folders from the scan in cases where you know that they change often as part of their normal operation. (For example log files and certain caching plugin files may change often and hence you may choose to exclude such files from the file change detection scan)"
+msgstr "Questa funzione consente inoltre di escludere determinati file o cartelle dalla scansione se si sa che cambiano spesso come parte del loro normale funzionamento. (Ad esempio i file di log e di alcuni file dei plugin di caching possono cambiare spesso e quindi si può scegliere di escludere tali file dalla scansione)"
+
+#: admin/wp-security-filescan-menu.php:255
+msgid "To perform a manual file change detection scan click on the button below."
+msgstr "Per eseguire una scansione manuale di rilevamento modifica file clicca sul pulsante qui sotto."
+
+#: admin/wp-security-filescan-menu.php:287
+msgid "Check this if you want the system to automatically/periodically scan your files to check for file changes based on the settings below"
+msgstr "Seleziona questa casella se vuoi che il sistema esegua in automatico/periodicamente la scansione dei file per verificare eventuali modifiche in base alle impostazioni di seguito"
+
+#: admin/wp-security-filescan-menu.php:298
+msgid "Set the value for how often you would like a scan to occur"
+msgstr "Impostare il valore per quanto spesso si desidera creare una scansione di verifica"
+
+#: admin/wp-security-filescan-menu.php:305
+msgid "Enter each file type or extension on a new line which you wish to exclude from the file change detection scan."
+msgstr "Immettere ogni tipo di file o estensione su una nuova linea che si desidera escludere dalla scansione di rilevamento delle modifiche dei file."
+
+#: admin/wp-security-filescan-menu.php:309
+msgid "You can exclude file types from the scan which would not normally pose any security threat if they were changed. These can include things such as image files."
+msgstr "È possibile escludere tipi di file dalla scansione, che normalmente non pongono alcuna minaccia per la sicurezza se sono stati modificati. Questi possono includere cose come file di immagine."
+
+#: admin/wp-security-filescan-menu.php:322
+msgid "Enter each file or directory on a new line which you wish to exclude from the file change detection scan."
+msgstr "Inserisci ogni file o directory, che si desidera escludere dalla scansione di rilevamento delle modifiche dei file, su una nuova linea."
+
+#: admin/wp-security-filescan-menu.php:326
+msgid "You can exclude specific files/directories from the scan which would not normally pose any security threat if they were changed. These can include things such as log files."
+msgstr "È possibile escludere file/directory specifici dalla scansione, che normalmente non pongono alcuna minaccia per la sicurezza se sono stati modificati. Questi possono includere cose come i file di log."
+
+#: admin/wp-security-filescan-menu.php:327
+msgid "Example: If you want the scanner to ignore certain files in different directories or whole directories, then you would enter the following:"
+msgstr "Esempio: Se si desidera che lo scanner ignori determinati file in diverse directory o intere directory, immettere il seguente:"
+
+#: admin/wp-security-filescan-menu.php:329
+msgid "somedirectory"
+msgstr "nomedirectory"
+
+#: admin/wp-security-filescan-menu.php:340
+msgid "Check this if you want the system to email you if a file change was detected"
+msgstr "Seleziona questa casella se vuoi ricevere un'email ogni volta che viene rilevata una modifica"
+
+#: admin/wp-security-filescan-menu.php:414
+msgid "The following files were added to your host."
+msgstr "I seguenti file sono stati aggiunti al tu Host."
+
+#: admin/wp-security-filescan-menu.php:417
+#: admin/wp-security-filescan-menu.php:437
+#: admin/wp-security-filescan-menu.php:459
+msgid "File"
+msgstr "File"
+
+#: admin/wp-security-filescan-menu.php:434
+msgid "The following files were removed from your host."
+msgstr "I seguenti file sono stati rimossi dal tuo host."
+
+#: admin/wp-security-filescan-menu.php:456
+msgid "The following files were changed on your host."
+msgstr "I seguenti file sono stati modificati nel tuo host."
+
+#: admin/wp-security-filesystem-menu.php:94
+msgid "Unable to change permissions for %s!"
+msgstr "Impossibile modificare i permessi per %s!"
+
+#: admin/wp-security-filesystem-menu.php:103
+msgid "Your WordPress file and folder permission settings govern the accessability and read/write privileges of the files and folders which make up your WP installation."
+msgstr "Il tuoi file di WordPress e le impostazioni delle autorizzazioni delle cartelle regolano i privilegi di accesso e lettura/scrittura dei file e delle cartelle che compongono l'installazione WP."
+
+#: admin/wp-security-filesystem-menu.php:104
+msgid "Your WP installation already comes with reasonably secure file permission settings for the filesystem."
+msgstr "La tua installazione di WP viene fornita già con le impostazioni di autorizzazione file ragionevolmente sicure per il filesystem."
+
+#: admin/wp-security-filesystem-menu.php:105
+msgid "However, sometimes people or other plugins modify the various permission settings of certain core WP folders or files such that they end up making their site less secure because they chose the wrong permission values."
+msgstr "Tuttavia, a volte la gente o altri plugin, modificano le varie impostazioni dei permessi di alcune cartelle o file WP fondamentali e lo rendono meno sicuro perché hanno scelto i valori dei permessi sbagliati."
+
+#: admin/wp-security-filesystem-menu.php:106
+msgid "This feature will scan the critical WP core folders and files and will highlight any permission settings which are insecure."
+msgstr "Questa funzione consente di eseguire la scansione delle cartelle di base WP e file critici e metterà in evidenza le impostazioni di autorizzazione che sono insicure."
+
+#: admin/wp-security-filesystem-menu.php:134
+#: admin/wp-security-filesystem-menu.php:153
+msgid "File/Folder"
+msgstr "File/Cartelle"
+
+#: admin/wp-security-filesystem-menu.php:195
+msgid "Your PHP file editing settings were saved successfully."
+msgstr "Le impostazioni di editing dei file PHP sono state salvate con successo."
+
+#: admin/wp-security-filesystem-menu.php:199
+msgid "Operation failed! Unable to modify or make a backup of wp-config.php file!"
+msgstr "Operazione non riuscita! Impossibile modificare o fare un backup del file wp-config.php!"
+
+#: admin/wp-security-filesystem-menu.php:216
+msgid "This is often the first tool an attacker will use if able to login, since it allows code execution."
+msgstr "Questo è spesso il primo strumento che chi attacca il sito utilizzerà, se in grado di accedere, in quanto permette l'esecuzione di codice."
+
+#: admin/wp-security-filesystem-menu.php:217
+msgid "This feature will disable the ability for people to edit PHP files via the dashboard."
+msgstr "Questa funzione consente di disattivare la possibilità per le persone di modificare i file PHP tramite la bacheca."
+
+#: admin/wp-security-filesystem-menu.php:238
+msgid "Check this if you want to remove the ability for people to edit PHP files via the WP dashboard"
+msgstr "Seleziona questa casella se vuoi rimuovere la possibilità per le persone di modificare i file PHP tramite la bacheca WP"
+
+#: admin/wp-security-filesystem-menu.php:282
+msgid "You have successfully saved the Prevent Access to Default WP Files configuration."
+msgstr "Hai salvato con successo di impedire l'accesso al file di configurazione di default WP."
+
+#: admin/wp-security-filesystem-menu.php:294
+msgid "This feature allows you to prevent access to files such as %s, %s and %s which are delivered with all WP installations."
+msgstr "Questa funzione consente di impedire l'accesso ai file come %s, %s e %s che vengono inseriti in tutte le installazioni WP.."
+
+#: admin/wp-security-filesystem-menu.php:295
+msgid "By preventing access to these files you are hiding some key pieces of information (such as WordPress version info) from potential hackers."
+msgstr "Impedendo l'accesso a questi file si nascondono alcune informazioni fondamentali (come info sulla versione WordPress) da potenziali hacker."
+
+#: admin/wp-security-filesystem-menu.php:314
+msgid "Check this if you want to prevent access to readme.html, license.txt and wp-config-sample.php."
+msgstr "Seleziona questa casella per impedire l'accesso a readme.html, license.txt e wp-config-sample.php."
+
+#: admin/wp-security-filesystem-menu.php:345
+msgid "Sometimes your hosting platform will produce error or warning logs in a file called \"error_log\"."
+msgstr "A volte la vostra piattaforma di hosting produrrà errore o log di avviso in un file chiamato \"error_log\"."
+
+#: admin/wp-security-filesystem-menu.php:346
+msgid "Depending on the nature and cause of the error or warning, your hosting server can create multiple instances of this file in numerous directory locations of your WordPress installation."
+msgstr "A seconda della natura e la causa di errore o di avvertimento, il server dell'hosting è in grado di creare più istanze di questo file in numerose posizioni di directory della vostra installazione WordPress."
+
+#: admin/wp-security-filesystem-menu.php:347
+msgid "By occassionally viewing the contents of these logs files you can keep informed of any underlying problems on your system which you might need to address."
+msgstr "Di tanto in tanto la visualizzazione del contenuto di questi file di log può darci informazioni di eventuali problemi di fondo sul sistema che si potrebbe aver bisogno di affrontare."
+
+#: admin/wp-security-filesystem-menu.php:358
+msgid "Enter System Log File Name"
+msgstr "Inserisci il Nome File Registro Sistema"
+
+#: admin/wp-security-filesystem-menu.php:360
+msgid "Enter your system log file name. (Defaults to error_log)"
+msgstr "Immettere il nome del file di log di sistema. (Predefinito è error_log)"
+
+#: admin/wp-security-filesystem-menu.php:365
+msgid "Loading..."
+msgstr "Caricamento..."
+
+#: admin/wp-security-filesystem-menu.php:481
+msgid "Showing latest entries of error_log file: %s"
+msgstr "Risultati delle ultime voci di error_log file: %s"
+
+#: admin/wp-security-firewall-menu.php:125
+#: admin/wp-security-firewall-menu.php:926 admin/wp-security-spam-menu.php:120
+#: admin/wp-security-spam-menu.php:494 admin/wp-security-spam-menu.php:556
+#: admin/wp-security-user-registration-menu.php:95
+msgid "Settings were successfully saved"
+msgstr "Impostazioni salvate con successo"
+
+#: admin/wp-security-firewall-menu.php:141
+msgid "This should not have any impact on your site's general functionality but if you wish you can take a %s of your .htaccess file before proceeding."
+msgstr "Questo non dovrebbe avere alcun impatto sulla funzionalità generale del tuo sito, ma se vuoi puoi creare un %s del file .htaccess prima di procedere."
+
+#: admin/wp-security-firewall-menu.php:142
+msgid "The features in this tab allow you to activate some basic firewall security protection rules for your site."
+msgstr "Le funzionalità di questa scheda consentono di attivare alcune regole di protezione di sicurezza del firewall di base per il sito."
+
+#: admin/wp-security-firewall-menu.php:143
+msgid "The firewall functionality is achieved via the insertion of special code into your currently active .htaccess file."
+msgstr "La funzionalità firewall è ottenuta tramite l'inserimento di codice speciale nel file attualmente attivo .htaccess."
+
+#: admin/wp-security-firewall-menu.php:177
+msgid "Check this if you want to apply basic firewall protection to your site."
+msgstr "Seleziona questa casella se vuoi applicare la protezione di base del firewall per il sito."
+
+#: admin/wp-security-firewall-menu.php:181
+msgid "This setting will implement the following basic firewall protection mechanisms on your site:"
+msgstr "Questa impostazione applicherà i seguenti meccanismi di base di protezione firewall sul tuo sito:"
+
+#: admin/wp-security-firewall-menu.php:182
+msgid "1) Protect your htaccess file by denying access to it."
+msgstr "1) Proteggi il tuo .htaccess negando l'accesso ad esso."
+
+#: admin/wp-security-firewall-menu.php:183
+msgid "2) Disable the server signature."
+msgstr "2) Disabilitare la firma del server."
+
+#: admin/wp-security-firewall-menu.php:185
+msgid "4) Protect your wp-config.php file by denying access to it."
+msgstr "4) Proteggere il file wp-config.php negando l'accesso ad esso."
+
+#: admin/wp-security-firewall-menu.php:186
+msgid "The above firewall features will be applied via your .htaccess file and should not affect your site's overall functionality."
+msgstr "Le funzioni di firewall di cui sopra verranno applicate tramite il file .htaccess e non dovrebbero pregiudicare la funzionalità complessiva del tuo sito."
+
+#: admin/wp-security-firewall-menu.php:220
+msgid "1) Denial of Service (DoS) attacks"
+msgstr "1) Attacchi Denial di Service (DoS)"
+
+#: admin/wp-security-firewall-menu.php:221
+msgid "2) Hacking internal routers."
+msgstr "2) Hacking router interni."
+
+#: admin/wp-security-firewall-menu.php:222
+msgid "3) Scanning ports in internal networks to get info from various hosts."
+msgstr "3) Scansione porte in reti interne per ottenere informazioni da vari host."
+
+#: admin/wp-security-firewall-menu.php:223
+msgid "Apart from the security protection benefit, this feature may also help reduce load on your server, particularly if your site currently has a lot of unwanted traffic hitting the XML-RPC API on your installation."
+msgstr "Oltre al beneficio di protezione di sicurezza, questa funzione può anche contribuire a ridurre il carico sul server, in particolare se il vostro sito ha attualmente un sacco di traffico indesiderato che colpisce l'API XML-RPC sulla tua installazione."
+
+#: admin/wp-security-firewall-menu.php:224
+msgid "NOTE: You should only enable this feature if you are not currently using the XML-RPC functionality on your WordPress installation."
+msgstr "NOTA: Si deve attivare questa funzione solo se non si sta utilizzando la funzionalità XML-RPC di WordPress."
+
+#: admin/wp-security-firewall-menu.php:360
+msgid "You have successfully saved the Additional Firewall Protection configuration"
+msgstr "Hai salvato con successo la configurazione Aggiuntiva di protezione firewall"
+
+#: admin/wp-security-firewall-menu.php:378
+msgid "Due to the nature of the code being inserted to the .htaccess file, this feature may break some functionality for certain plugins and you are therefore advised to take a %s of .htaccess before applying this configuration."
+msgstr "A causa della natura del codice che viene inserito nel file .htaccess, questa funzione potrebbe bloccare la funzionalità di alcuni plugin e si consiglia pertanto di salvare un %s di .htaccess prima di applicare questa configurazione."
+
+#: admin/wp-security-firewall-menu.php:380
+msgid "This feature allows you to activate more advanced firewall settings to your site."
+msgstr "Questa funzione consente di attivare le impostazioni del firewall più avanzate al tuo sito."
+
+#: admin/wp-security-firewall-menu.php:381
+msgid "The advanced firewall rules are applied via the insertion of special code to your currently active .htaccess file."
+msgstr "Le regole del firewall avanzate vengono applicate tramite l'inserimento di codice speciale per l'attuale file .htaccess attivo."
+
+#: admin/wp-security-firewall-menu.php:402
+msgid "Check this if you want to disable directory and file listing."
+msgstr "Seleziona questa casella se desideri disabilitare directory e elenco file."
+
+#: admin/wp-security-firewall-menu.php:407
+msgid "By default, an Apache server will allow the listing of the contents of a directory if it doesn't contain an index.php file."
+msgstr "Per impostazione predefinita, un server Apache, può elencare il contenuto di una directory se non contiene un file index.php."
+
+#: admin/wp-security-firewall-menu.php:409
+msgid "This feature will prevent the listing of contents for all directories."
+msgstr "Questa funzione impedisce di vedere l'elenco di contenuti per tutte le directory."
+
+#: admin/wp-security-firewall-menu.php:437
+msgid "HTTP Trace attack (XST) can be used to return header requests and grab cookies and other information."
+msgstr "Attacco Trace HTTP (XST) può essere utilizzato per trovare le richieste di intestazione, catturare cookie e e altre informazioni."
+
+#: admin/wp-security-firewall-menu.php:439
+msgid "This hacking technique is usually used together with cross site scripting attacks (XSS)."
+msgstr "Questa tecnica di hacking è di solito usata con attacchi cross site scripting (XSS)."
+
+#: admin/wp-security-firewall-menu.php:441
+msgid "Disabling trace and track on your site will help prevent HTTP Trace attacks."
+msgstr "Disabilitare il tracciamento e monitoraggio sul tuo sito aiuterà a prevenire gli attacchi di Trace HTTP."
+
+#: admin/wp-security-firewall-menu.php:463
+msgid "Check this if you want to forbid proxy comment posting."
+msgstr "Seleziona questa casella se  vuoi proibire pubblicazione commenti da proxy."
+
+#: admin/wp-security-firewall-menu.php:468
+msgid "This setting will deny any requests that use a proxy server when posting comments."
+msgstr "Con questa impostazione verrà rifiutata qualsiasi richiesta che utilizza un server proxy durante la pubblicazione di commenti."
+
+#: admin/wp-security-firewall-menu.php:491
+msgid "This will help protect you against malicious queries via XSS."
+msgstr "Questo aiuterà a proteggere contro query maligne fatte tramite XSS."
+
+#: admin/wp-security-firewall-menu.php:496
+msgid "This feature will write rules in your .htaccess file to prevent malicious string attacks on your site using XSS."
+msgstr "Questa funzione scriverà regole nel tuo file .htaccess per prevenire attacchi dannosi sul tuo sito utilizzando query XSS."
+
+#: admin/wp-security-firewall-menu.php:497
+msgid "NOTE: Some of these strings might be used for plugins or themes and hence this might break some functionality."
+msgstr "NOTA: Alcune di queste stringhe potrebbero essere usate per i plugin o temi e quindi questo potrebbe rompere alcune funzionalità."
+
+#: admin/wp-security-firewall-menu.php:498
+#: admin/wp-security-firewall-menu.php:528
+msgid "You are therefore strongly advised to take a backup of your active .htaccess file before applying this feature."
+msgstr "Si raccomanda pertanto di fare un backup del file .htaccess prima di applicare questa funzione."
+
+#: admin/wp-security-firewall-menu.php:520
+msgid "This will block bad character matches from XSS."
+msgstr "Questo bloccherà partite di caratteri dannosi da XSS."
+
+#: admin/wp-security-firewall-menu.php:525
+msgid "This is an advanced character string filter to prevent malicious string attacks on your site coming from Cross Site Scripting (XSS)."
+msgstr "Si tratta di un filtro stringa di caratteri avanzato per prevenire attacchi di stringhe dannose sul tuo sito provenienti da Cross Site Scripting (XSS)."
+
+#: admin/wp-security-firewall-menu.php:526
+msgid "This setting matches for common malicious string patterns and exploits and will produce a 403 error for the hacker attempting the query."
+msgstr "Questa impostazione produrrà un errore 403 per l'hacker che tenta la query."
+
+#: admin/wp-security-firewall-menu.php:527
+msgid "NOTE: Some strings for this setting might break some functionality."
+msgstr "NOTA: Alcune stringhe con questa impostazione potrebbero rompere alcune funzionalità."
+
+#: admin/wp-security-firewall-menu.php:716
+msgid "Check this if you want to apply the 5G Blacklist firewall protection from perishablepress.com to your site."
+msgstr "Seleziona questa casella se si vuoi applicare la protezione del firewall 5G Blacklist di perishablepress.com al tuo sito."
+
+#: admin/wp-security-firewall-menu.php:720
+msgid "This setting will implement the 5G security firewall protection mechanisms on your site which include the following things:"
+msgstr "Questa impostazione darà esecuzione ai meccanismi di protezione 5G di sicurezza del firewall sul vostro sito, che comprendono le seguenti cose:"
+
+#: admin/wp-security-firewall-menu.php:703
+#: admin/wp-security-firewall-menu.php:721
+msgid "1) Block forbidden characters commonly used in exploitative attacks."
+msgstr "1) Bloccare i caratteri proibiti comunemente utilizzati in attacchi esplorativi."
+
+#: admin/wp-security-firewall-menu.php:704
+#: admin/wp-security-firewall-menu.php:722
+msgid "2) Block malicious encoded URL characters such as the \".css(\" string."
+msgstr "2) Bloccare URL codificati con caratteri maligni come stringa \".css (\" ."
+
+#: admin/wp-security-firewall-menu.php:705
+#: admin/wp-security-firewall-menu.php:723
+msgid "3) Guard against the common patterns and specific exploits in the root portion of targeted URLs."
+msgstr "3) Protezione contro i modelli comuni e specifici exploit nella root principale di URL mirati."
+
+#: admin/wp-security-firewall-menu.php:706
+#: admin/wp-security-firewall-menu.php:724
+msgid "4) Stop attackers from manipulating query strings by disallowing illicit characters."
+msgstr "4) Arrestare tentativi di manipolazione stringhe di query vietando caratteri illeciti."
+
+#: admin/wp-security-firewall-menu.php:707
+#: admin/wp-security-firewall-menu.php:725
+msgid "....and much more."
+msgstr "...e molto altro."
+
+#: admin/wp-security-database-menu.php:308
+msgid "Error - Could not get tables or no tables found!"
+msgstr "Errore - Impossibile ottenere tabelle o nessuna tabella trovata!"
+
+#: admin/wp-security-filescan-menu.php:122
+msgid "There have been no file changes since the last scan."
+msgstr "Non ci sono state modifiche al file dopo l'ultima scansione."
+
+#: admin/wp-security-filescan-menu.php:268
+msgid "Click the button below to view the saved file change results from the last scan."
+msgstr "Clicca sul pulsante qui sotto per visualizzare i risultati di modifica del file salvato dall'ultima scansione."
+
+#: admin/wp-security-filescan-menu.php:367
+msgid "This is because the bots and spiders from search engines such as Google have the capability to detect malware when they are indexing the pages on your site, and consequently they can blacklist your website which will in turn affect your search rankings."
+msgstr "Questo perché i bot e spider dei motori di ricerca come Google hanno la capacità di rilevare il malware quando vengono a indicizzare le pagine del tuo sito, e di conseguenza possono mettere in blacklist il tuo sito web e di conseguenza influenzare il posizionamento sui motori."
+
+#: admin/wp-security-filescan-menu.php:373
+msgid "This is why we have created an easy-to-use scanning service which is hosted off our own server which will scan your site for malware once every day and notify you if it finds anything."
+msgstr "Per questo motivo abbiamo creato un servizio di scansione di facile utilizzo, che viene ospitato fuori sul nostro server, che esegue la scansione del sito per il malware una volta al giorno e notifica se trova qualche cosa che non va."
+
+#: admin/wp-security-filescan-menu.php:379
+msgid "Site uptime monitoring"
+msgstr "Monitoraggio uptime del sito"
+
+#: admin/wp-security-filescan-menu.php:380
+msgid "Site response time monitoring"
+msgstr "Monitoraggio del tempo di risposta Sito"
+
+#: admin/wp-security-firewall-menu.php:411
+msgid "NOTE: In order for this feature to work \"AllowOverride\" of the Indexes directive must be enabled in your httpd.conf file. Ask your hosting provider to check this if you don't have access to httpd.conf"
+msgstr "NOTA: Per utilizzare questa funzione \"AllowOverride\" della direttiva indici deve essere abilitato nel file httpd.conf. Chiedi al tuo fornitore di hosting per verificare questo se non hai accesso a httpd.conf"
+
+#: admin/wp-security-firewall-menu.php:841
+msgid "The Internet bot settings were successfully saved"
+msgstr "Le impostazioni bot Internet sono state salvate con successo"
+
+#: admin/wp-security-firewall-menu.php:854
+msgid "A bot is a piece of software which runs on the Internet and performs automatic tasks. For example when Google indexes your pages it uses automatic bots to achieve this task."
+msgstr "Un bot è un software che gira su Internet e svolge funzioni automatiche. Per esempio, quando Google indicizza le pagine usa bot automatici per realizzare questo compito."
+
+#: admin/wp-security-firewall-menu.php:855
+msgid "A lot of bots are legitimate and non-malicous but not all bots are good and often you will find some which try to impersonate legitimate bots such as \"Googlebot\" but in reality they have nohing to do with Google at all."
+msgstr "La maggioranza di bot sono legittimi ma non tutti i bot sono buoni e spesso ne incontrerai alcuni che cercano di impersonare bot legittimi, quali \"Googlebot \", ma in realtà non hanno nulla a che fare con Google."
+
+#: admin/wp-security-firewall-menu.php:856
+msgid "Although most of the bots out there are relatively harmless sometimes website owners want to have more control over which bots they allow into their site."
+msgstr "Sebbene la maggior parte dei bot là fuori sono relativamente innocui talvolta i proprietari di siti web vogliono avere più controllo su ciò che i bot possono fare nel loro sito."
+
+#: admin/wp-security-firewall-menu.php:857
+msgid "This feature allows you to block bots which are impersonating as a Googlebot but actually aren't. (In other words they are fake Google bots)"
+msgstr "Questa funzione consente di bloccare i bot che si spacciano come Googlebot, ma in realtà non lo sono. (In altre parole, sono falsi bot di Google)"
+
+#: admin/wp-security-firewall-menu.php:864
+msgid "<strong>Attention</strong>: Sometimes non-malicious Internet organizations might have bots which impersonate as a \"Googlebot\"."
+msgstr "<strong>Attention</strong>: A volte organizzazioni Internet non dannose potrebbero avere bot che impersonano \"Googlebot\"."
+
+#: admin/wp-security-firewall-menu.php:865
+msgid "Just be aware that if you activate this feature the plugin will block all bots which use the \"Googlebot\" string in their User Agent information but are NOT officially from Google (irrespective whether they are malicious or not)."
+msgstr "Basta essere consapevoli che, se si attiva questa funzione, il plugin bloccherà tutti i bot che utilizzano la stringa \"Googlebot\" nelle loro informazioni User Agent, ma non sono ufficialmente di Google (a prescindere dal fatto che siano dannosi o meno)."
+
+#: admin/wp-security-firewall-menu.php:866
+msgid "All other bots from other organizations such as \"Yahoo\", \"Bing\" etc will not be affected by this feature."
+msgstr "Tutti gli altri bot di altre organizzazioni come \"Yahoo\", \"Bing\" ecc... non saranno interessati da questa funzione."
+
+#: admin/wp-security-firewall-menu.php:885
+msgid "Check this if you want to block all fake Googlebots."
+msgstr "Seleziona questa casella per bloccare tutti i falsi Googlebot."
+
+#: admin/wp-security-firewall-menu.php:889
+msgid "This feature will check if the User Agent information of a bot contains the string \"Googlebot\"."
+msgstr "Questa funzione controlla se le informazioni User Agent di un bot contiene la stringa \"Googlebot\"."
+
+#: admin/wp-security-firewall-menu.php:890
+msgid "It will then perform a few tests to verify if the bot is legitimately from Google and if so it will allow the bot to proceed."
+msgstr "Sarà quindi necessario eseguire alcuni test per verificare se il bot è effettivamente di Google e se così sarà permetterà al bot di procedere."
+
+#: admin/wp-security-firewall-menu.php:891
+msgid "If the bot fails the checks then the plugin will mark it as being a fake Googlebot and it will block it"
+msgstr "Se il bot non supera i controlli il plugin lo segnerà come un Googlebot falso e sarà bloccato"
+
+#: admin/wp-security-firewall-menu.php:937
+msgid "A Hotlink is where someone displays an image on their site which is actually located on your site by using a direct link to the source of the image on your server."
+msgstr "Un Hotlink è quando qualcuno visualizza un'immagine sul suo sito (ma l'immagine si trova effettivamente sul tuo sito) utilizzando un link diretto alla fonte dell'immagine sul tuo server."
+
+#: admin/wp-security-database-menu.php:401
+#: admin/wp-security-database-menu.php:420
+msgid "Update of table %s failed: unable to change %s to %s"
+msgstr "Aggiornamento della tabella %s fallito: non riesco a cambiare %s in %s"
+
+#: admin/wp-security-database-menu.php:424
+msgid "The %s table records which had references to the old DB prefix were updated successfully!"
+msgstr "I record della tabella %s che avevano riferimenti al vecchio prefisso di Database sono stati aggiornati con successo!"
+
+#: admin/wp-security-firewall-menu.php:275
+msgid "Check this if you want to block access to the debug.log file that WordPress creates when debug logging is enabled."
+msgstr "Seleziona questo se vuoi bloccare gli accessi al file debug.log che WordPress crea quando i log di debug sono abilitati."
+
+#: admin/wp-security-firewall-menu.php:279
+msgid "WordPress has an option to turn on the debug logging to a file located in wp-content/debug.log. This file may contain sensitive information."
+msgstr "WordPress ha un'opzione per abilitare i log di debug in un file che si trova in wp-content/debug.log. Questo file può contenere informazioni sensibili."
+
+#: admin/wp-security-firewall-menu.php:852
+msgid "%s?"
+msgstr "%s?"
+
+#: admin/wp-security-firewall-menu.php:627
+msgid "You have successfully saved the 5G/6G Firewall Protection configuration"
+msgstr "Hai salvato con successo la configurazione della protezione firewall 5G/6G"
+
+#: admin/wp-security-database-menu.php:192
+msgid "This feature allows you to easily change the prefix to a value of your choice or to a random value set by this plugin."
+msgstr "Questa funzione consente di modificare facilmente il prefisso in un valore di tua scelta o su un valore casuale impostato dal plugin."
+
+#: admin/wp-security-database-menu.php:211
+msgid "It is recommended that you perform a %s before using this feature"
+msgstr "Si consiglia di eseguire un %s prima di usare questa funzione"
+
+#: admin/wp-security-firewall-menu.php:187
+msgid "You are still advised to take a backup of your active .htaccess file just in case."
+msgstr "Sei comunque invitato ad eseguire una copia di backup dell'attuale file .htaccess per ogni evenienza."
+
+#: admin/wp-security-firewall-menu.php:218
+msgid "This setting will add a directive in your .htaccess to disable access to the WordPress xmlrpc.php file which is responsible for the XML-RPC functionality in WordPress."
+msgstr "Questa impostazione aggiungerà una direttiva nel tuo .htaccess per disabilitare l'accesso al file WordPress xmlrpc.php che è responsabile della funzionalità XML-RPC in WordPress."
+
+#: admin/wp-security-firewall-menu.php:219
+msgid "Hackers can exploit various vulnerabilities in the WordPress XML-RPC API in a number of ways such as:"
+msgstr "Gli hacker possono sfruttare le varie vulnerabilità dell'API di WordPress XML-RPC in diversi modi, ad esempio:"
+
+#: admin/wp-security-database-menu.php:363
+msgid "Please change the prefix manually for the above tables to: %s"
+msgstr "Cambia il prefisso manualmente per le tabelle di cui sopra in: %s"
+
+#: admin/wp-security-firewall-menu.php:858
+msgid "Googlebots have a unique indentity which cannot easily be forged and this feature will indentify any fake Google bots and block them from reading your site's pages."
+msgstr "I Googlebot hanno un identità unica che non può essere facilmente forgiata e questa caratteristica scoprirà eventuali bot di Google falsi e gli impedirà di leggere le pagine del tuo sito."
+
+#: admin/wp-security-firewall-menu.php:432
+msgid "Check this if you want to disable trace and track."
+msgstr "Seleziona questa per disabilitare tracciamento e monitoraggio."
+
+#: admin/wp-security-filesystem-menu.php:90
+msgid "The permissions for %s were succesfully changed to %s"
+msgstr "I permessi per %s sono stati modificati con successo a %s"
+
+#: admin/wp-security-admin-init.php:416
+#: classes/wp-security-two-factor-login.php:95
+msgid "WP Security"
+msgstr "Sicurezza WP"
+
+#: admin/wp-security-admin-init.php:417 admin/wp-security-dashboard-menu.php:26
+#: admin/wp-security-dashboard-menu.php:76
+msgid "Dashboard"
+msgstr "Bacheca"
+
+#: admin/wp-security-admin-init.php:418 admin/wp-security-settings-menu.php:95
+#: includes/simba-tfa/templates/user-settings.php:20 wp-security.php:62
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: admin/wp-security-admin-init.php:419
+msgid "User Accounts"
+msgstr "Account Utente"
+
+#: admin/wp-security-admin-init.php:420
+msgid "User Login"
+msgstr "Login Utente"
+
+#: admin/wp-security-admin-init.php:421
+msgid "User Registration"
+msgstr "Registrazione Utenti"
+
+#: admin/wp-security-admin-init.php:422
+msgid "Database Security"
+msgstr "Sicurezza Database"
+
+#: admin/wp-security-admin-init.php:424
+msgid "Filesystem Security"
+msgstr "Sicurezza File Sistema"
+
+#: admin/wp-security-admin-init.php:427
+msgid "Blacklist Manager"
+msgstr "Gestione Blacklist"
+
+#: admin/wp-security-admin-init.php:430 admin/wp-security-firewall-menu.php:62
+#: admin/wp-security-firewall-menu.php:1334
+msgid "Firewall"
+msgstr "Firewall"
+
+#: admin/wp-security-admin-init.php:435 admin/wp-security-filescan-menu.php:83
+msgid "Scanner"
+msgstr "Scanner"
+
+#: admin/wp-security-admin-init.php:437
+#: admin/wp-security-maintenance-menu.php:51
+msgid "Maintenance"
+msgstr "Manutenzione"
+
+#: admin/wp-security-firewall-menu.php:1251 admin/wp-security-list-404.php:237
+#: admin/wp-security-list-comment-spammer-ip.php:183
+msgid "The plugin was unable to write to the .htaccess file. Please edit file manually."
+msgstr "Il plugin non è stato in grado di scrivere nel file .htaccess. Si prega di modificare il file manualmente."
+
+#: admin/wp-security-blacklist-menu.php:160
+msgid "The All In One WP Security Blacklist feature gives you the option of banning certain host IP addresses or ranges and also user agents."
+msgstr "La caratteristica Blacklist offre la possibilità di vietare determinati indirizzi IP o intervalli di accesso e anche user agent."
+
+#: admin/wp-security-blacklist-menu.php:161
+msgid "This feature will deny total site access for users which have IP addresses or user agents matching those which you have configured in the settings below."
+msgstr "Questa funzione potrà negare l'accesso totale del sito per gli utenti che dispongono di indirizzi IP o gli agenti utente che corrispondono a quelli che si è configurato nelle impostazioni di seguito."
+
+#: admin/wp-security-blacklist-menu.php:215
+msgid "Enter one or more IP addresses or IP ranges."
+msgstr "Immettere uno o più indirizzi IP o intervalli IP."
+
+#: templates/info/ip-address-ip-range-info.php:5
+msgid "Each IP address must be on a new line."
+msgstr "Ogni indirizzo IP deve essere su una nuova linea."
+
+#: admin/wp-security-blacklist-menu.php:226
+msgid "More Info"
+msgstr "Altre Info"
+
+#: templates/info/ip-address-ip-range-info.php:7
+msgid "Example 1: 195.47.89.*"
+msgstr "Esempio 1: 195.47.89.*"
+
+#: templates/info/ip-address-ip-range-info.php:8
+msgid "Example 2: 195.47.*.*"
+msgstr "Esempio 2: 195.47.*.*"
+
+#: templates/info/ip-address-ip-range-info.php:9
+msgid "Example 3: 195.*.*.*"
+msgstr "Esempio 3: 195.*.*.*"
+
+#: admin/wp-security-blacklist-menu.php:225
+msgid "Enter one or more user agent strings."
+msgstr "Inserisci una o più stringhe user agent."
+
+#: admin/wp-security-blacklist-menu.php:229
+msgid "Each user agent string must be on a new line."
+msgstr "Ogni stringa user agent deve essere su una nuova linea."
+
+#: admin/wp-security-blacklist-menu.php:230
+msgid "Example 1 - A single user agent string to block:"
+msgstr "Esempio 1 - Una singola stringa user agent per bloccare:"
+
+#: admin/wp-security-blacklist-menu.php:232
+msgid "Example 2 - A list of more than 1 user agent strings to block"
+msgstr "Esempio 2 - Un elenco di più stringhe di agent per bloccare"
+
+#: admin/wp-security-settings-menu.php:190
+msgid "For information, updates and documentation, please visit the"
+msgstr "Per informazioni, aggiornamenti e documentazione, vista la pagina "
+
+#: admin/wp-security-dashboard-menu.php:499
+msgid "Below is the current status of the critical features that you should activate on your site to achieve a minimum level of recommended security"
+msgstr "Di seguito è riportato lo stato attuale delle caratteristiche fondamentali che dovresti attivare sul tuo sito per ottenere il livello minimo di sicurezza raccomandata"
+
+#: admin/wp-security-dashboard-menu.php:694
+#: admin/wp-security-dashboard-menu.php:711
+msgid "Go to the %s menu to see more details"
+msgstr "Vai al menu %s per vedere più dettagli"
+
+#: admin/wp-security-dashboard-menu.php:667
+msgid "There are no other users currently logged in."
+msgstr "Non ci sono altri utenti attualmente loggati."
+
+#: admin/wp-security-filesystem-menu.php:286
+#: admin/wp-security-firewall-menu.php:129
+#: admin/wp-security-firewall-menu.php:364
+#: admin/wp-security-firewall-menu.php:631
+#: admin/wp-security-firewall-menu.php:930
+#: admin/wp-security-settings-menu.php:667 admin/wp-security-spam-menu.php:124
+msgid "Could not write to the .htaccess file. Please check the file permissions."
+msgstr "Impossibile scrivere nel file .htaccess.  Controlla i permessi dei file."
+
+#: admin/wp-security-brute-force-menu.php:284
+msgid "You have successfully enabled the cookie based brute force prevention feature"
+msgstr "È stata attivata con successo la funzione di prevenzione base brute force"
+
+#: admin/wp-security-brute-force-menu.php:285
+msgid "From now on you will need to log into your WP Admin using the following URL:"
+msgstr "Da ora in poi per accedere al pannello Admin WP dovrai usare il seguente URL:"
+
+#: admin/wp-security-brute-force-menu.php:287
+msgid "It is important that you save this URL value somewhere in case you forget it, OR,"
+msgstr "Consiglio di salvare il nuovo URL di accesso nel caso dovessi dimenticarlo, O,"
+
+#: admin/wp-security-brute-force-menu.php:288
+msgid "simply remember to add a \"?%s=1\" to your current site URL address."
+msgstr "basta ti ricordi di aggiungere \"?%s=1\" al tuo attuale indirizzo URL del sito."
+
+#: admin/wp-security-brute-force-menu.php:292
+msgid "You have successfully saved cookie based brute force prevention feature settings."
+msgstr "Hai salvato con successo il cookie per le impostazioni base di prevenzione brute force."
+
+#: admin/wp-security-brute-force-menu.php:328
+msgid "A Brute Force Attack is when a hacker tries many combinations of usernames and passwords until they succeed in guessing the right combination."
+msgstr "Un attacco brute force è quando un hacker tenta molte combinazioni di nomi utente e password fino a quando non riesce a indovinare quella giusta."
+
+#: admin/wp-security-brute-force-menu.php:329
+msgid "Due to the fact that at any one time there may be many concurrent login attempts occurring on your site via malicious automated robots, this also has a negative impact on your server's memory and performance."
+msgstr "A causa del fatto che in qualsiasi momento ci possono essere molti tentativi di accesso simultanei che si verificano sul tuo sito tramite robot automatizzati maligni, anche questo ha un impatto negativo sulla memoria e le prestazioni del server."
+
+#: admin/wp-security-brute-force-menu.php:401
+msgid "Check this if you want to protect your login page from Brute Force Attack."
+msgstr "Seleziona questa casella per proteggere la pagina di login da attacchi brute force."
+
+#: admin/wp-security-brute-force-menu.php:406
+msgid "This feature will deny access to your WordPress login page for all people except those who have a special cookie in their browser."
+msgstr "Questa funzione nega l'accesso alla pagina di login di WordPress per tutte le persone, tranne coloro che hanno un cookie speciale nel proprio browser."
+
+#: admin/wp-security-brute-force-menu.php:408
+msgid "To use this feature do the following:"
+msgstr "Per utilizzare questa funzione, attenersi alla seguente procedura:"
+
+#: admin/wp-security-brute-force-menu.php:410
+msgid "1) Enable the checkbox."
+msgstr "1) Attivare la casella di controllo."
+
+#: admin/wp-security-brute-force-menu.php:412
+msgid "2) Enter a secret word consisting of alphanumeric characters which will be difficult to guess. This secret word will be useful whenever you need to know the special URL which you will use to access the login page (see point below)."
+msgstr "2) Inserire una parola segreta composta da caratteri alfanumerici difficile da indovinare. Questa parola segreta sarà utile ogni volta che è necessario conoscere l'URL speciale che verrà utilizzato per accedere alla pagina di login (vedi punto seguente)."
+
+#: admin/wp-security-brute-force-menu.php:414
+msgid "3) You will then be provided with a special login URL. You will need to use this URL to login to your WordPress site instead of the usual login URL. NOTE: The system will deposit a special cookie in your browser which will allow you access to the WordPress administration login page."
+msgstr "3) Ti verrà fornito un URL di accesso speciale. È necessario utilizzare questo URL per accedere al sito WordPress invece del solito URL di login. NOTA: Il sistema deposita un cookie speciale nel browser che permetterà di accedere alla pagina di login di amministrazione WordPress."
+
+#: admin/wp-security-brute-force-menu.php:416
+msgid "Any person trying to access your login page who does not have the special cookie in their browser will be automatically blocked."
+msgstr "Qualsiasi persona che tenta di accedere alla pagina di login che non ha il cookie speciale nel browser viene bloccato automaticamente."
+
+#: admin/wp-security-brute-force-menu.php:425
+msgid "Choose a secret word consisting of alphanumeric characters which you can use to access your special URL. Your are highly encouraged to choose a word which will be difficult to guess."
+msgstr "Scegli una parola segreta composta da caratteri alfanumerici che è possibile utilizzare per accedere al tuo URL speciale. Mi raccomando di scegliere una parola molto difficile da indovinare."
+
+#: admin/wp-security-brute-force-menu.php:429
+msgid "Re-direct URL"
+msgstr "URL Re-direct"
+
+#: admin/wp-security-brute-force-menu.php:440
+msgid "The URL specified here can be any site's URL and does not have to be your own. For example you can be as creative as you like and send hackers to the CIA or NSA home page."
+msgstr "L'URL specificato qui può essere un URL di qualsiasi sito e non deve essere per forza il tuo. Ad esempio puoi usare la fantasia e inviare l'hacker al sito della polizia postale alla CIA o quello che preferisci."
+
+#: admin/wp-security-brute-force-menu.php:442
+msgid "This field will default to: http://127.0.0.1 if you do not enter a value."
+msgstr "Se non inserisci un valore questo campo sarà di default impostato a: http://127.0.0.1"
+
+#: admin/wp-security-brute-force-menu.php:444
+msgid "Useful Tip:"
+msgstr "Suggerimento utile:"
+
+#: admin/wp-security-brute-force-menu.php:446
+msgid "It's a good idea to not redirect attempted brute force login attempts to your site because it increases the load on your server."
+msgstr "Una buona idea è di non reindirizzare i tentativi di attacco brute force al tuo sito, perché il carico sul server aumenta."
+
+#: admin/wp-security-brute-force-menu.php:448
+msgid "Redirecting a hacker or malicious bot back to \"http://127.0.0.1\" is ideal because it deflects them back to their own local host and puts the load on their server instead of yours."
+msgstr "Reindirizzare un hacker o bot maligni a \"http://127.0.0.1\" è l'ideale perché li devia indietro al proprio host locale e mette il carico sui loro server al posto del tuo."
+
+#: admin/wp-security-brute-force-menu.php:458
+msgid "Check this if you are using the native WordPress password protection feature for some or all of your blog posts or pages."
+msgstr "Seleziona questa casella se si utilizza la funzione di protezione con password nativa di WordPress per alcuni o tutti i post/pagine del tuo blog."
+
+#: admin/wp-security-brute-force-menu.php:467
+msgid "Helpful Tip:"
+msgstr "Suggerimento utile:"
+
+#: admin/wp-security-brute-force-menu.php:469
+msgid "If you do not use the WordPress password protection feature for your posts or pages then it is highly recommended that you leave this checkbox disabled."
+msgstr "Se non si utilizza la funzione di protezione con password di WordPress per i tuoi post o le pagine, allora si consiglia vivamente di lasciare questa casella di controllo disattivata."
+
+#: admin/wp-security-brute-force-menu.php:479
+msgid "Check this if your site uses AJAX functionality."
+msgstr "Seleziona questa casella se il sito utilizza funzionalità AJAX."
+
+#: admin/wp-security-brute-force-menu.php:370
+msgid "The cookie test was successful. You can now enable this feature."
+msgstr "Il Test cookie ha avuto successo. Ora è possibile attivare questa funzione."
+
+#: admin/wp-security-brute-force-menu.php:631
+msgid "The All In One WP Security Whitelist feature gives you the option of only allowing certain IP addresses or ranges to have access to your WordPress login page."
+msgstr "La caratteristica Whitelist ti dà la possibilità di autorizzare solo determinati indirizzi IP, o intervalli,  ad accedere alla pagina login di WordPress."
+
+#: admin/wp-security-brute-force-menu.php:632
+msgid "This feature will deny login access for all IP addresses which are not in your whitelist as configured in the settings below."
+msgstr "Questa funzione nega l'accesso da login per tutti gli indirizzi IP che non sono nella tua lista bianca come configurato nelle impostazioni di seguito."
+
+#: admin/wp-security-brute-force-menu.php:633
+msgid "The plugin achieves this by writing the appropriate directives to your .htaccess file."
+msgstr "Il plugin realizza questo, facendo le opportune modifiche al file .htaccess."
+
+#: admin/wp-security-brute-force-menu.php:643
+msgid "These features are NOT functionally related. Having both of them enabled on your site means you are creating 2 layers of security."
+msgstr "Queste caratteristiche NON sono funzionalmente correlate. Se si abilitano entrambe sul sito si creano due livelli di sicurezza."
+
+#: admin/wp-security-brute-force-menu.php:668
+#: admin/wp-security-user-login-menu.php:408
+msgid "Check this if you want to enable the whitelisting of selected IP addresses specified in the settings below"
+msgstr "Seleziona questa casella se vuoi attivare la whitelist di indirizzi IP selezionati specificati nelle impostazioni di seguito"
+
+#: admin/wp-security-brute-force-menu.php:675
+msgid "You can copy and paste this address in the text box below if you want to include it in your login whitelist."
+msgstr "È possibile copiare e incollare questo indirizzo nella casella di testo sottostante, se desideri includerlo nella tua lista bianca login."
+
+#: admin/general/wp-security-list-table.php:486
+msgid "Apply"
+msgstr "Applica"
+
+#. translators: 1: month name, 2: 4-digit year
+#: admin/general/wp-security-list-table.php:623
+msgid "%1$s %2$d"
+msgstr "%1$s %2$d"
+
+#: admin/wp-security-admin-init.php:438
+#: admin/wp-security-misc-options-menu.php:57
+msgid "Miscellaneous"
+msgstr "Altre impostazioni"
+
+#: admin/wp-security-brute-force-menu.php:129
+msgid "You cannot use the value \"wp-admin\" for your login page slug."
+msgstr "Non è possibile utilizzare il valore \"wp-admin \" per la tua pagina di login."
+
+#: admin/wp-security-brute-force-menu.php:153
+msgid "Could not delete the Cookie-based directives from the .htaccess file. Please check the file permissions."
+msgstr "Impossibile eliminare le direttive basate su Cookie dal file htaccess.. Si prega di controllare i permessi dei file."
+
+#: admin/wp-security-brute-force-menu.php:174
+msgid "An effective Brute Force prevention technique is to change the default WordPress login page URL."
+msgstr "Un efficace tecnica di prevenzione Brute Force è quella di cambiare l'impostazione predefinita dell'URL della pagina di login di WordPress."
+
+#: admin/wp-security-brute-force-menu.php:175
+msgid "Normally if you wanted to login to WordPress you would type your site's home URL followed by wp-login.php."
+msgstr "Normalmente, se si vuole accedere a WordPress è necessario digitare l'URL del tuo sito seguito da wp-login.php."
+
+#: admin/wp-security-brute-force-menu.php:176
+msgid "This feature allows you to change the login URL by setting your own slug and renaming the last portion of the login URL which contains the <strong>wp-login.php</strong> to any string that you like."
+msgstr "Questa funzione consente di modificare l'URL di accesso impostando il proprio slug e rinominare l'ultima parte dell'URL di accesso che contiene il <strong> wp-login.php </strong> con qualsiasi stringa che ti piace."
+
+#: admin/wp-security-brute-force-menu.php:177
+msgid "By doing this, malicious bots and hackers will not be able to access your login page because they will not know the correct login page URL."
+msgstr "In questo modo, bot maligni e hacker non saranno in grado di accedere alla pagina di login perché non conoscono il corretto URL della pagina di login."
+
+#: admin/wp-security-brute-force-menu.php:183
+msgid "You may also be interested in the following alternative brute force prevention features:"
+msgstr "Potresti anche essere interessato alle seguenti caratteristiche di prevenzione brute force alternative:"
+
+#: admin/wp-security-brute-force-menu.php:194
+msgid "Your WordPress login page URL has been renamed."
+msgstr "L'URL della tua pagina di login WordPress è stato rinominato."
+
+#: admin/wp-security-brute-force-menu.php:195
+msgid "Your current login URL is:"
+msgstr "Il tuo attuale indirizzo di login (URL)"
+
+#: admin/wp-security-dashboard-menu.php:472
+msgid "We are working hard to make your WordPress site more secure. Please support us, here is how:"
+msgstr "Stiamo lavorando duramente per rendere il vostro sito WordPress più sicuro. Si prega di sostenere, ecco come:"
+
+#: admin/wp-security-dashboard-menu.php:581
+msgid "Last 5 logins summary:"
+msgstr "Ultimi 5 accessi:"
+
+#: admin/wp-security-dashboard-menu.php:585
+msgid "User"
+msgstr "Utente"
+
+#: admin/wp-security-dashboard-menu.php:586 admin/wp-security-list-404.php:96
+#: admin/wp-security-list-login-fails.php:57
+#: admin/wp-security-list-permanent-blocked-ip.php:63
+msgid "Date"
+msgstr "Data"
+
+#: admin/wp-security-dashboard-menu.php:636
+#: admin/wp-security-dashboard-menu.php:654
+msgid "The %s feature is currently active."
+msgstr "La funzione %s è attualmente attiva."
+
+#: admin/wp-security-dashboard-menu.php:666
+msgid "Number of users currently logged into your site (including you) is:"
+msgstr "Il numero di utenti attualmente loggati nel sito (incluso tu) è:"
+
+#: admin/wp-security-brute-force-menu.php:726
+msgid "This feature allows you to add a special hidden \"honeypot\" field on the WordPress login page. This will only be visible to robots and not humans."
+msgstr "Questa funzione consente di aggiungere un particolare campo nascosto \"honeypot\" nella pagina di login di WordPress. Questo sarà visibile solo ai robot e non  agli esseri umani."
+
+#: admin/wp-security-brute-force-menu.php:727
+msgid "Since robots usually fill in every input field from a login form, they will also submit a value for the special hidden honeypot field."
+msgstr "Dal momento che i robot di solito compilano ogni campo di input che trovano in un form di login, compileranno anche il campo speciale nascosto honeypot."
+
+#: admin/wp-security-brute-force-menu.php:729
+msgid "Therefore, if the plugin detects that this field has a value when the login form is submitted, then the robot which is attempting to login to your site will be redirected to its localhost address - http://127.0.0.1."
+msgstr "Pertanto, se il plugin rileva che questo campo ha un valore quando viene inviato il form di login, il robot che sta tentando di accedere al tuo sito sarà reindirizzato al suo indirizzo localhost - http://127.0.0.1."
+
+#: admin/wp-security-brute-force-menu.php:749
+msgid "Check this if you want to enable the honeypot feature for the login page"
+msgstr "Seleziona questa casella se vuoi abilitare la funzione honeypot per la pagina di login"
+
+#: admin/wp-security-dashboard-menu.php:587
+msgid "IP"
+msgstr "IP"
+
+#: admin/wp-security-brute-force-menu.php:728
+#: admin/wp-security-user-registration-menu.php:278
+msgid "The way honeypots work is that a hidden field is placed somewhere inside a form which only robots will submit. If that field contains a value when the form is submitted then a robot has most likely submitted the form and it is consequently dealt with."
+msgstr "Il concetto su cui si basa honeypot &egrave; che essendo un campo nascosto &egrave; collocato da qualche parte all'interno di una form che solo i robot possono compilare. Se questo campo contiene un valore quando il modulo viene inviato significa che &egrave; stato riempito da un robot e verr&agrave; affrontato di conseguenza."
+
+#: admin/wp-security-brute-force-menu.php:56
+msgid "Honeypot"
+msgstr "Honeypot"
+
+#: admin/wp-security-dashboard-menu.php:417
+msgid "Total Achievable Points: "
+msgstr "Totale punti realizzabili: "
+
+#: admin/wp-security-dashboard-menu.php:419
+msgid "Current Score of Your Site: "
+msgstr "Punteggio attuale del tuo sito: "
+
+#: admin/wp-security-dashboard-menu.php:707
+msgid "There are no IP addresses currently locked out."
+msgstr "Non ci sono indirizzi IP attualmente bloccati."
+
+#: admin/wp-security-dashboard-menu.php:710
+msgid "Number of temporarily locked out IP addresses: "
+msgstr "Numero di indirizzi IP temporaneamente bloccati: "
+
+#: includes/simba-tfa/includes/tfa_frontend.php:131
+#: includes/simba-tfa/includes/tfa_frontend.php:145
+msgid "Save Settings"
+msgstr "Salva le impostazioni"
+
+#: admin/wp-security-brute-force-menu.php:225
+msgid "Check this if you want to enable the rename login page feature"
+msgstr "Seleziona questa casella per attivare la funzionalità per rinominare la pagina di accesso"
+
+#: admin/general/wp-security-list-table.php:339
+msgid "No items found."
+msgstr "Nessun elemento trovato."
+
+#: admin/general/wp-security-list-table.php:868
+msgctxt "paging"
+msgid "%1$s of %2$s"
+msgstr "%1$s di %2$s"
+
+#: admin/wp-security-admin-menu.php:67
+msgid "Settings successfully updated."
+msgstr "Le impostazioni sono state salvate con successo."
+
+#: admin/wp-security-blacklist-menu.php:207
+msgid "Check this if you want to enable the banning (or blacklisting) of selected IP addresses and/or user agents specified in the settings below"
+msgstr "Seleziona questa casella se desideri attivare la messa al bando (o lista nera) di indirizzi IP selezionati e/o user agent specificati nelle impostazioni di seguito"
+
+#: admin/wp-security-brute-force-menu.php:131
+msgid "You must use alpha numeric characters for your login page slug."
+msgstr "Devi utilizzare caratteri alfanumerici per lo slug della pagina di accesso."
+
+#: admin/wp-security-brute-force-menu.php:125
+msgid "Please enter a value for your login page slug."
+msgstr "Inserisci un valore per lo slug della tua pagina di accesso."
+
+#: admin/wp-security-brute-force-menu.php:433
+msgid "Specify a URL to redirect a hacker to when they try to access your WordPress login page."
+msgstr "Specifica un URL per reindirizzare un hacker quando cerca di accedere alla pagina di accesso di WordPress."
+
+#: admin/wp-security-settings-menu.php:190
+msgid "Page"
+msgstr "Pagina"
+
+#: admin/wp-security-dashboard-menu.php:610
+msgid "Maintenance mode is currently off."
+msgstr "La modalità di manutenzione è attualmente disattivata."
+
+#: admin/wp-security-dashboard-menu.php:608
+msgid "Maintenance mode is currently enabled. Remember to turn it off when you are done"
+msgstr "La modalità di manutenzione è attualmente abilitata. Ricordati di disattivarla quando hai fatto"
+
+#: admin/wp-security-dashboard-menu.php:681
+msgid "There are no other site-wide users currently logged in."
+msgstr "Non ci sono altri utenti attualmente connessi nel sito."
+
+#: admin/wp-security-dashboard-menu.php:637
+#: admin/wp-security-dashboard-menu.php:655
+msgid "Your new WordPress login URL is now:"
+msgstr "Il tuo nuovo URL di accesso a WordPress è:"
+
+#: admin/wp-security-settings-menu.php:249
+msgid "This feature will disable all firewall rules which are currently active in this plugin and it will also delete these rules from your .htacess file. Use it if you think one of the firewall rules is causing an issue on your site."
+msgstr "Questa funzione consente di disattivare tutte le regole del firewall che sono attualmente attive in questo plugin e saranno cancellate le regole dal file .htaccess. Usalo se pensi che una delle regole del firewall sta causando un problema sul tuo sito."
+
+#: admin/wp-security-settings-menu.php:395
+msgid "Click the button below to backup and save the currently active .htaccess file."
+msgstr "Fai clic sul pulsante qui sotto per eseguire il backup e salvare il file .htaccess attualmente attivo."
+
+#: admin/wp-security-settings-menu.php:362
+msgid "htaccess file restore failed. Please attempt to restore the .htaccess manually using FTP."
+msgstr "Ripristino del file htaccess non riuscito. Prova a ripristinare l'.htaccess manualmente tramite FTP."
+
+#: admin/wp-security-list-debug.php:48
+msgid "Message"
+msgstr "Messaggio "
+
+#: admin/wp-security-list-debug.php:47
+msgid "Level"
+msgstr "Livello"
+
+#: admin/wp-security-list-debug.php:46
+msgid "Date and time"
+msgstr "Data e ora"
+
+#: admin/wp-security-dashboard-menu.php:29
+msgid "Logs"
+msgstr "Log"
+
+#: admin/wp-security-filescan-menu.php:189
+msgid "The following address was removed because it is not a valid email address: "
+msgstr "Il seguente indirizzo è stato rimosso perché non è un indirizzo email valido: "

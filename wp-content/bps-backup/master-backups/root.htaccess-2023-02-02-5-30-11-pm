@@ -1,0 +1,20 @@
+
+
+# BEGIN WordPress
+# Le direttive (linee) tra `BEGIN WordPress` e `END WordPress` sono
+# generate dinamicamente, e dovrebbero essere modificate solo tramite i filtri di WordPress.
+# Ogni modifica alle direttive tra questi marcatori verrà sovrascritta.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /sandwech-mng/
+RewriteRule ^index\.php$ - [L]
+RewriteRule ^myadmino/?$ /sandwech-mng/wp-login.php [QSA,L]
+RewriteRule ^myadmino/register/?$ /sandwech-mng/wp-login.php?action=register [QSA,L]
+RewriteRule ^myadmino/lostpassword/?$ /sandwech-mng/wp-login.php?action=lostpassword [QSA,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /sandwech-mng/index.php [L]
+</IfModule>
+
+# END WordPress
